@@ -1,7 +1,7 @@
 image: ubuntu
 
 variables:
-  SERVER_USER: lokarpan
+  SERVER_USER: django
 
 stages:
   - deploy
@@ -14,16 +14,16 @@ deploy:
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
     - mkdir -p ~/.ssh
     - chmod -R 700 ~/.ssh
-    - ssh-keyscan 45.55.208.157 >> ~/.ssh/known_hosts
+    - ssh-keyscan 139.59.65.30 >> ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
   script:
-    - ssh $SERVER_USER@45.55.208.157 "cd ~/lokarpan_app; git pull origin master;"
-    - ssh -tt $SERVER_USER@45.55.208.157
-        "source ~/lokarpan_env/bin/activate;
-        cd ~/lokarpan_app;
+    - ssh $SERVER_USER@139.59.65.30 "cd ~/lokarpan_app; git pull origin master;"
+    - ssh -tt $SERVER_USER@139.59.65.30
+        "source ~/lokarpan_website_env/bin/activate;
+        cd ~/lokarpan-website-v1;
         pip install -r requirements.txt;
-        python /home/lokarpan/lokarpan_app/manage.py migrate;
-        python /home/lokarpan/lokarpan_app/manage.py collectstatic --noinput;
+        python /home/django/lokarpan-website-v1/manage.py migrate;
+        python /home/django/lokarpan-website-v1/manage.py collectstatic --noinput;
         sudo /bin/systemctl restart nginx;"
   only:
     - master
