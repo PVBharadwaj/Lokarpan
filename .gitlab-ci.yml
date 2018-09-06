@@ -1,0 +1,29 @@
+image: ubuntu
+
+variables:
+  SERVER_USER: lokarpan
+
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod -R 700 ~/.ssh
+    - ssh-keyscan 45.55.208.157 >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+  script:
+    - ssh $SERVER_USER@45.55.208.157 "cd ~/lokarpan_app; git pull origin master;"
+    - ssh -tt $SERVER_USER@45.55.208.157
+        "source ~/lokarpan_env/bin/activate;
+        cd ~/lokarpan_app;
+        pip install -r requirements.txt;
+        python /home/lokarpan/lokarpan_app/manage.py migrate;
+        python /home/lokarpan/lokarpan_app/manage.py collectstatic --noinput;
+        sudo /bin/systemctl restart nginx;"
+  only:
+    - master
