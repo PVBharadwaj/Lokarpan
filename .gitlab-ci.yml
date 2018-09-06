@@ -17,7 +17,7 @@ deploy:
     - ssh-keyscan 139.59.65.30 >> ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
   script:
-    - ssh $SERVER_USER@139.59.65.30 "cd ~/lokarpan_app; git pull origin master;"
+    - ssh $SERVER_USER@139.59.65.30 "cd ~/lokarpan-website-v1; git pull origin master;"
     - ssh -tt $SERVER_USER@139.59.65.30
         "source ~/lokarpan_website_env/bin/activate;
         cd ~/lokarpan-website-v1;
