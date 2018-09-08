@@ -18,7 +18,7 @@ deploy:
     - ssh root@139.59.65.30 " cd /home/django/lokarpan-website-v1; git pull origin master;"
     - ssh -tt root@139.59.65.30
         "source /home/django/lokarpan_website_env/bin/activate;
-        cd ~/lokarpan-website-v1;
+        cd /home/django/lokarpan-website-v1;
         pip install -r requirements.txt;
         python /home/django/lokarpan-website-v1/manage.py migrate;
         python /home/django/lokarpan-website-v1/manage.py collectstatic --noinput;
