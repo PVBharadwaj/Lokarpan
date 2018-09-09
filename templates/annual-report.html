@@ -49,26 +49,8 @@
 
 
     <!-- Favicons -->
-    <link rel="icon" href="{% static 'img/favicon/favicon.ico' %}" type="image/icon">
-    <link rel="apple-touch-icon" href="{% static 'img/favicon/apple-touch-icon.png' %}">
-    <link rel="apple-touch-icon" sizes="57x57" href="{% static 'img/favicon/apple-icon-57x57.png' %}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{% static  'img/favicon/apple-icon-60x60.png' %}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'img/favicon/apple-icon-72x72.png' %}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'img/favicon/apple-icon-76x76.png' %}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'img/favicon/apple-icon-114x114.png' %}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{% static  'img/favicon/apple-icon-120x120.png' %}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{% static  'img/favicon/apple-icon-144x144.png' %}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{% static  'img/favicon/apple-icon-152x152.png' %}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon/apple-icon-180x180.png' %}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{% static 'img/favicon/android-icon-192x192.png' %}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon/favicon-32x32.png' %}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{% static 'img/favicon/favicon-96x96.png' %}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicon/favicon-16x16.png' %}">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <script src="{% static 'js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
+    {% include 'favicons-common.html' %}
+
 </head>
 
 <body>
@@ -76,6 +58,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 <!-- Content -->
+
 <!-- Navbar -->
 <div class="full-height"></div>
 
@@ -100,8 +83,8 @@
                     <img src="{% static 'img/Lokarpan.svg' %}">
                 </a>
             </div>
-            <a class="pull-right user-container for-mobile" href="http://app.lokarpan.com/"">
-            <i class="icon icon-user user-icon"></i>
+            <a class="pull-right user-container for-mobile" href="http://app.lokarpan.com/">
+                <i class="icon icon-user user-icon"></i>
             </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -159,8 +142,8 @@
                     </a>
                 </li>
                 <li class="main-li for-desktop user-container-li">
-                    <a class="pull-right user-container" href="http://app.lokarpan.com/"">
-                    <i class="icon icon-user user-icon"></i>
+                    <a class="pull-right user-container" href="http://app.lokarpan.com/">
+                        <i class="icon icon-user user-icon"></i>
                     </a>
                 </li>
             </ul>
@@ -338,7 +321,6 @@
 <script src="{% static 'js/main.js' %} "></script>
 <script src="{% static 'js/team.js' %} "></script>
 <script src="{% static 'js/jquery.scrolltabs.js' %} "></script>
-<script src="{% static 'js/jquery.mouselwheel.js' %} "></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
 
 
