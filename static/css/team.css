@@ -108,14 +108,15 @@ figure figcaption {
     position: absolute;
     padding-top: 40px;
     margin-top: 0;
-    height: calc(100% + 50px);
+    min-height: 100%;
+    height: fit-content;
     width: 198px;
 }
 
 .show-text figcaption {
     z-index: 15;
     display: block;
-    background: whitesmoke;
+    /*background: whitesmoke;*/
 }
 
 .overlay {

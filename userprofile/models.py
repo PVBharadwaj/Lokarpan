@@ -15,7 +15,7 @@ class UserProfile(models.Model):
     Year = models.IntegerField('Year', choices=YEAR_CHOICES, default=datetime.datetime.now().year)
     Name = models.CharField(max_length=30, null=False)
     Title = models.CharField(max_length=30, null=False)
-    Info = models.CharField(max_length=350, null=False)  # 350 chars
+    Info = models.CharField(max_length=1500, null=False)  # 1500 chars
     Picture = models.ImageField(
         help_text="If you receive an error on saving Images, Please go back and Re-upload and Try Again. png Images work but jpeg's are recommended")
     Profile_URL = models.URLField(blank=True)
