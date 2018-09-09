@@ -18,7 +18,7 @@ class UserProfile(models.Model):
     Info = models.CharField(max_length=350, null=False)  # 350 chars
     Picture = models.ImageField(
         help_text="If you receive an error on saving Images, Please go back and Re-upload and Try Again. png Images work but jpeg's are recommended")
-    Profile_URL = models.URLField()
+    Profile_URL = models.URLField(blank=True)
     UserTypeChoices = (
         ('Board', 'Board'),
         ('Staff', 'Staff'),
@@ -30,7 +30,6 @@ class UserProfile(models.Model):
         null=False,
         max_length=20
     )
-
 
     # This method requires optimizations : gives exception on trying to update a user profile without updating image
     def save(self):

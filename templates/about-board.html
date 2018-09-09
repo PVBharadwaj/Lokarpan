@@ -188,7 +188,11 @@
                 <figure>
                     <img src="/media/{{ value.Picture }}">
                     <figcaption>
-                        <a href="{{ value.Profile_URL }}"><h3 class="profile-name">{{ value.Name }}</h3></a>
+                        {% if  value.Profile_URL %}
+                            <a href="{{ value.Profile_URL }}"><h3 class="profile-name">{{ value.Name }}</h3></a>
+                        {% else %}
+                            <h3 class="profile-name">{{ value.Name }}</h3>
+                        {% endif %}
                         <span class="profile-title">{{ value.Title }}</span>
                         <span class="text-left profile-text"> {{ value.Info }} </span>
                         <a href="#" class="close-caption hidden">x</a>
