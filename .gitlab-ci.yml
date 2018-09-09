@@ -20,6 +20,7 @@ deploy:
         "source /home/django/lokarpan_website_env/bin/activate;
         cd /home/django/lokarpan-website-v1;
         pip install -r requirements.txt;
+        python /home/django/lokarpan-website-v1/manage.py makemigrations;
         python /home/django/lokarpan-website-v1/manage.py migrate;
         python /home/django/lokarpan-website-v1/manage.py collectstatic --noinput;
         sudo /bin/systemctl restart nginx;"
