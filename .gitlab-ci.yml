@@ -15,8 +15,8 @@ deploy:
     - echo "$SSH_PRIVATE_KEY"
     - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
     - chmod 400 ~/.ssh/id_rsa
-    - ssh lokarpan@139.59.65.30 " cd /home/lokarpan/lokarpan-website-v1; git pull origin master;"
-    - ssh -tt lokarpan@139.59.65.30
+    - ssh lokarpan@139.59.8.221 " cd /home/lokarpan/lokarpan-website-v1; git pull origin master;"
+    - ssh -tt lokarpan@139.59.8.221
         "source /home/lokarpan/lokarpan_website_env/bin/activate;
         cd /home/lokarpan/lokarpan-website-v1;
         pip install -r requirements.txt;
