@@ -1,10 +1,5 @@
 import datetime
-import sys
-from io import BytesIO
-from PIL import Image
-from django.core.files.uploadedfile import InMemoryUploadedFile
 from django.db import models
-from django.core.exceptions import ValidationError
 
 YEAR_CHOICES = []
 for r in range(1996, (datetime.datetime.now().year + 1)):
