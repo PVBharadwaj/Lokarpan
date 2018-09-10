@@ -22,6 +22,6 @@ deploy:
         pip install -r requirements.txt;
         python /home/lokarpan/lokarpan-website-v1/manage.py migrate;
         python /home/lokarpan/lokarpan-website-v1/manage.py collectstatic --noinput;
-        sudo /bin/systemctl restart nginx;"
+        sudo service nginx restart"
   only:
     - master
