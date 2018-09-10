@@ -5,7 +5,9 @@
 }
 
 .team-container .page-title {
-    background-color: #6690e2;
+    background: #7F7FD5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
     height: 225px;
     color: #fff;
     top: 45px;
