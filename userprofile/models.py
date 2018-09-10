@@ -32,41 +32,41 @@ class UserProfile(models.Model):
     )
 
     # This method requires optimizations : gives exception on trying to update a user profile without updating image
-    def save(self):
-        try:
-            # Opening the uploaded image
-            im = Image.open(self.Picture)
-            im = im.convert('RGB')
-            im.save(self.Picture)
-            im = Image.open(self.Picture)
-
-            output = BytesIO()
-
-            # Resize/modify the image
-            im = im.resize((198, 267))
-
-            # after modifications, save it to the output
-            if im.mode == 'RGBA':
-                im.save(output, format='PNG', quality=90)
-            else:
-                im.save(output, format='JPEG', quality=90)
-            output.seek(0)
-
-            # change the image field value to be the newly modified image value
-            if im.mode == 'RGBA':
-                self.Picture = InMemoryUploadedFile(output, 'ImageField', "%s.png" % self.Picture.name.split('.')[0],
-                                                    'image/png',
-                                                    sys.getsizeof(output), None)
-            else:
-                self.Picture = InMemoryUploadedFile(output, 'ImageField', "%s.jpg" % self.Picture.name.split('.')[0],
-                                                    'image/jpeg',
-                                                    sys.getsizeof(output), None)
-            output.flush()
-            im.close()
-
-            super(UserProfile, self).save()
-        except:
-            raise ValidationError(u"The image could not be converted or saved. Please Re-upload and Try Again")
+    # def save(self):
+    #     try:
+    #         # Opening the uploaded image
+    #         im = Image.open(self.Picture)
+    #         im = im.convert('RGB')
+    #         im.save(self.Picture)
+    #         im = Image.open(self.Picture)
+    #
+    #         output = BytesIO()
+    #
+    #         # Resize/modify the image
+    #         im = im.resize((198, 267))
+    #
+    #         # after modifications, save it to the output
+    #         if im.mode == 'RGBA':
+    #             im.save(output, format='PNG')
+    #         else:
+    #             im.save(output, format='JPEG')
+    #         output.seek(0)
+    #
+    #         # change the image field value to be the newly modified image value
+    #         if im.mode == 'RGBA':
+    #             self.Picture = InMemoryUploadedFile(output, 'ImageField', "%s.png" % self.Picture.name.split('.')[0],
+    #                                                 'image/png',
+    #                                                 sys.getsizeof(output), None)
+    #         else:
+    #             self.Picture = InMemoryUploadedFile(output, 'ImageField', "%s.jpg" % self.Picture.name.split('.')[0],
+    #                                                 'image/jpeg',
+    #                                                 sys.getsizeof(output), None)
+    #         output.flush()
+    #         im.close()
+    #
+    #         super(UserProfile, self).save()
+    #     except:
+    #         raise ValidationError(u"The image could not be converted or saved. Please Re-upload and Try Again")
 
     def publish(self):
         self.save()
