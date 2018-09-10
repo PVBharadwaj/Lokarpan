@@ -15,7 +15,7 @@ class UserProfile(models.Model):
         help_text="If you receive an error on saving Images, Please go back and Re-upload and Try Again. png Images work but jpeg's are recommended")
     Twitter_URL = models.URLField(blank=True)
     Facebook_URL = models.URLField(blank=True)
-    Profile_URL = models.URLField(blank=True)
+    Website_URL = models.URLField(blank=True)
     LinkedIn_URL = models.URLField(blank=True)
     UserTypeChoices = (
         ('Board', 'Board'),
