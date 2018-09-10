@@ -184,17 +184,31 @@
     </div>
     <div class="row profile-row text-center">
         {% for value in values %}
+        {% for value in values %}
+            <div id="modal-{{ forloop.counter }}" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body" style="background: #ECE9E6;">
+                            <p style="font-size: 40px;font-weight: bold;margin: 10px"
+                               class="text-left">{{ value.Name }}</p>
+                            <p class="text-left"
+                               style="font-size: 20px; margin: 10px;line-height: 2">{{ value.Info }}</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"
+                                    style="margin-right: -88%">Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-lg-5ths col-md-3 col-sm-4 col-xs-12 profile-pic">
                 <figure>
                     <img src="/media/{{ value.Picture }}">
                     <figcaption>
-                        {% if  value.Profile_URL %}
-                            <a href="{{ value.Profile_URL }}"><h3 class="profile-name">{{ value.Name }}</h3></a>
-                        {% else %}
-                            <h3 class="profile-name">{{ value.Name }}</h3>
-                        {% endif %}
+                        <h3 class="profile-name" data-toggle="modal"
+                            data-target="#modal-{{ forloop.counter }}">{{ value.Name }}</h3>
                         <span class="profile-title">{{ value.Title }}</span>
-                        <span class="text-left profile-text"> {{ value.Info }} </span>
+                        {#                        <span class="text-left profile-text"> {{ value.Info }} </span>#}
                         <a href="#" class="close-caption hidden">x</a>
                     </figcaption>
                 </figure>
