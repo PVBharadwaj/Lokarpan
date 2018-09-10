@@ -44,7 +44,7 @@ def annual_reports(request):
         "otherreports": otherreportsmodel.Report.objects.all().values()[0]
     }
 
-    return render(request, 'annual-report.html', values)
+    return render(request, 'global-reports.html', values)
 
 
 def other_reports(request):
