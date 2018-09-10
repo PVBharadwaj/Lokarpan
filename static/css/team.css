@@ -5,9 +5,7 @@
 }
 
 .team-container .page-title {
-    background: #7F7FD5; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background-color: #6690e2;
     height: 225px;
     color: #fff;
     top: 45px;
@@ -42,8 +40,8 @@
 }
 
 /*a:focus, a:hover {*/
-/*color: #23527c;*/
-/*text-decoration: underline;*/
+    /*color: #23527c;*/
+    /*text-decoration: underline;*/
 /*}*/
 
 .search-bar-container {
@@ -93,19 +91,15 @@ figure {
     /*margin: 0;*/
     display: inline-block;
     /*padding-left: 20%;*/
-    /*position: relative;*/
-    width: 198px;
-    height: 292px;
-    overflow: hidden;
+    position: relative;
 }
 
 figure img {
     display: block;
-    /*position: relative;*/
+    position: relative;
     z-index: 10;
-    /*width: 100%;*/
-    /*height: 100%;*/
-    min-width:100%;
+    width: 198px;
+    height: 267px;
     margin: 0 auto;
 }
 
@@ -139,7 +133,6 @@ figure figcaption {
 
 .dummy-row {
     height: 297px;
-    padding-bottom: 400px;
 }
 
 /* 5 column bootstrap css */
@@ -286,22 +279,5 @@ figure figcaption {
     .search-bar-container {
         width: 100%;
         padding-bottom: 10px;
-    }
-}
-
-.modal-body {
-    height: 250px;
-    overflow-y: auto;
-}
-
-@media (min-height: 500px) {
-    .modal-body {
-        height: 500px;
-    }
-}
-
-@media (min-height: 800px) {
-    .modal-body {
-        height: 600px;
     }
 }
