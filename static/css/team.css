@@ -5,7 +5,6 @@
 }
 
 .team-container .page-title {
-    background-color: #6690e2;
     height: 225px;
     color: #fff;
     top: 45px;
@@ -14,34 +13,39 @@
     font-size: 55px;
     padding-top: 40px;
     z-index: -2;
+    background: #7F7FD5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); }
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+,
 }
 
 .apply-btn {
-    border: 2px solid;
-    border-radius: 30px;
-    color: #fff;
-    display: block;
-    font-size: 20px;
-    margin: 0 auto;
-    padding: 12px 20px;
-    text-decoration: none;
-    width: 200px;
-    position: relative;
-    bottom: 40px;
-    text-align: center;
+   border: 2px solid;
+   border-radius: 30px;
+   color: #fff;
+   display: block;
+   font-size: 20px;
+   margin: 0 auto;
+   padding: 12px 20px;
+   text-decoration: none;
+   width: 200px;
+   position: relative;
+   bottom: 40px;
+   text-align: center;
 }
 
 .apply-btn:hover {
-    background: #fff;
-    border-color: #fff;
-    color: #6a8da6;
-    cursor: pointer;
-    text-decoration: none;
+   background: #fff;
+   border-color: #fff;
+   color: #6a8da6;
+   cursor: pointer;
+   text-decoration: none;
 }
 
 /*a:focus, a:hover {*/
-    /*color: #23527c;*/
-    /*text-decoration: underline;*/
+/*color: #23527c;*/
+/*text-decoration: underline;*/
 /*}*/
 
 .search-bar-container {
