@@ -17,9 +17,6 @@
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); }
 
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+,
-}
-
 .apply-btn {
    border: 2px solid;
    border-radius: 30px;
@@ -43,10 +40,7 @@
    text-decoration: none;
 }
 
-/*a:focus, a:hover {*/
-/*color: #23527c;*/
-/*text-decoration: underline;*/
-/*}*/
+
 
 .search-bar-container {
     background: #fff;
