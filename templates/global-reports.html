@@ -182,7 +182,7 @@
             <ul class="files">
                 {% if firstvalue.report1 %}
                     <li>
-                        <a href="/media/{{ firstvalue.report1 }}" class="file">
+                        <a href="/media/{{ firstvalue.report1 }}" class="file" target="_blank">
                             <img src="{% static 'img/annual-report/report annual.png' %}">
                             <p class="title">{{ firstvalue.reporttitle1 }} ></p>
                         </a>
@@ -190,7 +190,7 @@
                 {% endif %}
                 {% if firstvalue.report2 %}
                     <li>
-                        <a href="/media/ {{ firstvalue.report2 }}" class="file">
+                        <a href="/media/ {{ firstvalue.report2 }}" class="file" target="_blank">
                             <img src="{% static 'img/annual-report/file.png' %}">
                             <p class="title">{{ firstvalue.reporttitle2 }} ></p>
                         </a>
@@ -198,7 +198,7 @@
                 {% endif %}
                 {% if firstvalue.report3 %}
                     <li>
-                        <a href="/media/{{ firstvalue.report3 }}" class="file">
+                        <a href="/media/{{ firstvalue.report3 }}" class="file" target="_blank">
                             <img src="{% static 'img/annual-report/file.png' %}">
                             <p class="title">{{ firstvalue.reporttitle3 }} ></p>
                         </a>
@@ -206,7 +206,7 @@
                 {% endif %}
                 {% if firstvalue.report4 %}
                     <li>
-                        <a href="/media/{{ firstvalue.report4 }}" class="file">
+                        <a href="/media/{{ firstvalue.report4 }}" class="file" target="_blank">
                             <img src="{% static 'img/annual-report/file.png' %}">
                             <p class="title">{{ firstvalue.reporttitle4 }} ></p>
                         </a>
@@ -214,7 +214,7 @@
                 {% endif %}
                 {% if firstvalue.report5 %}
                     <li>
-                        <a href="/media/{{ firstvalue.report5 }}" class="file">
+                        <a href="/media/{{ firstvalue.report5 }}" class="file" target="_blank">
                             <img src="{% static 'img/annual-report/file.png' %}">
                             <p class="title">{{ firstvalue.reporttitle5 }} ></p>
                         </a>
@@ -224,12 +224,12 @@
         </div>
 
         {% for value in values %}
-            <div id="tab-{{ forloop.counter|add:1 }}" class="tab-content">
+            <div id="tab-{{ forloop.counter|add:1 }}" class="tab-content" target="_blank">
                 <ul class="files">
                     {% if value.report1 %}
 
                         <li>
-                            <a href="/media/{{ value.report1 }}" class="file">
+                            <a href="/media/{{ value.report1 }}" class="file" target="_blank">
                                 <img src="{% static 'img/annual-report/report annual.png' %}">
                                 <p class="title">{{ value.reporttitle1 }} ></p>
                             </a>
@@ -239,7 +239,7 @@
                     {% if value.report2 %}
 
                         <li>
-                            <a href="/media/ {{ value.report2 }}" class="file">
+                            <a href="/media/ {{ value.report2 }}" class="file" target="_blank">
                                 <img src="{% static 'img/annual-report/file.png' %}">
                                 <p class="title">{{ value.reporttitle2 }}></p>
                             </a>
@@ -249,7 +249,7 @@
                     {% if value.report3 %}
 
                         <li>
-                            <a href="/media/{{ value.report3 }}" class="file">
+                            <a href="/media/{{ value.report3 }}" class="file" target="_blank">
                                 <img src="{% static 'img/annual-report/file.png' %}">
                                 <p class="title">{{ value.reporttitle3 }} ></p>
                             </a>
@@ -259,7 +259,7 @@
                     {% if value.report4 %}
 
                         <li>
-                            <a href="/media/{{ value.report4 }}" class="file">
+                            <a href="/media/{{ value.report4 }}" class="file" target="_blank">
                                 <img src="{% static 'img/annual-report/file.png' %}">
                                 <p class="title">{{ value.reporttitle4 }} ></p>
                             </a>
