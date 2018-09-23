@@ -180,6 +180,12 @@
                             <button type="button" class="btn btn-default" data-dismiss="modal"
                                     style="margin-right: -88%">Close
                             </button>
+                            {% if value.Profile_URL %}
+                                <a href="{{ value.Profile_URL }}" class="btn btn-default center-block"
+                                   style="width: 30%;margin-bottom: 10px"
+                                >Visit Profile
+                                </a>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
