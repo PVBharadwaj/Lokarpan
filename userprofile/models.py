@@ -12,7 +12,7 @@ class UserProfile(models.Model):
     Title = models.CharField(max_length=30, null=False)
     Info = models.CharField(max_length=1500, null=False)  # 1500 chars
     Picture = models.ImageField(
-        help_text="If you receive an error on saving Images, Please go back and Re-upload and Try Again. png Images work but jpeg's are recommended")
+        help_text="Please Remember to Remove Exif data before uploading,otherwise images might be of incorrect orientation"
     Profile_URL = models.URLField(blank=True)
     UserTypeChoices = (
         ('Board', 'Board'),
