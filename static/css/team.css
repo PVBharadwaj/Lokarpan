@@ -15,32 +15,31 @@
     z-index: -2;
     background: #7F7FD5; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); }
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+}
 
 .apply-btn {
-   border: 2px solid;
-   border-radius: 30px;
-   color: #fff;
-   display: block;
-   font-size: 20px;
-   margin: 0 auto;
-   padding: 12px 20px;
-   text-decoration: none;
-   width: 200px;
-   position: relative;
-   bottom: 40px;
-   text-align: center;
+    border: 2px solid;
+    border-radius: 30px;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    text-decoration: none;
+    width: 200px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
 }
 
 .apply-btn:hover {
-   background: #fff;
-   border-color: #fff;
-   color: #6a8da6;
-   cursor: pointer;
-   text-decoration: none;
+    background: #fff;
+    border-color: #fff;
+    color: #6a8da6;
+    cursor: pointer;
+    text-decoration: none;
 }
-
-
 
 .search-bar-container {
     background: #fff;
@@ -65,11 +64,16 @@
     padding-bottom: 10px;
 }
 
+.profile-name:hover {
+    text-decoration: underline;
+
+}
+
 .profile-name {
     font-size: 22px;
     color: #4d4d4d;
     margin-top: 35px;
-    text-decoration: underline;
+
 }
 
 .profile-title {
