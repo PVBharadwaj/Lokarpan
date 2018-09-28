@@ -10,28 +10,28 @@ import pprint
 
 def about_board(request):
     values = {
-        "values": models.UserProfile.objects.filter(UserType='Board')
+        "values": models.UserProfile.objects.filter(UserType='Board').order_by('Year', 'Name')
     }
     return render(request, 'about-board.html', values)
 
 
 def about_staff(request):
     values = {
-        "values": models.UserProfile.objects.filter(UserType='Staff')
+        "values": models.UserProfile.objects.filter(UserType='Staff').order_by('Year', 'Name')
     }
     return render(request, 'about-staff.html', values)
 
 
 def about_interns(request):
     values = {
-        "values": models.UserProfile.objects.filter(UserType='Intern').order_by('-Year')
+        "values": models.UserProfile.objects.filter(UserType='Intern').order_by('-Year', 'Name')
     }
     return render(request, 'about-interns.html', values)
 
 
 def about_fellows(request):
     values = {
-        "values": models.UserProfile.objects.filter(UserType='Fellow').order_by('-Year')
+        "values": models.UserProfile.objects.filter(UserType='Fellow').order_by('-Year', 'Name')
     }
     return render(request, 'about-fellow.html', values)
 
