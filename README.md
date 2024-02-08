@@ -1,3 +1,3 @@
-# lokarpan-website-v1
+# lokarpan-website
 
 Lokarpan Website
