@@ -1,0 +1,203 @@
+.history-wrapper{
+    background-color: #f8f8f8;
+}
+.page-title{
+    padding-top: 150px;
+    padding-bottom: 250px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin-top: -1px;
+    font-weight: 600;
+}
+
+.history-content{
+    width: 70%;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: -200px;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.content-wrapper .text-wrapper{
+    padding: 40px;
+    margin-bottom: 80px;
+    background-color: #f8f8f8;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+}
+
+
+/*How we are different section*/
+.how-different{
+    float: left;
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+    padding: 60px;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    min-height: 270px;
+}
+
+.how-different .title{
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.how-different .text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.slider-wrapper{
+    float: left;
+    width: 48%;
+    float: left;
+    padding: 0px;
+    background-color: #f8f8f8;
+    box-sizing: border-box;   
+    min-height: 270px;
+}
+
+
+
+/*Project Section*/
+.project-section{
+    clear: both;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+.project-section .title{
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+.project-section .content div{
+    width: 30%;
+    height: 170px;
+    margin-right: 5%;
+    padding: 60px 10px;
+    background-color: #6690e2;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    font-size: 20px;
+
+}
+.project-section .content div:last-child{
+    margin-right: 0%;   
+}
+
+@media only screen and (max-width: 780px) {
+    .history-content{
+        width: 100%;
+    }
+    .how-different{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .slider-wrapper{
+        width: 100%;
+        margin-bottom: 0px
+    }
+    .project-section .content div{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 30px;
+        padding: 30px 0px;
+    }
+
+}
+
+
+/*History Tabs styling*/
+.slider-wrapper ul, li, div {
+    background: hsla(0, 0%, 0%, 0);
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-shadow: 0 1px 0 hsl(0, 100%, 100%);
+}
+.slider-wrapper li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.slider-wrapper .tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: auto;
+}
+.slider-wrapper .tabs-nav li:first-child a {
+    border-right: 0;
+}
+.slider-wrapper .tabs-nav .tab-active a {
+    background: hsl(120, 11%, 96%);
+    color: hsl(215, 6%, 57%);
+    cursor: default;
+}
+.slider-wrapper .tabs-nav a {
+    background: hsl(0, 100%, 100%); 
+    color: #333;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 44px;
+    text-align: center;
+    width: 100%;
+}
+.slider-wrapper .tabs-nav a:hover,.tabs-nav a:focus{
+    text-decoration: none;
+}
+.slider-wrapper .tabs-nav li {
+    float: left;
+    width: 50%;
+}
+.slider-wrapper .tabs-stage {
+    border-top: 0;
+    clear: both;
+    margin-bottom: 20px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+}
+.slider-wrapper .tabs-stage .tab{
+    padding: 25px;
+}
+.slider-wrapper .tabs-stage p {
+    margin: 0;
+    padding: 20px;
+    color: hsl(0, 0%, 33%);
+}
+.slider-wrapper .tabs-stage .item{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 0px 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.slider-wrapper .tabs-stage .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1023px) {
+    .history-content{
+        width: 90%;
+    }
+}
