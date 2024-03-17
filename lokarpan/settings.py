@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+from rest_framework.permissions import AllowAny
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -39,8 +41,9 @@ INSTALLED_APPS = [
     'annualreports',
     'other_reports',
     'reports_page',
-    'corsheaders',
     'rest_framework',
+    'corsheaders',
+
 ]
 
 MIDDLEWARE = [
@@ -51,14 +54,18 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware'
 ]
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# REST_FRAMEWORK = {'DEFAULT_PERMISSION_CLASSES': [
+#     'rest_framework.permission.AllowAny'
+# ]}
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'lokarpan.urls'
-
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000" 
-]
 
 TEMPLATES = [
     {
@@ -125,9 +132,15 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_prod')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static_prod')
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'lokarpan-website/build/static'),)
+
+# STATICFILES_DIRS = (os.path.join('static'),)
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'lokarpan-website/build/static')
+]
+
 
 MEDIA_URL = '/media/'
 
