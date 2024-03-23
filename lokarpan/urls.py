@@ -18,14 +18,40 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.urls import path, include
 from django.views.generic import TemplateView
 # from lokarpan.views import *
-from userprofile.views import *
+# from userprofile.views import *
+from userprofile import views
+from annualreports import annualreportsviews
+from other_reports import additionalreportsviews
 from django.conf.urls.static import static
 from django.conf import settings
+from rest_framework import routers
 # from django.conf.urls import url
+
+router = routers.DefaultRouter()
+router.register(r'board', views.BoardViewSet, 'Board')
+router.register(r'staff', views.StaffViewSet, 'Staff')
+router.register(r'educators', views.EducatorsViewSet, 'Educators')
+router.register(r'fellows', views.FellowViewSet, 'Fellows')
+router.register(r'annualreports', annualreportsviews.AnnualReports, 'AnnualReports')
+router.register(r'additionalreports', additionalreportsviews.Report, 'AdditionalReports')
+
+
+# urlpatterns = [
+# path('board/', views.about_board, name="About Board"),
+# path('staff/', views.about_staff, name="About Staff"),
+# path('educators/', views.about_interns, name="About Interns"),
+# path('fellows/', views.about_fellows, name="About Fellows"),
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', TemplateView.as_view(template_name='index.html')),
+    path('api/', include(router.urls)),
+
+
+
+
+
+    # path('', TemplateView.as_view(template_name='index.html')),
     # path('board/', about_board.as_view(), name="about board"),
     # path('staff/', about_staff.as_view(), name="about staff"),
     # path('educators/', about_interns.as_view(), name="about educators"),
@@ -34,10 +60,10 @@ urlpatterns = [
     # path('', TemplateView.as_view(template_name='index.html')),
     # path('index.html', TemplateView.as_view(template_name='index.html')),
     # path('about.html', TemplateView.as_view(template_name='about.html')),
-    path('staff/', about_staff, name="About Staff"),
-    path('fellow/', about_fellows, name="About Fellow"),
-    path('interns/', about_interns, name="About Interns"),
-    path('board/', about_board, name="About Boards"),
+    # path('staff/', about_staff.as_view(), name="About Staff"),
+    # path('fellow/', about_fellows, name="About Fellow"),
+    # path('interns/', about_interns, name="About Interns"),
+    # path('board/', about_board, name="About Boards"),
     # path('global-reports.html', annual_reports, name="Annual Reports"),
     # path('education.html', TemplateView.as_view(template_name='education.html')),
     # path('history.html', TemplateView.as_view(template_name='history.html')),
@@ -53,7 +79,6 @@ urlpatterns = [
     # path('report-page.html', other_reports, name="Other Reports"),
 
  ]
-# + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 # urlpatterns += staticfiles_urlpatterns()
-urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+# urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
