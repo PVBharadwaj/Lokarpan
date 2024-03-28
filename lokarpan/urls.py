@@ -77,8 +77,8 @@ urlpatterns = [
     # path('rural-education.html', TemplateView.as_view(template_name='rural-education.html')),
     # path('terms-of-use.html', TemplateView.as_view(template_name='terms-of-use.html')),
     # path('report-page.html', other_reports, name="Other Reports"),
-
- ]
+]
+#  ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 # urlpatterns += staticfiles_urlpatterns()
-# urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-# urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

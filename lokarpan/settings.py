@@ -71,6 +71,8 @@ CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
 )
 
+FILE_UPLOAD_MAX_MEMORY_SIZE = 104857600
+
 ROOT_URLCONF = 'lokarpan.urls'
 
 TEMPLATES = [

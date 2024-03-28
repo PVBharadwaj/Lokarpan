@@ -13,7 +13,8 @@ class UserProfile(models.Model):
     Info = models.CharField(max_length=1500, null=False)  # 1500 chars
     Picture = models.ImageField(
         help_text="Please Remember to Remove Exif data before uploading,otherwise images might be of incorrect orientation")
-    Profile_URL = models.URLField(blank=True)
+    Social_Media_URL_1 = models.URLField(blank=True)
+    Social_Media_URL_2 = models.URLField(blank=True)
     UserTypeChoices = (
         ('Board', 'Board'),
         ('Staff', 'Staff'),
@@ -28,3 +29,27 @@ class UserProfile(models.Model):
 
     def __str__(self):
         return self.Name
+
+    # def social_media_icon_1(self):
+    #     if 'facebook.com' in self.Social_Media_URL:
+    #         return 'facebook'
+    #     elif 'instagram.com' in self.Social_Media_URL:
+    #         return 'instagram'
+    #     elif 'github.com' in self.Social_Media_URL:
+    #         return 'github'
+    #     elif 'gitlab.com' in self.Social_Media_URL:
+    #         return 'gitlab'
+    #     else:
+    #         return 'globe'
+        
+    # def social_media_icon_2(self):
+    #     if 'facebook.com' in self.Social_Media_URL:
+    #         return 'facebook'
+    #     elif 'instagram.com' in self.Social_Media_URL:
+    #         return 'instagram'
+    #     elif 'github.com' in self.Social_Media_URL:
+    #         return 'github'
+    #     elif 'gitlab.com' in self.Social_Media_URL:
+    #         return 'gitlab'
+    #     else:
+    #         return 'globe'
