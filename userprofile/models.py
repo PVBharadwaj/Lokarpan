@@ -29,27 +29,3 @@ class UserProfile(models.Model):
 
     def __str__(self):
         return self.Name
-
-    # def social_media_icon_1(self):
-    #     if 'facebook.com' in self.Social_Media_URL:
-    #         return 'facebook'
-    #     elif 'instagram.com' in self.Social_Media_URL:
-    #         return 'instagram'
-    #     elif 'github.com' in self.Social_Media_URL:
-    #         return 'github'
-    #     elif 'gitlab.com' in self.Social_Media_URL:
-    #         return 'gitlab'
-    #     else:
-    #         return 'globe'
-        
-    # def social_media_icon_2(self):
-    #     if 'facebook.com' in self.Social_Media_URL:
-    #         return 'facebook'
-    #     elif 'instagram.com' in self.Social_Media_URL:
-    #         return 'instagram'
-    #     elif 'github.com' in self.Social_Media_URL:
-    #         return 'github'
-    #     elif 'gitlab.com' in self.Social_Media_URL:
-    #         return 'gitlab'
-    #     else:
-    #         return 'globe'

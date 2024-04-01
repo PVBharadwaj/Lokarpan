@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'annualreports',
     'other_reports',
     'reports_page',
+    'timeline',
     'rest_framework',
     'corsheaders',
 

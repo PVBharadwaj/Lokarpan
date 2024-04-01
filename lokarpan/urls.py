@@ -22,6 +22,7 @@ from django.views.generic import TemplateView
 from userprofile import views
 from annualreports import annualreportsviews
 from other_reports import additionalreportsviews
+from timeline import timelineviews
 from django.conf.urls.static import static
 from django.conf import settings
 from rest_framework import routers
@@ -34,6 +35,7 @@ router.register(r'educators', views.EducatorsViewSet, 'Educators')
 router.register(r'fellows', views.FellowViewSet, 'Fellows')
 router.register(r'annualreports', annualreportsviews.AnnualReports, 'AnnualReports')
 router.register(r'additionalreports', additionalreportsviews.Report, 'AdditionalReports')
+router.register(r'timeline', timelineviews.Timeline, 'Timeline')
 
 
 # urlpatterns = [
