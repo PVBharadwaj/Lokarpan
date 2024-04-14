@@ -72,3 +72,9 @@ The frontend for Lokarpan is available at [Lokarpan Website](https://github.com/
     ```bash
     npm start
     ```
+
+
+**Other Data**
+
+Database engine: sqlite3
+Django version: 5.0.2
