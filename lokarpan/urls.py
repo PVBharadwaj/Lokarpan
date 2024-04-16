@@ -26,6 +26,7 @@ from timeline import timelineviews
 from django.conf.urls.static import static
 from django.conf import settings
 from rest_framework import routers
+from newsletter_subscribe.views import NewletterView
 # from django.conf.urls import url
 
 router = routers.DefaultRouter()
@@ -36,6 +37,7 @@ router.register(r'fellows', views.FellowViewSet, 'Fellows')
 router.register(r'annualreports', annualreportsviews.AnnualReports, 'AnnualReports')
 router.register(r'additionalreports', additionalreportsviews.Report, 'AdditionalReports')
 router.register(r'timeline', timelineviews.Timeline, 'Timeline')
+router.register(r"newsletter_subscibe",NewletterView,'NewsletterView')
 
 
 # urlpatterns = [
