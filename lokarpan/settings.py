@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'timeline',
     'rest_framework',
     'corsheaders',
+    'newsletter_subscribe.apps.NewsletterSubscribeConfig',
 
 ]
 
