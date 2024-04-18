@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+from rest_framework.permissions import AllowAny
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -39,6 +41,10 @@ INSTALLED_APPS = [
     'annualreports',
     'other_reports',
     'reports_page',
+    'timeline',
+    'rest_framework',
+    'corsheaders',
+    'newsletter_subscribe.apps.NewsletterSubscribeConfig',
 
 ]
 
@@ -50,14 +56,31 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware'
 ]
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# REST_FRAMEWORK = {'DEFAULT_PERMISSION_CLASSES': [
+#     'rest_framework.permission.AllowAny'
+# ]}
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+
+# Whitelisting React port
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:3000',
+)
+
+FILE_UPLOAD_MAX_MEMORY_SIZE = 104857600
 
 ROOT_URLCONF = 'lokarpan.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'lokarpan-website/build')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -117,11 +140,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/lokarpan-website/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_prod')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static_prod')
 
-STATICFILES_DIRS = (os.path.join('static'),)
+
+# STATICFILES_DIRS = (os.path.join('static'),)
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'lokarpan-website/build/static')
+]
+
 
 MEDIA_URL = '/media/'
 

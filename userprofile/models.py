@@ -13,7 +13,8 @@ class UserProfile(models.Model):
     Info = models.CharField(max_length=1500, null=False)  # 1500 chars
     Picture = models.ImageField(
         help_text="Please Remember to Remove Exif data before uploading,otherwise images might be of incorrect orientation")
-    Profile_URL = models.URLField(blank=True)
+    Social_Media_URL_1 = models.URLField(blank=True)
+    Social_Media_URL_2 = models.URLField(blank=True)
     UserTypeChoices = (
         ('Board', 'Board'),
         ('Staff', 'Staff'),
