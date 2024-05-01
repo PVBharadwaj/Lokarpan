@@ -1,7 +1,7 @@
 image: kroniak/ssh-client
 
 variables:
-  SERVER_USER: lokarpan
+  SERVER_USER: root
 
 stages:
   - deploy
@@ -15,8 +15,8 @@ deploy:
     - echo "$SSH_PRIVATE_KEY"
     - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
     - chmod 400 ~/.ssh/id_rsa
-    - ssh lokarpan@165.22.215.189 " cd /home/lokarpan/lokarpan_app/lokarpan; git pull origin master;"
-    - ssh -tt lokarpan@165.22.215.189
+    - ssh root@165.22.215.189 " cd /home/lokarpan/lokarpan_app/lokarpan; git pull origin master;"
+    - ssh -tt root@165.22.215.189
         "source /home/lokarpan/lokarpan_website_env/bin/activate;
         cd /home/lokarpan/lokarpan_app/lokarpan;
         pip install -r requirements.txt;
