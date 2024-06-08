@@ -20,6 +20,7 @@ deploy:
         "source /home/lokarpan/lokarpan_website_env/bin/activate;
         cd /home/lokarpan/lokarpan_app/lokarpan-v2;
         pip install -r requirements.txt;
+        pip install djangorestframework;
         python /home/lokarpan/lokarpan_app/lokarpan-v2/manage.py migrate;
         python /home/lokarpan/lokarpan_app/lokarpan-v2/manage.py collectstatic --noinput >> ~/collectstatic.log;
         sudo service gunicorn restart
