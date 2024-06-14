@@ -1,0 +1,181 @@
+.publication-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px !important;
+}
+
+.public-top{
+  margin: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 630px;
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1708923699/vigneshwar-rajkumar-Az2FQtHgAn0-unsplash_1_z8urcf.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.public-text{
+  padding: 100px 0px;
+}
+
+/* .public-top h1,
+.public-top p, */
+.public-text h1,
+.public-text p,
+.publication-page{
+  margin: var(--navbar-margin);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-inline-start: max(20px, var(--navbar-padding));
+  padding-inline-end: max(20px, var(--navbar-padding));
+}
+
+/* .public-top h1, */
+.public-text h1 {
+font-size: 64px;
+font-weight: 700;
+text-align: center;
+padding: 30px 0px;
+padding-inline-start: max(20px, var(--navbar-padding));
+padding-inline-end: max(20px, var(--navbar-padding));
+}
+
+/* .public-top p, */
+.public-text p {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  max-width: 850px;
+  color: #555;
+}
+
+.public-desp{
+  font-size: 24px;
+}
+
+.public-title{
+  text-align: center;
+  font-size: 48px;
+  padding: 30px;
+}
+
+.public-archives{
+  font-size: 36px;
+  text-align: left;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 50px;
+}
+
+.download-btn {
+  padding: 6px 10px;
+  border: solid 0.5px black;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.download-btn:hover {
+  background-color: #3F86F0;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.row-inner{
+  width: 50%;
+}
+
+.publication-form-control {
+  padding: 7px 12px;
+  font-size: 20px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.publication-form-control:focus {
+  border: solid black 1px;
+  border-radius: 50px;
+  /* box-shadow: 0 0 7px rgba(0, 123, 255, 0.5); */
+  outline: none;
+}
+/* 
+.custom-header{
+  font-size: 24px;
+} */
+
+.with-icon {
+  background-image: url('https://res.cloudinary.com/dtfzxqpoy/image/upload/v1711612289/icons8-search_ca6lqn.svg');
+  background-repeat: no-repeat;
+  background-position: 10px center; 
+  padding-left: 40px; 
+  background-size: 20px;
+}
+
+.css-t89xny-MuiDataGrid-columnHeaderTitle{
+  font-weight: 900 !important;
+}
+
+@media screen and  (min-width: 748px) and (max-width: 1010px) {
+  .public-text h1{
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .publication-page {
+    padding: 10px 30px;
+  }
+
+  .public-top{
+    min-height: 450px;
+    padding: 70px 10px;
+  }
+
+  /* .public-top h1, */
+  .public-text h1{
+    font-size: 36px;
+    padding: 5px;
+  }
+  
+  /* .public-top p, */
+  .public-text p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+  }
+  
+  .public-archives{
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .row-inner{
+    width: 100%;
+  }
+  .responsive-data-grid .MuiDataGrid-colCell[data-field="description"] {
+    width: 150px !important; 
+  }
+}

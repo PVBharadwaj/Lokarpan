@@ -1,0 +1,60 @@
+{
+  "homepage": "https://PVBharadwaj.github.io/lokarpan-website",
+  "name": "lokarpan",
+  "version": "1.0.0",
+  "description": "",
+  "private": "false",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.23.10",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "5.15.6",
+    "@mui/material": "5.15.4",
+    "@mui/x-data-grid": "latest",
+    "@mui/x-data-grid-generator": "^6.19.8",
+    "axios": "^1.6.8",
+    "fuse.js": "7.0.0",
+    "lodash": "^4.17.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-fast-marquee": "1.6.2",
+    "react-icons": "latest",
+    "react-player": "^2.14.1",
+    "react-router-dom": "latest",
+    "react-slick": "latest",
+    "react-stickynode": "4.1.1",
+    "reactjs-popup": "2.0.6",
+    "slick-carousel": "latest",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.0.9",
+    "babel-eslint": "^10.1.0",
+    "gh-pages": "^6.1.1",
+    "loader-utils": "3.2.1",
+    "react-scripts": "^5.0.1",
+    "typescript": "4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

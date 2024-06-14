@@ -1,0 +1,12 @@
+.kith-back-to-main {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    height: 100%;
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 922px){
+    .kith-back-to-main {
+        margin-left: 0px !important;
+    }
+}

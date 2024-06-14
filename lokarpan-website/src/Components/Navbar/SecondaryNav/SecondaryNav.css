@@ -1,0 +1,116 @@
+:root{
+  --navbar-padding: 0px;
+}
+
+.SecNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: white;
+  color: #424242;
+  /* padding: 10px 123px 0px; */
+  height: 52px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1100px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-inline-start: max(20px, var(--navbar-padding));
+  padding-inline-end: max(20px, var(--navbar-padding));
+}
+
+.leadership-nav > .navbar-links{
+  align-items: center;
+}
+
+.SecNavbar .dropdown-content {
+  top: 110px;
+}
+
+.navbar-mainlink{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.lead-sec-nav {
+  display: flex;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.mobile-view-dropdown {
+  display: none;
+}
+
+.react-icon {
+  color: #646a7b;
+}
+
+.lead-mobile-navbar-links > li{
+  display: flex;
+}
+
+/* @media screen and (max-width: 836px) { */
+  @media screen and (max-width: 922px) {
+  .SecNavbar {
+    padding: 10px 20px;
+  }
+
+  .mobile-view-dropdown {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+  }
+
+  .mobile-view-dropdown > p {
+    display: flex;
+  }
+
+  .lead-mobile-navbar-links {
+    gap: 8px;
+  }
+
+  .click-dropdown {
+    max-height: 0px;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.2);
+    /* transition: max-height 1s ease-in-out, opacity 1s ease-in-out,
+      visibility 0.3s ease; */
+      transition: max-height 0.5s ease-in-out;
+  }
+
+  .click-dropdown ul {
+    padding: 0px;
+  }
+
+  .click-dropdown.active {
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    z-index: 103 !important;
+    background-color: white;
+    transition: max-height 0.7s ease-in-out;
+  }
+  .apply-btn {
+    display: none;
+  }
+  .lead-sec-nav {
+    gap: 0;
+  }
+
+  .mobile-navbar-links .navbar-item a {
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #333333;
+  }
+}

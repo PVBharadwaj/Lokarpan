@@ -1,0 +1,269 @@
+[
+    {
+        "navitem": "Home"
+    },
+    {
+        "navitem": "About",
+        "Link": "lokarpan-website/about",
+        "subnavitems":[
+            {
+                "subnavlistitem": "OurRole",
+                "Link": "/our-role"
+            },
+            {
+                "subnavlistitem": "History",
+                "Link": "/history"
+            },
+            {
+                "subnavlistitem": "Mission",
+                "Link": "/mission"
+            },
+            {
+                "subnavlistitem": "Leadership",
+                "Link": "/leadership"
+            },
+            {
+                "subnavlistitem": "Careers",
+                "Link": "/career"
+            },
+            {
+                "subnavlistitem": "Financials",
+                "Link": "/financials"
+            },
+            {
+                "subnavlistitem": "Alumini",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Contact",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Blog",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Subscribe",
+                "Link": ""
+            }
+        ]
+    },
+    {
+        "navitem": "Education",
+        "subnavitems":[
+            {
+                "subnavlistitem": "Approach",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Digital tools",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Application",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Podcast",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Impact",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Moonshots",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Volunteer",
+                "Link": ""
+            }
+        ]
+    },
+    {
+        "navitem": "Fellowship"
+    },
+    {
+        "navitem": "Kith",
+        "subnavitems":[
+            {
+                "subnavlistitem": "Kith Overview",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Admission",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Life at School",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Information",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "How to",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Online enrollment",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Kith Financials",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Campus and Culture",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Committees & Clubs",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Safety & Wellbeing",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Academics",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Kith Leadership",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Employment",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Kith Alumni",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Kith FAQ",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Kith Donate",
+                "Link": ""
+            }
+        ]
+    },
+    {
+        "navitem": "Design"
+    },
+    {
+        "navitem": "Health"
+    },
+    {
+        "navitem": "Environment"
+    },
+    {
+        "navitem": "Livelihood"
+    },
+    {
+        "navitem": "Support",
+        "subnavitems":[
+            {
+                "subnavlistitem": "Ways to give",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Being a volunteer",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Our Supporters",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Why Donate",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Donate Now",
+                "Link": ""
+            },
+            {
+                "subnavlistitem": "Apply for Fellowship",
+                "Link": ""
+            }
+        ]
+    },
+    {
+      "id": 1,
+      "link": "/staff",
+      "img": "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_female_user-512.png",
+      "name": "Dummy",
+      "position": "Classroom Educator",
+      "description":
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio"
+    },
+    {
+      "id": 2,
+      "link": "/staff",
+      "img": "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_female_user-512.png",
+      "name": "test",
+      "position": "Classroom Educator",
+      "description":
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio"
+    },
+    {
+      "id": 3,
+      "link": "/staff",
+      "img": "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_female_user-512.png",
+      "name": "example",
+      "position": "Classroom Educator",
+      "description":
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio"
+    },
+    {
+      "id": 4,
+      "link": "/staff",
+      "img": "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_female_user-512.png",
+      "name": "person",
+      "position": "Classroom Educator",
+      "description":
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio"
+    },
+    {
+      "id": 5,
+      "link": "/staff",
+      "img": "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_female_user-512.png",
+      "name": "pupil",
+      "position": "Classroom Educator",
+      "description":
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio"
+    },
+    {
+      "id": 6,
+      "link": "/staff",
+      "img": "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_female_user-512.png",
+      "name": "people",
+      "position": "Classroom Educator",
+      "description":
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio"
+    },
+    {
+      "id": 7,
+      "link": "/staff",
+      "img": "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_female_user-512.png",
+      "name": "member",
+      "position": "Classroom Educator",
+      "description":
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio"
+    },
+    {
+      "id": 8,
+      "link": "/staff",
+      "img": "https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_female_user-512.png",
+      "name": "item",
+      "position": "Classroom Educator",
+      "description":
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et placeat vero nemo accusamus, eum optio"
+    }
+  ]

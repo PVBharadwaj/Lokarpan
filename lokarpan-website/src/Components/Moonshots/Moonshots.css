@@ -1,0 +1,144 @@
+.moonshots-top {
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1708623660/Rectangle_1932_qjoyip.png");
+  display: flex;
+  align-items: center;
+  min-width: 320px;
+}
+
+.moonshots-opp {
+  background-color: black !important;
+}
+
+.moonshots-head {
+  font-size: 48px;
+  padding: 80px 0px 0px;
+  font-weight: bold;
+}
+
+.moonshot-text {
+  max-width: 900px;
+  padding: 20px;
+}
+
+.no-max-width-set{
+  max-width: unset !important;
+}
+.moonshots-carousel
+{
+  max-width: unset !important;
+  width: 90%;
+}
+.moonshots-sub-div {
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+  color: white;
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  text-align: left;
+}
+
+.moonshots-img1 {
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1708623658/100_2093_1_zr9bw1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moonshots-img2 {
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1708623659/IMG_3313_2_zapx1r.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moonshots-img3 {
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1708623659/DSC04890_1_xxtsrn.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moonshots-img4 {
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1708623657/Rectangle_1875_akaqkc.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.padding-bottom-80{
+  padding-bottom: 80px;
+}
+
+.moonshots-margin-top{
+  margin-top: 200px;
+}
+
+.moons-head {
+  width: calc(100% - 40px);
+  padding: 20px 0px 20px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.moons-car-head{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #5f6368;
+  padding-top: 50px;
+}
+
+.moons-car-text{
+  width: calc(100% - 60px);
+    padding: 30px;
+    font-size: 21px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+.moons-text {
+  width: calc(100% - 40px);
+  padding: 0px 20px 20px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.moons-text-div {
+  /* background-image: linear-gradient(transparent, black); */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: black;
+  width: 100%;
+  text-align: center;
+  min-height: 250px;
+}
+
+@media screen and (max-width: 748px) {
+  .moonshots-top {
+    width: 100%;
+    height: 296px;
+  }
+
+  .moonshots-head {
+    font-size: 32px;
+    padding: 10px 0px 70px;
+  }
+
+  .moons-head {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 20px 10px;
+  }
+
+  .moons-text {
+    font-size: 14px;
+    padding: 0px 20px 20px;
+  }
+  .moons-text-div{
+    min-height: unset;
+  }
+}

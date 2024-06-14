@@ -1,0 +1,446 @@
+.app-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 0px;
+}
+
+.app-title {
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.application-top-img {
+  width: 100%;
+  min-height: 600px;
+  height: auto;
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1708623660/Rectangle_1932_qjoyip.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.application-img {
+  width: 100%;
+  height: auto;
+  max-width: 950px;
+  min-height: 400px;
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1708623660/Rectangle_1932_qjoyip.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.adobe-horizon{
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.adobe-horizon-in{
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  background-color: white;
+  margin: 15px 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.adobe-horizon-wide-text{
+  text-align: center !important;
+}
+
+.adobe-horizon-in-text{
+  text-align: left;
+  padding: 50px;
+  font-weight: 600;
+}
+
+.square-cards{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  max-width: 1100px;
+}
+.square-cards-out{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.square-cards-each-cont{
+  height: 280px;
+  width: 280px;
+  display: flex;
+  background-color: #eeeeee;
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 25px;
+}
+
+.square-cards-each-cont p{
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.title2 {
+  font-size: 64px;
+  max-width: 900px;
+}
+
+.title3 {
+  font-size: 48px;
+}
+
+.app-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 60px 50px; */
+  margin: var(--navbar-margin);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-inline-start: max(20px, var(--navbar-padding));
+  padding-inline-end: max(20px, var(--navbar-padding));
+}
+
+.app-div-bottom {
+  padding: 50px 0px 0px;
+}
+
+.browse {
+  display: flex;
+  justify-content: center;
+  margin: 130px 0px;
+  width: 100%;
+  /* min-height: 350px; */
+  gap: 20px;
+  height: 120vh;
+}
+
+.browse-text {
+  width: 100%;
+  height: auto;
+  /* padding: 30px; */
+  text-align: left;
+  align-self: center;
+  box-sizing: border-box;
+  padding: 0 5%;
+}
+
+.browse-text-button {
+  margin-top: 32px;
+  width: 180px;
+  height: 40px;
+}
+
+.browse-img {
+  width: 100%;
+  height: auto;
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1708625144/Rectangle_1889_z8esn3.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.browse-img img {
+  width: 100%;
+  height: auto;
+}
+
+.application-para1,
+.application-para2 {
+  height: auto;
+  font-weight: 700;
+  padding: 30px 10px 120px;
+  color: #555;
+}
+
+.application-para1 {
+  font-size: 32px;
+  line-height: 1.3;
+}
+
+.application-para2 {
+  font-size: 24px;
+}
+
+.app-card-list {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  margin: 40px 0px;
+  gap: 20px;
+}
+
+.app-width-wise{
+  width: 950px;
+  height: 400px;
+}
+
+.app-height-wise{
+  width: 950px;
+  height: 600px;
+}
+
+.plan {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plan-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 20px;
+  /* gap: 24px; */
+  width: calc(100% / 3 - 20px);
+  border: solid 1px #e2e4e5;
+  border-radius: 10px;
+}
+
+.app-wide-cards{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 100px 0px;
+}
+
+.plan-list-font{
+  text-align: left;
+  font-size: 24px;
+}
+
+.plan-list p,
+.plan-list h1 {
+  margin: 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.features-div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 0px;
+  height: 200px;
+}
+
+.plan-list-desp{
+  font-size: 18px;
+  text-align: left;
+  padding: 10px 0px;
+}
+
+.choose-plan-para {
+  color: #646a7b;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 0px;
+}
+
+.appblue {
+  color: #2478dc;
+}
+
+.red {
+  color: #c63c55;
+}
+
+.green {
+  color: #158c21;
+}
+
+.app-card-icon {
+  margin-right: 3px;
+}
+
+.choose-plan {
+  display: none;
+}
+.app-para-5 {
+  /* font-size: 24px;
+  font-weight: 400; */
+  /* margin: 40px auto; */
+  /* line-height: 40px; */
+    max-width: 800px;
+    padding-bottom: 50px;
+    font-size: 32px;
+}
+
+.app-para-4 {
+  /* font-size: 24px;
+  font-weight: 400; */
+  margin: 40px auto;
+  line-height: 40px;
+  margin-top: 0;
+  padding-bottom: 180px;
+}
+
+.app-apply-btn {
+  height: 40px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 16px;
+  margin-top: 50px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 748px){
+  .app-width-wise{
+    width: 690px;
+    height: 350px;
+  }
+  
+  .app-height-wise{
+    width: 690px;
+    height: 400px;
+  }
+  .adobe-horizon-in-text {
+    font-size: 32px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .app-width-wise{
+    width: 320px !important;
+    height: unset!important;
+  }
+  
+  .app-height-wise{
+    width: 320px!important;
+    height: unset !important;
+  }
+  .adobe-horizon-in-text {
+    font-size: 24px !important;
+  }
+}
+@media screen and (max-width: 748px) {
+  .app-width-wise{
+    width: 400px;
+    height: unset
+  }
+  .adobe-horizon {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .app-height-wise{
+    width: 400px;
+    height: unset;
+  }
+  .adobe-horizon-in-text {
+    font-size: 32px;
+  }
+  .app-para-5 {
+    font-size: 18px;
+  }
+  .app-para-4 {
+    font-size: 18px;
+  }
+  .app-page {
+    padding: 10px 30px;
+  }
+
+  .app-div {
+    padding: 10px 0px;
+  }
+
+  .title2 {
+    font-size: 36px;
+  }
+
+  .title3 {
+    font-size: 36px;
+  }
+
+  .application-img {
+    width: 100%;
+    height: 350px;
+  }
+  .adobe-horizon-wide-text{
+    text-align: left !important;
+  }
+  .application-para1 {
+    font-size: 18px;
+    padding: 30px 0px 45px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .app-card-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .application-para2 {
+    font-size: 18px;
+    padding: 10px 0px 42px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .choose-plan {
+    display: block;
+  }
+
+  .choose-plan-second-head {
+    font-weight: bold;
+  }
+
+  .plan-list {
+    margin: 10px 0px;
+    width: 400px;
+  }
+
+  .browse {
+    width: 90%;
+    flex-direction: column-reverse;
+    margin: 120px auto;
+  }
+
+  .browse-text {
+    width: 100%;
+    padding: 30px 10px;
+    text-align: left;
+  }
+
+  .browse-img {
+    width: 100%;
+    min-height: 350px;
+  }
+
+  .application-top-img{
+    min-height: 350px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .plan-list {
+    width: 90%;
+  }
+}
+

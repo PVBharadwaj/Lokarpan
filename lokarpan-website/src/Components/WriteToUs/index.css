@@ -1,0 +1,148 @@
+.write-to-us-sec {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.w-head1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.w-para1 {
+  font-size: 20px;
+  line-height: 30px;
+  align-self: flex-start;
+  font-weight: 300;
+}
+
+.w-list {
+  padding: 30px;
+  margin: 0;
+  align-self: flex-start;
+}
+.w-list-item {
+  font-size: 18px;
+  list-style-type: disc;
+  line-height: 40px;
+}
+.w-link {
+  color: black;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.w-para2 {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  align-self: flex-start;
+}
+.w-form-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.w-label {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.w-input {
+  height: 40px;
+  width: 500px;
+  margin-bottom: 30px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.w-input-select {
+  height: 45px;
+  width: 525px;
+  margin-bottom: 30px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.w-text-area {
+  margin-bottom: 40px;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+}
+.w-submit {
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.w-line {
+  position: relative;
+}
+
+.w-line::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 1px;
+  width: 100%;
+  background: black;
+}
+
+.w-line:hover::before {
+  animation: shrinkWidth 0.4s ease forwards;
+  animation-delay: 0s;
+}
+
+@keyframes shrinkWidth {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+.w-line:hover::before {
+  animation: expandWidth 0.4s ease forwards;
+  animation-delay: 0.4s; /* Delay expansion after shrinking */
+}
+
+@keyframes expandWidth {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.cur {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 580px) {
+  .w-input {
+    width: 100%;
+  }
+  .w-input-select {
+    width: 105%;
+  }
+  .w-text-area {
+    width: 100%;
+  }
+}

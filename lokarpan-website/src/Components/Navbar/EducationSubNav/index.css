@@ -1,0 +1,58 @@
+.mobile-item {
+  display: none;
+}
+
+.navbar-item-btn-browse {
+  display: none;
+}
+.sub-heading-edu {
+  font-size: 14px;
+}
+.link-edu {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.edu-subnav-list li {
+  height: 20px;
+}
+
+/* @media screen and (max-width: 836px) { */
+@media screen and (max-width: 922px) {
+  .education .click-dropdown.active {
+    position: absolute;
+    padding: 20px 10px;
+    top: 95px;
+    right: 0 !important;
+    left: 0 !important;
+  }
+  .sub-heading-edu {
+    display: none;
+  }
+  .mobile-item {
+    display: block;
+  }
+  .mobile-none {
+    display: none;
+  }
+  .mobile-heading {
+    font-size: 28px;
+    margin-left: 5px;
+  }
+  .dropdown-container ul li a {
+    font-size: 28px;
+    margin-left: 50px;
+    font-weight: bold;
+  }
+  .dropdown-container ul li {
+    height: 40px;
+  }
+  .dropdown-container .edu-subnav-list li a {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .navbar-item.desktop-only {
+    display: none;
+  }
+}

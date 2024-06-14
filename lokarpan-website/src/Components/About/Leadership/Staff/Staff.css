@@ -1,0 +1,83 @@
+.board-page,
+.fellows-page, 
+.educators-page, 
+.staff-page {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1100px;
+  min-width: 320px;
+  box-sizing: border-box;
+  padding-inline-start: max(20px, var(--navbar-padding));
+  padding-inline-end: max(20px, var(--navbar-padding));
+}
+
+.lead-search{
+  width: 100%;
+}
+
+.image {
+  /* border: solid black; */
+  width: 100%;
+  height: 265px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  /* margin: 30px 123px; */
+  margin: 50px 0px;
+}
+
+.card-lead {
+  width: 190px;
+}
+
+.card-lead p {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.profile-url {
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.profile-name, .profile-position{
+  padding-bottom: 10px;
+}
+
+.off {
+  display: none;
+}
+
+.on {
+  background-color: #ffffff;
+  position: absolute;
+  width: 196px;
+  display: block;
+  padding: 10px 0px;
+  z-index: 2;
+}
+
+.overlay {
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in-out;
+}
+  
+@media screen and (max-width: 836px) {
+
+  /* .board-page h2, 
+  .educators-page h2,
+  .fellows-page h2,
+  .staff-page h2 {
+    padding:  30px 20px;
+  } */
+
+  .card-list {
+    margin: 30px;
+    justify-content: center;
+  }
+}
