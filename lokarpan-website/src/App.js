@@ -65,7 +65,7 @@ import KithCareer from "./Components/KithCareer";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/lokarpan-website">
+      <BrowserRouter basename="/lokarpan">
         <ScrollToTop />
         <Routes>
           <Route path="/sitemap" element={<Sidemap />}></Route>
