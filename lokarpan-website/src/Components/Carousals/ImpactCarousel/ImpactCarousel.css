@@ -1,0 +1,53 @@
+.impact-carousel {
+  width: 210px !important;
+  height: 190px;
+  display: flex !important;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.impact-carousel-img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+}
+
+.custom-arrow {
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  bottom: -50px;
+  left: 40%;
+  transform: translateX(-50%);
+  z-index: 1;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.arrow-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.app-nav-icon {
+  border: solid 1px black;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 748px) {
+  .impact-carousel {
+    width: 190px !important;
+    height: 190px;
+  }
+
+  .impact-next-arrow,
+  .impact-prev-arrow{
+    bottom: -55px !important;
+  }
+}

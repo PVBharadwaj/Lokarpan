@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap");
+
+.academics-upper-section {
+  height: 700px;
+  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1709281455/Rectangle_1812_2_x0edne.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.academics-upper-section-text {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.academics-upper-section-text h1 {
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  font-family: "Noto Serif Display", serif;
+}
+.academics-upper-section-text p {
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: -0.231px;
+  width: 60%;
+  margin: 10px auto;
+  text-align: center;
+}
+.academics-upper-section-text,
+.academics-div > h1,
+.academics-div > h3,
+.academics-div > div,
+.academics-stats {
+  margin: var(--navbar-margin);
+  box-sizing: border-box;
+  width: 100%;
+  /* max-width: 1100px;
+  padding-inline-start: max(20px, var(--navbar-padding));
+  padding-inline-end: max(20px, var(--navbar-padding)); */
+}
+.academics-head h1,
+.academics-head p {
+  position: relative;
+}
+
+.academics-div h1 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Noto Serif Display", serif;
+}
+
+.academics-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 150px 0px;
+}
+
+.academics-head > p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.academics-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 80px 150px;
+}
+
+.academics-stats p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.academics-card {
+  display: flex;
+  /* gap: 30px; */
+  /* padding: 75px 0px; */
+  height: 110vh;
+  width: 100%;
+  margin: 100px 0 !important;
+}
+
+.academics-card-img {
+  width: 50%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.academics-card-img-1 {
+  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1709277369/Rectangle_1922_ygjslo.png");
+}
+
+.academics-card-img-2 {
+  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1709277385/Rectangle_1924_qhodkb.png");
+}
+
+.academics-card-img-3 {
+  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1709281412/Rectangle_1925_ue0lq3.png");
+}
+
+.academics-card-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0px 5%;
+}
+
+.academics-card-text h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.academics-card-text p {
+  font-size: 19px;
+  line-height: 1.5;
+  font-weight: 600;
+  /* padding: 4px 0px; */
+  margin: 10px 0px;
+}
+
+.academics-card-text .kith-link {
+  color: #3f86f0;
+  font-size: 19px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.academics-div-blue {
+  padding: 130px 60px;
+  background-color: #3f86f0;
+}
+
+.academics-div-blue h3 {
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+  line-height: 1.2;
+  padding-bottom: 30px;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.academics-div-last {
+  padding-top: 0px;
+}
+
+@media screen and (max-width: 748px) {
+  .academics-upper-section h1 {
+    margin-top: -30px;
+    font-size: 28px;
+  }
+  .academics-upper-section-text {
+    height: auto;
+  }
+  .academics-upper-section p {
+    width: 400px;
+    font-size: 20px;
+  }
+  .academics-head {
+    padding: 75px 32px !important;
+  }
+
+  .academics-div {
+    padding: 100px 0px;
+    gap: 16px;
+  }
+  .academics-card {
+    padding: 40px 0;
+    width: 90% !important;
+  }
+
+  .academics-card {
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px 0px;
+    margin: 20px 0 !important;
+    height: auto;
+  }
+
+  .academics-card-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .academics-card-img {
+    width: 100%;
+    /* min-height: 400px; */
+    height: 400px;
+  }
+
+  .academics-card-text {
+    padding: 0px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .academics-div > h1 {
+    font-size: 24px;
+  }
+
+  .academics-div h3 {
+    font-size: 24px;
+    width: 80%;
+  }
+
+  .academics-div > p {
+    font-size: 16px;
+  }
+
+  .academics-stats {
+    flex-direction: column;
+    gap: 42px;
+    padding: 50px 20px;
+  }
+
+  .admissions-img-list {
+    flex-direction: column;
+  }
+
+  .academics-div-last {
+    padding-top: 0px;
+  }
+
+  .academics-div-blue {
+    margin: 0px;
+    padding: 50px 32px;
+  }
+
+  .academics-card-text {
+    display: flex;
+    flex-direction: column;
+    /* gap: 50px; */
+  }
+
+  .academics-card-text div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .academics-upper-section {
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+  .academics-upper-section h1 {
+    margin-top: 150px;
+  }
+  .academics-upper-section p {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 748px) and (max-width: 1050px) {
+  .academics-div {
+    padding: 100px 50px;
+  }
+}

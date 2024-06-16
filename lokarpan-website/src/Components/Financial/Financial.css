@@ -1,0 +1,164 @@
+.financial-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-width: 320px;
+}
+
+.fin-desp-head {
+  margin: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 750px;
+  min-width: 320px;
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1708923066/image_338_t09wfz.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fin-desp-head h1,
+.fin-desp-head p,
+.add-repo h1,
+.add-repo > div{
+  margin: var(--navbar-margin);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-inline-start: max(20px, var(--navbar-padding));
+  padding-inline-end: max(20px, var(--navbar-padding));
+}
+.fin-desp-head h1 {
+  font-size: 64px;
+  font-weight: 700;
+  padding: 50px 0px;
+  color: white;
+  padding-inline-start: max(20px, var(--navbar-padding));
+  padding-inline-end: max(20px, var(--navbar-padding));
+}
+
+.fin-desp-head p {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+
+.fin-annual-repo {
+  margin: 80px;
+}
+
+.report-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  margin: 40px 0px;
+}
+
+.add-repo .fin-title {
+  text-align: left;
+}
+
+.archives {
+  padding: 20px 40px 60px;
+}
+
+.add-repo-text {
+  padding: 15px 0px;
+  text-align: left;
+  grid-column: span 4;
+}
+
+.add-repo-text h3 {
+  font-size: 24px;
+}
+
+.add-repo-link{
+  background-color: white;
+  font-size: 20px;
+  color: #3F86F0;
+  border: none;
+  padding: 10px 0px;
+}
+
+.fin-title {
+  font-size: 36px;
+  /* margin: 30px; */
+}
+
+.desp-cards {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+}
+
+.desp-cards-col {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.file {
+  padding: 5px 20px;
+}
+
+@media screen and  (min-width: 748px) and (max-width: 1010px) {
+  .add-repo-text {
+    grid-column: span 6;
+  }
+  .fin-desp-head{
+    min-height: 780px;
+  }
+  .fin-desp-head h1 {
+    font-size: 48px;
+  }
+}
+
+@media screen and  (min-width: 410px) and (max-width: 748px) {
+  .fin-desp-head{
+    min-height: 540px;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .financial-page {
+    padding: 100px 30px;
+  }
+
+  .fin-desp-head {
+    padding: 50px 30px;
+  }
+
+  .fin-desp-head h1 {
+    font-size: 36px;
+    padding: 10px 0px;
+  }
+
+  .fin-desp-head p {
+    padding: 40px 0px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .fin-annual-repo {
+    margin: 0px;
+  }
+
+  .add-repo .fin-title {
+    text-align: center;
+  }
+
+  .add-repo-text {
+    grid-column: span 12;
+    text-align: center;
+  }
+}

@@ -1,0 +1,46 @@
+.segments {
+  margin-top: 100px;
+}
+
+.segment-button {
+  padding: 0px 200px 70px;
+}
+
+.segment-button .active {
+  color: #8e8e8e;
+}
+
+.segment-button-text {
+  text-align: left;
+}
+
+.segment-button-text h3 {
+  font-size: 28px;
+  padding: 54px 0px 10px;
+}
+
+.segment-button-text li,
+.segment-button-text p {
+  font-size: 16px;
+  padding: 7px 0px;
+}
+
+.segment-button-text ul {
+  padding: 0px;
+}
+
+.segment-wrapper {
+  padding: 9px 0px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 748px) {
+  .segments {
+    margin-top: 30px;
+  }
+
+  .segment-button {
+    padding: 0px 15px 30px;
+  }
+}

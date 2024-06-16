@@ -1,0 +1,56 @@
+.carousel {
+  width: 200px !important;
+  height: 250px;
+  padding: 20px;
+  border: solid 1px black;
+  border-radius: 15px;
+  display: flex !important;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+}
+
+.custom-arrow {
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  bottom: -50px;
+  left: 40%;
+  transform: translateX(-50%);
+  z-index: 1;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.arrow-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.app-icon {
+  width: 35px;
+  height: 35px;
+  color: #7684b5;
+  padding: 5px;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 50px;
+}
+
+.app-nav-icon {
+  border: solid 1px black;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 748px) {
+  .app-prev-arrow,
+  .app-next-arrow{
+    bottom: -20px;
+  }
+}

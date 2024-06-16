@@ -1,0 +1,42 @@
+.years-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.years-row * {
+  padding: 0px 20px;
+}
+
+.years {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carousal-btn {
+  background-color: white;
+  border: none;
+}
+
+.report{
+  display: flex;
+}
+
+.icon-100 {
+  font-size: x-large;
+}
+
+#btn-off {
+  display: none;
+}
+
+.slider-container{
+  width: 50%;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 748px) {
+  .years-row * {
+    padding: 0px 10px;
+  }
+}

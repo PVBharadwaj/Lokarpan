@@ -1,0 +1,129 @@
+.kith-emp-cont {
+  width: 100%;
+  height: auto;
+}
+.emp-upper-section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #3f86f0;
+}
+.emp-upper-section-h1 {
+  font-size: 80px;
+  font-weight: 700;
+  max-width: 700px;
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+}
+.emp-emp-seg-section {
+  width: 80%;
+  margin: 0px auto 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.emp-seg-btn-section {
+  height: 40px;
+  width: 70%;
+  margin: 10px auto;
+  border: 2px solid #646a7b;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.emp-seg-btn {
+  height: 100%;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #646a7b;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+.emp-active {
+  color: black;
+}
+.emp-administration-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 100px 0px;
+  margin-bottom: 0;
+}
+.emp-admin-h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.emp-admin-p {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.emp-admin-ul {
+  padding: 15px;
+  margin: 0;
+  list-style-type: disc;
+  margin: 50px 0px;
+}
+.emp-admin-li {
+  list-style-type: disc;
+  font-size: 20px;
+  color: #333333;
+  font-weight: 500;
+}
+.emp-space-above {
+  margin-top: 50px;
+}
+.emp-emp-last-sec {
+  /* width: 400px; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-bottom: 100px;
+}
+
+.emp-last-sec-p {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.emp-last-sec-btn {
+  height: 40px;
+  width: 180px;
+  border: 1px solid black;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 17px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .emp-seg-btn-section {
+    width: 100%;
+  }
+}

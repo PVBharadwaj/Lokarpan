@@ -1,0 +1,24 @@
+.form-control1 {
+  font-size: x-large;
+  border: none;
+  margin: 10px 0px;
+  padding: 5px 123px;
+  width: calc(100% - 140px);
+  height: 50px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.form-control1:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 7px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+@media only screen and (max-width: 836px) {
+  .form-control1 {
+    padding: 5px 20px;
+    width: calc(100% - 20px);
+    font-size: 20px;
+  }
+}

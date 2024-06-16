@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,400;0,9..40,700;1,9..40,300&family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+}
+
+button {
+  font-family: "Inter", sans-serif !important;
+}
+
+.App {
+  font-family: "Inter", sans-serif;
+}
+
+.body-no-scroll {
+  overflow: hidden !important;
+}
+
+.apply-btn {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 100px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.blue {
+  background-color: #3f86f0;
+  border: 0px;
+  color: #ffffff !important;
+}
+
+.white {
+  background-color: #ffffff;
+  border: 0px;
+}
+
+.orange {
+  background-color: #ff9f0a;
+  border: 0px;
+}
+
+.transparent {
+  border: solid black 1px;
+}
+
+.body-btn {
+  font-size: 17px !important;
+  /* width: 150px; */
+  height: 40px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  letter-spacing: -0.374px;
+  line-height: 20px;
+  padding: 0px 30px;
+}
+
+.navbar-btn {
+  font-size: 11px !important;
+  padding: 1px 10px;
+  text-decoration: none;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px !important;
+}
+
+.apply-btn-text-black {
+  color: #000000 !important;
+}
+
+.apply-btn-text-white {
+  color: #ffffff !important;
+}
+
+@media screen and (max-width: 393px) {
+  .apply-btn {
+    margin-left: 0px !important;
+  }
+
+  .body-btn {
+    font-size: 14px !important;
+  }
+}

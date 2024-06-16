@@ -1,0 +1,639 @@
+.d_home_hero {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  min-height: 600px;
+  height: auto;
+  background-color: aquamarine;
+  padding: 50px 0px;
+}
+.d_home_hero_head1 {
+  font-size: 96px;
+  width: 70%;
+  margin: 0px auto;
+  font-weight: 700;
+  max-width: 1100px;
+  letter-spacing: -1.44px;
+  line-height: 100px;
+}
+.d_home_hero_head2 {
+  font-size: 64px;
+  font-weight: bold;
+}
+.d_home_hero_content {
+  width: 70%;
+  max-height: 1100px;
+  margin: 0px auto;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 26px;
+  line-height: 36px;
+  letter-spacing: 0.128px;
+}
+.d_home_section1 {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 100px auto;
+}
+.d_home_section1_right {
+  /* width: 600px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 45%;
+  margin-left: auto;
+}
+.d_home_section1_right h1 {
+  /* padding: 2rem 4rem 2rem 4rem; */
+  font-size: 30px;
+  font-weight: 550;
+  line-height: 40px;
+}
+.d_home_section1_left {
+  height: 350px;
+  width: 50%;
+}
+.image_right {
+  background-color: #f5eee6;
+}
+.link-para {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(29, 29, 31);
+  line-height: 25px;
+  letter-spacing: -0.374px;
+  margin: 30px 0px;
+}
+
+.image_left {
+  background-color: #f8edff;
+}
+.d_home_section2 {
+  text-align: center;
+  padding: 3rem 15%;
+  font-size: 1.5rem;
+  background-color: black;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+}
+
+.d_home_section2 h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.128px;
+  margin-bottom: 50px;
+  color: rgb(110, 110, 115);
+}
+.d_home_section2_image {
+  padding-bottom: 4rem;
+  margin-top: 50px;
+
+  height: 350px;
+  background-color: #f8edff;
+}
+.d_home_section3 {
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 20%;
+}
+.join-us-btn {
+  width: 180px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.d_home_section3_box {
+  display: flex;
+  padding: 2rem 0;
+}
+.d_home_section3_content {
+  text-align: left;
+  width: 50%;
+  padding: 2rem 4rem;
+  font-size: 1.5rem;
+}
+.d_home_section3_image {
+  height: 350px;
+  background-color: #e5e1da;
+  width: 50%;
+}
+.guideline_design {
+  background-color: beige;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 50px 0px;
+}
+.guideline_design h1 {
+  font-size: 96px;
+  width: 70%;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: -1.44px;
+  margin: 0px auto;
+  text-align: center;
+}
+.d-home-link {
+  color: rgb(41, 151, 255);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.126px;
+  line-height: 32px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.d-home-link:hover {
+  text-decoration: underline;
+}
+.mar-below-space {
+  margin-bottom: -4px;
+  stroke-width: 15px;
+}
+
+.d_home_section1_mobile_image {
+  height: 300px;
+  margin: 2rem;
+  background-color: #e5e1da;
+  margin-top: 100px;
+}
+.d_home_section1_mobile {
+  display: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.d_home_section1_mobile_text {
+  font-size: 24px;
+  font-weight: 550;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 90%;
+  margin: 0px auto;
+}
+.d_home_section1_mobile_text1 {
+  font-size: 32px;
+  font-weight: 550;
+  text-align: left;
+  padding: 0 2rem 6rem 2rem;
+}
+.design-p {
+  line-height: 30px;
+  font-size: 20px;
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+.design-p2 {
+  font-size: 20px;
+  line-height: 30px;
+  width: 90%;
+}
+
+.our-projects-head {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.new-our-projects-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 100vh;
+  margin: 150px auto;
+}
+.new-our-projects-each-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.new-our-projects-each-left-cont {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.new-btn-design {
+  height: 50px;
+  width: 160px;
+  border-radius: 25px;
+  border: 2px solid rgb(39, 39, 41);
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  color: rgb(39, 39, 41);
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.374px;
+  line-height: 20px;
+}
+.new-our-projects-each-left-cont h1 {
+  font-size: 48px;
+  font-weight: 600;
+  /* line-height: 1.0834933333; */
+  line-height: 52px;
+  letter-spacing: -0.144px;
+}
+.new-total-cont {
+  background-color: #f2f8ff;
+  padding: 50px 0px;
+  margin: 200px auto;
+  height: auto;
+}
+
+.new-our-projects-each-right-cont {
+  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1704897435/image_190_ssmaol.png");
+  /* height: 100%; */
+  width: 55%;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 1/1;
+}
+
+.new-our-projects-head {
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: rgb(0, 128, 9);
+}
+.new-space-left {
+  margin-left: auto;
+  width: 40%;
+}
+
+.new-guidelines-sec {
+  width: 85%;
+  margin: 150px auto;
+  height: auto;
+  max-width: 890px;
+}
+
+.new-guidelines-sec h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.144px;
+}
+.new-guidelines-sec p {
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.228px;
+  line-height: 23px;
+  color: rgb(29, 29, 31);
+  margin: 30px 0px;
+}
+
+.new-guidelines-sec a {
+  font-size: 17px;
+  color: #3f86f0;
+  margin: 40px auto;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+.new-guidelines-sec a:hover {
+  text-decoration: underline;
+}
+
+.new-guidelines-last-head {
+  width: 85%;
+  margin: 100px auto;
+  max-width: 890px;
+  margin-bottom: 0px;
+}
+.g-l1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.144px;
+}
+.g-l2 {
+  color: rgb(134, 134, 139);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.144px;
+}
+.new-design-carousal-container {
+  width: 100%;
+  height: 110vh;
+  overflow: hidden;
+  position: relative;
+  margin: 150px 0px;
+  margin-top: 50px;
+}
+.new-design-carousal-card-out {
+  height: 650px;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.new-flipped {
+  transform: rotateX(180deg);
+}
+.new-design-front,
+.new-design-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.new-design-back {
+  color: black;
+  border-radius: 32px;
+  transform: rotateX(180deg);
+}
+
+.new-plus-icon {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+.new-cross-icon {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  color: black;
+  font-size: 40px;
+  cursor: pointer;
+}
+.new-design-carousal-card {
+  width: 95%;
+  height: 80%;
+  border-radius: 30px;
+  min-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.new-des-front-head {
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  max-width: 70%;
+}
+
+.des-card1 {
+  background-image: url("https://www.apple.com/v/environment/z/images/overview/people_conserve__f4scnercv8mu_large_2x.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.des-card2 {
+  background-image: url("https://www.apple.com/v/environment/z/images/overview/people_energy__f0ej8xduixym_large_2x.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.des-card3 {
+  background-image: url("https://www.apple.com/v/environment/z/images/overview/people_carbon__cvwqtl8av9yu_large_2x.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.des-card4 {
+  background-image: url("https://www.apple.com/v/environment/z/images/overview/people_climate__bosgd4mutfma_large_2x.jpg");
+  background-position: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.des-arrows-cont {
+  position: absolute;
+
+  bottom: 0px;
+  height: 50px;
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.new-back-card {
+  border: 2px solid black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.new-back-card h1 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
+}
+.slick-slide {
+  opacity: 0.4; /* Adjust the opacity value as needed */
+  transition: opacity 0.5s ease; /* Add a transition for smoother effect */
+}
+
+.slick-slide.slick-active {
+  opacity: 1; /* Make the active slide fully visible */
+}
+.new-des-arrows-cont {
+  position: absolute;
+  left: 47%;
+  transform: "translateX(-50%)";
+  bottom: -50px;
+  height: 50px;
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 1200px) {
+  .new-our-projects-each-right-cont {
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .new-design-carousal-card {
+    min-width: 700px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .new-design-carousal-card {
+    min-width: 500px;
+  }
+  .new-our-projects-cont {
+    height: 1000px;
+  }
+  .new-our-projects-each-cont {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .new-our-projects-each-right-cont {
+    order: 1;
+    width: auto;
+    height: 120%;
+    box-sizing: content-box;
+  }
+  .new-our-projects-each-left-cont {
+    order: 2;
+    width: 100%;
+  }
+  .link-text {
+    /* margin-top: 50px; */
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 850px) {
+  .new-design-carousal-container {
+    height: 600px;
+  }
+  .guideline_design h1 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.144;
+  }
+  .new-guidelines-sec h1 {
+    font-size: 40px;
+  }
+  .new-our-projects-each-left-cont h1 {
+    font-size: 32x;
+    letter-spacing: 0.128px;
+  }
+  .g-l1 {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+  }
+  .g-l2 {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+  }
+  .d-home-link {
+    font-size: 21px;
+  }
+  .d_home_hero_content {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.216px;
+    line-height: 28px;
+  }
+  .d_home_hero {
+    padding: 0;
+  }
+  .d_home_hero_head1 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.144px;
+    width: 80%;
+  }
+  .d_home_hero_head2 {
+    padding-bottom: 2rem;
+    font-size: 32px;
+  }
+  .d_home_section1_mobile {
+    display: block;
+  }
+  .d_home_section1 {
+    display: none;
+  }
+  .d_home_section2 {
+    padding: 0;
+  }
+  .d_home_section2 h1 {
+    font-size: 21px !important;
+    letter-spacing: 0.231px;
+    line-height: 25px;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 30px;
+  }
+  .d_home_section3 {
+    display: none;
+  }
+  .d_home_section1_mobile_guideline {
+    padding: 4rem 0 2rem 0;
+  }
+
+  .d_home_section1_mobile_text {
+    margin-bottom: 30px;
+  }
+  .d_home_section1_mobile_text1 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 750px) {
+  .new-des-front-head {
+    font-size: 32px;
+  }
+  .new-back-card h1 {
+    font-size: 32px;
+    width: 80%;
+  }
+  .new-design-carousal-card {
+    margin: 0px 30px;
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .new-our-projects-each-right-cont {
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .new-design-carousal-card {
+    margin: 0px auto;
+  }
+}
+@media screen and (max-width: 530px) {
+  .new-our-projects-each-right-cont {
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .new-our-projects-each-right-cont {
+    height: 45%;
+  }
+}

@@ -1,0 +1,46 @@
+.alumnik1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: aquamarine;
+    padding: 3rem;
+}
+.alumnik_head{
+    text-align: center;
+    padding: 6rem 20rem;
+    font-size: 48px;
+    font-weight: 550;
+}
+.alumnik2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.alumnik4{
+    background-color: #3F86F0;
+}
+.alumnik3-image{
+    width: 50%;
+
+}
+.alumnik3-text{
+    width: 50%;
+}
+.alumnik3{
+    display: flex;
+    margin: 2rem;
+
+}
+.alumnik3-text h1{
+    padding:1rem 0 ;
+}
+.alumnik3-text1{
+    padding-bottom: 1rem ;
+}
+.alumnik3 button{
+    margin-bottom: 1rem ;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    width: 150px;
+}

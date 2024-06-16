@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+
+.kith-donate h1{
+    font-family: 'Noto Serif Display', serif;
+}
+
+@media screen and (max-width: 748px) {
+    .kith-donate{
+        padding: 75px 32px;
+    }
+
+    .kith-donate h1{
+        font-size: 20px;
+    }
+}

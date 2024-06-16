@@ -1,0 +1,4 @@
+.mooncarouselsubdiv{
+    width: calc(100% - 32px) !important;
+    margin: 0px 30px !important;
+}

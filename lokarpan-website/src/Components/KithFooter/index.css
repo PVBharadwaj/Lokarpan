@@ -1,0 +1,263 @@
+.address p {
+  color: rgb(110, 110, 115);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 7px 0;
+}
+.kith-footer-mobile {
+  display: none;
+}
+.hor-line4 {
+  width: 85%;
+}
+@media only screen and (max-width: 836px) {
+  .hor-line4 {
+    width: 95%;
+  }
+  .address {
+    display: none;
+  }
+  .address-mobile p {
+    color: rgb(110, 110, 115);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 7px 0;
+  }
+  .kith-footer-mobile {
+    display: block;
+  }
+}
+
+/* .footer-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #979797;
+  padding: 100px 123px 0px;
+  background-color: #e2e4e5;
+}
+.footer-container-inner {
+  width: 100%;
+  overflow: hidden;
+}
+.content {
+  height: auto;
+  width: 100%;
+}
+.content,
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.footer-container a {
+  line-height: 40px;
+}
+
+.footer-list h4 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.footer-list ul li {
+  display: flex;
+  justify-content: left;
+}
+.footer-list ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.footer-list ul li a {
+  text-decoration: none;
+  color: #646a7b;
+  font-size: 14px;
+  font-weight: 500;
+}
+.icons-container {
+  display: flex;
+  margin-left: auto;
+  width: 197px;
+  height: 34px;
+  justify-content: space-between;
+}
+.icon {
+  font-size: 24px;
+}
+
+.icons-container a {
+  color: black;
+}
+
+.footer-icon {
+  font-size: 24px;
+}
+.social-links span a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333333;
+}
+
+.social-links span {
+  margin-right: 16px;
+  font-size: 14px;
+}
+
+.social-links {
+  align-items: center;
+  height: auto;
+  width: 100%;
+  justify-content: flex-start;
+  padding: 30px 0px;
+}
+
+.footer-brand-name {
+  display: none;
+}
+
+.footerArrow {
+  display: none;
+}
+.lokarpan-logo {
+  height: 30px;
+  width: 100px;
+}
+.icons-list {
+  width: 150px;
+  margin-top: 20px;
+}
+.mobile-footer-last-sec {
+  display: none;
+}
+.footer-hor-line {
+  display: none;
+}
+.kith-footer-mobile {
+  display: none;
+}
+.address p {
+  color: #646a7b;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 7px 0;
+} */
+/* 
+@media only screen and (max-width: 836px) {
+  .address {
+    display: none;
+  }
+  .address-mobile p {
+    color: #646a7b;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 7px 0;
+  }
+  .kith-footer-mobile {
+    display: block;
+  }
+  .footer-container {
+    padding: 10px 30px;
+  }
+  .footer-mobile {
+    background-color: #e2e4e5;
+    height: auto;
+  }
+  .footer-brand-name {
+    display: block;
+    margin: 10px 0px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+
+  .footerArrow {
+    display: block;
+    font-size: 12px;
+  }
+
+  .footer-list-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: #646a6b;
+  }
+
+  .footer-list h4 {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .footerArrow.active {
+    transition: rotate(90deg) 1s ease;
+  }
+
+  .footer-list-items {
+    max-height: 0px;
+    visibility: hidden;
+    transition: max-height 0.7s ease-in-out, visibility 0.7s ease-in-out;
+  }
+
+  .footer-list-items.open {
+    max-height: 1000px;
+    visibility: visible;
+    transition: max-height 0.7s ease-in-out, visibility 0.7s ease-in-out;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+    align-items: left;
+    padding: 10px 0px;
+  }
+  .icons-container {
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  .icons-container a {
+    margin: 5px;
+  }
+  .policy-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .social-links span {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .social-links span a {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .mobile-footer-last-sec {
+    display: inline-block;
+    font-size: 12px;
+  }
+  .desktop-footer-last-sec {
+    display: none;
+  }
+  .footer-list ul li a {
+    font-size: 12px;
+  }
+  .footer-hor-line {
+    display: block;
+    border: 1px solid #646a7b;
+    width: 100%;
+    margin: 10px 0;
+  }
+} */

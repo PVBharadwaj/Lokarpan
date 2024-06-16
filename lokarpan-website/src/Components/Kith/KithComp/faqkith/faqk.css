@@ -1,0 +1,40 @@
+.faq-kith{
+    margin: 4rem 20% 8rem;
+}
+.faq-head{
+    font-size: 64px;
+    font-weight: 600;
+    padding: 0 0 2rem 0;
+}
+.faqk-qna{
+    padding: 1rem 0;
+}
+.faq-q{
+    font-size: 28px;
+    font-weight: 600;
+}
+.faqk-a{
+    padding: 1rem ;
+}
+.faqk-a li{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    color: grey;
+    list-style: disc;
+}
+@media screen and (max-width: 748px) {
+    .faq-head{
+        font-size: 24px;
+    }
+    .faq-kith{
+        margin: 4rem 2rem;
+    }
+    .faq-q{
+        font-size: 20px;
+    }
+    .faqk-a li{
+        font-size: 14px;
+    }
+
+}
