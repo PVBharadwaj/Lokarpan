@@ -306,11 +306,11 @@ const Navbar = () => {
     var dropdownHeight = document.getElementById("navbar-bg-layer");
     if (dropdownHeight) {
       if (dropdownId === "overviewDropdown") {
-        dropdownHeight.style.height = "200px";
+        dropdownHeight.style.height = "250px";
       } else if (dropdownId === "schoolDropdown") {
-        dropdownHeight.style.height = "240px";
+        dropdownHeight.style.height = "290px";
       } else {
-        dropdownHeight.style.height = "280px";
+        dropdownHeight.style.height = "330px";
       }
     }
   };
