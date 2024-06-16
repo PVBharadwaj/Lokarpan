@@ -11,11 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-<<<<<<< HEAD
-# from rest_framework.permissions import AllowAny
-=======
 from rest_framework.permissions import AllowAny
->>>>>>> bb8fa7a3cbf0695f9861bc490914fadb96d399b9
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -48,11 +44,7 @@ INSTALLED_APPS = [
     'timeline',
     'rest_framework',
     'corsheaders',
-<<<<<<< HEAD
-    'newsletter_subscribe',
-=======
     'newsletter_subscribe.apps.NewsletterSubscribeConfig',
->>>>>>> bb8fa7a3cbf0695f9861bc490914fadb96d399b9
 
 ]
 
