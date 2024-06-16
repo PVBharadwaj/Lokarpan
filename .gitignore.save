@@ -1,3 +1,4 @@
+
 # Created by https://www.gitignore.io/api/django,python,pycharm
 
 
@@ -86,11 +87,10 @@ fabric.properties
 
 # *.iml
 # modules.xml
-# .idea/misc.xml
-# *.ipr
-
+#
 #nodemodules
 node_modules/
+
 
 # Sonarlint plugin
 .idea/sonarlint
