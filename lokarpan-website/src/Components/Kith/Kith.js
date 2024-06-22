@@ -84,30 +84,30 @@ const Kith = () => {
       <div className='new-kith-display'>
       <div className="kith-overview-div kith-overview-grid">
         <div className='overview-grid-inner kith-overview-grid-inner1'>
-          <div>
+          <div >
             <p>We prioritise accessibility and excellence in education. Join our vibrant learning community today. </p>
             <Link to="/kith/admission" className='kith-link'>Learn more about our Admissions</Link> 
           </div>
         </div>
         <div className='overview-grid-inner kith-overview-grid-inner2'>
-          <div className='mobile-only'>
-            <p>Explore transparent and accessible information about tuition fees and scholarships available to support your child's education journey at the Kith n Kin School</p>
-            <Link to="/kith/financials" className='kith-link'>Learn more about our Financials</Link> 
-          </div>
+          
         </div>
         <div className='overview-grid-inner kith-overview-grid-inner3'>
-          <div>
-            <p>Explore transparent and accessible information about tuition fees and scholarships available to support your child's education journey at the Kith n Kin School</p>
-            <Link to="/kith/financials" className='kith-link'>Learn more about our Financials</Link> 
+          <div className='kith-explore'>
+            <div>Explore transparent and accessible information about tuition fees and scholarships available to support your child's education journey at the Kith n Kin School</div>
+         <div className='exll'><Link to="/kith/financials" className='kith-explore-link'>Learn more about our Financials
+         </Link> </div>
           </div>
         </div>
         <div className='overview-grid-inner kith-overview-grid-inner4'>
         <p>Exceptionalism can come anywhere from.</p>
         </div>
         <div className='overview-grid-inner kith-overview-grid-inner5'>
-        <div>
-            <p>Access essential information about our school's leadership, employment opportunities, frequently asked questions, and donation options to support our mission.</p>
-            <Link to="/kith/leadership" className='kith-link'>Read more </Link> 
+        <div className='kith-explore'>
+            <div>Access essential information about our school's leadership, employment opportunities, frequently asked questions, and donation options to support our mission.
+</div>
+          <div className='exll' ><Link to="/kith/leadership" className='kith-explore-link'>Read more
+          </Link></div>
           </div>
         </div>
 
@@ -133,26 +133,52 @@ const Kith = () => {
       <div className='new-kith-display-mobile'>
         <div className='new-kith-display1'>
 
+<div className='new-kith-display-head'>
+We prioritise accessibility and excellence in education. Join our vibrant learning community today. 
 
+</div>
+<div className='new-kith-display-link'>
+<Link to="/kith/admission" >Learn more about our Admissions</Link> 
+</div>
         </div>
         <div className='new-kith-display2'>
+        <div className='new-kith-display-head'>
+        Explore transparent and accessible information about tuition fees and scholarships available to support your child's education journey at the Kith n Kin School
 
+</div>
+<div className='new-kith-display-link'>
+<Link to="/kith/financials" >Learn more about our Financials
+         </Link> 
+
+</div>
 
         </div>
         <div className='new-kith-display3'>
 
+        <div className='new-kith-display-head1'>
+        Exceptionalism can come anywhere from.
+
+</div>
 
         </div>
-        <div className='new-kith-display4'>
-
-
-        </div>
+        
         <div className='new-kith-display5'>
 
+<div className='new-kith-display-head'>Access essential information about our school's leadership, employment opportunities, frequently asked questions, and donation options to support our mission.
+</div><div className='new-kith-display-link'>
+  <Link to="/kith/leadership" >Read more
+</Link> </div>
+        </div>
+        <div className='new-kith-display4'>
+        <div className='new-kith-display-head'>
+        Immerse yourself in our dynamic campus environment, cultural activities and a curriculum tailored to meet the diverse learning needs of students, empowering them to achieve academic excellence and personal growth.
+
+</div>
 
         </div>
         <div className='new-kith-display6'>
-
+        <div className='new-kith-display-link1'>
+          <Link to="/kith/life-at-school" className='kith-link1'>Read more about Life at School <FaArrowRightLong/></Link> </div>
 
         </div>
         </div>
