@@ -3,7 +3,7 @@
 .kith-overview-head {
   background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446765/image_274_lwa7he.png");
   background-size: cover;
-  height: 600px;
+  height: 712px;
   width: 100%;
   background-size: cover;
   display: flex;
@@ -167,7 +167,7 @@
 }
 
 .overview-grid-inner .kith-link {
-  color: #3f86f0;
+  color: #000;
   padding: 0 40px;
 }
 
@@ -184,7 +184,7 @@
   background-repeat: no-repeat;
   background-size: 130%;
   background-position: center center;
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .kith-overview-grid-inner1 {
@@ -211,7 +211,7 @@
 }
 
 .kith-overview-grid-inner4 {
-  background-color: #3f86f0;
+  background-color: #030224;
   grid-row: span 1;
   grid-column: span 4;
 }
@@ -241,7 +241,34 @@
   display: flex;
   align-items: flex-start;
 }
+.kith-explore{
+  padding: 120px 40px 0 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.kith-explore {
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
 
+.kith-explore:hover {
+  color: #2251ff;
+  transform: translateY(-10px);
+}
+
+.kith-explore a {
+  color: inherit;
+
+}
+
+.kith-explore:hover a {
+  color: inherit;
+}
+
+
+.exll{
+  padding-top: 10px;
+}
 .kith-overview-grid-inner7 > div > div {
   background-color: #2251ff;
   padding: 30px 0px;
@@ -254,13 +281,13 @@
   cursor: pointer;
 
   background-size: 140%;
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
 }
-.kith-overview-grid-inner3:hover {
-  background-size: 120%;
-  transition: all 1s ease-in-out;
-  cursor: pointer;
+
+.kith-overview-grid-inner1 .kith-link{
+  color: #fff;
 }
+
 .kith-overview-grid-inner1 p {
   font-size: 28px;
   color: white;
@@ -269,10 +296,10 @@
   line-height: 1.5;
 }
 .kith-link1 {
-  padding: 0 20px 0 40px;
+  padding: 0 30px 0 30px;
   color: #fff;
 }
-.kith-link1 a {
+.kith-link1 a{
   text-decoration: none;
 }
 
@@ -308,43 +335,44 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  transition: all 1s;
+  transition: all .5s;
 }
 
 .kith-overview-grid-inner7 .kith-link1:hover {
   gap: 20px;
-  transition: all 1s;
+  transition: all .5s;
   cursor: pointer;
 }
 
 .kith-overview-grid-inner1 div {
   padding-bottom: 50px;
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
-.kith-overview-grid-inner1:hover div p {
-  color: #3f86f0;
-  transform: translateY(-10px);
-  transition: all 1s ease-in-out;
+.kith-overview-grid-inner1:hover div p ,.kith-overview-grid-inner1:hover .kith-link{
+  color: #2251ff;
+  transform: translateY(-5px);
+  transition: all .5s ease-in-out;
 }
 
 .kith-overview-grid-inner2 div,
 .kith-overview-grid-inner3 div,
 .kith-overview-grid-inner8 div,
 .kith-overview-grid-inner7 div p {
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .kith-overview-grid-inner2:hover div,
-.kith-overview-grid-inner3:hover div p,
+
 .kith-overview-grid-inner8:hover div,
 .kith-overview-grid-inner7:hover div p,
 .kith-overview-grid-inner5:hover div p {
-  color: #3f86f0;
+  color: #2251ff;
   transform: translateY(-10px);
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
   cursor: pointer;
 }
+
 
 .mobile-only {
   display: none;
@@ -352,17 +380,19 @@
 
 .kith-overview-grid-inner4 p {
   color: white;
-  font-size: 28px;
-  padding: 40px;
-  transition: all 1s ease-in-out;
+  font-size: 24px;
+  padding: 4rem;
+  padding-right: 20rem;
+  transition: all .5s ease-in-out;
   font-weight: 600;
   line-height: 1.5;
 }
 
 .kith-overview-grid-inner4:hover p {
-  color: black;
+  color: #007aff;
+  
   transform: translateY(-5px);
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
   cursor: pointer;
 }
 
@@ -384,7 +414,7 @@
 .kith-overview-last-div {
   background-color: #3f86f0;
   color: white;
-  padding: 200px;
+  padding: 100px;
   margin-bottom: 300px;
 }
 
@@ -414,48 +444,99 @@
 @media only screen and (max-width: 805px) {
   .new-kith-display-mobile {
     display: block;
+    color: #fff;
   }
-  .new-kith-display1 {
-    width: 100%;
-    height: 370px;
-    background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446765/image_266_gupyt0.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  .new-kith-display1,
+.new-kith-display2,
+.new-kith-display3,
+.new-kith-display4,
+.new-kith-display5 {
+  position: relative;
+  width: 100%;
+  height: 370px;
+  overflow: hidden; /* Ensure the pseudo-element does not overflow */
+}
 
-  .new-kith-display2 {
-    width: 100%;
-    height: 370px;
-    background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446765/image_267_ju4vv1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+/* Pseudo-element for blurring the background image */
+.new-kith-display1::before,
+.new-kith-display2::before,
+.new-kith-display4::before,
+.new-kith-display5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(0px);
+  -webkit-filter: blur(3px);
+  z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
 
-  .new-kith-display3 {
-    width: 100%;
-    height: 370px;
-    background-color: #3f86f0;
-  }
+/* Specific background images */
+.new-kith-display1::before {
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446765/image_266_gupyt0.png");
+}
 
-  .new-kith-display4 {
-    width: 100%;
-    height: 370px;
-    background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446764/image_265_azvlwk.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+.new-kith-display2::before {
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446765/image_267_ju4vv1.png");
+}
 
-  .new-kith-display5 {
-    width: 100%;
-    height: 370px;
-    background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446764/image_268_ygauso.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+.new-kith-display4::before {
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446764/image_265_azvlwk.png");
+}
+
+.new-kith-display5::before {
+  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446764/image_268_ygauso.png");
+ 
+}
+.new-kith-display-link a{
+  color:#fff;
+  text-decoration: none;
+}
+
+/* For the plain color background in new-kith-display3 */
+.new-kith-display3 {
+  background-color: #030224;
+}
+
+/* Optional: Add content styling inside the divs */
+.new-kith-display-head,
+.new-kith-display-head1,
+.new-kith-display-link,
+.new-kith-display-link1 {
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Specific padding for different classes */
+.new-kith-display-head {
+  padding: 20px 30px;
+  padding-top: 200px;
+}
+
+.new-kith-display-head1 {
+  padding: 30px;
+  padding-top: 250px;
+  padding-right: 50px;
+}
+.new-kith-display4 .new-kith-display-head{
+  color: #000;
+}
+.new-kith-display-link {
+  padding: 0 30px;
+}
+
+.new-kith-display-link1 {
+  padding: 1rem;
+  font-size: 24px;
+}
+
 
   .new-kith-display6 {
     width: 100%;
