@@ -84,30 +84,30 @@ const Kith = () => {
       <div className='new-kith-display'>
       <div className="kith-overview-div kith-overview-grid">
         <div className='overview-grid-inner kith-overview-grid-inner1'>
-          <div>
+          <div >
             <p>We prioritise accessibility and excellence in education. Join our vibrant learning community today. </p>
             <Link to="/kith/admission" className='kith-link'>Learn more about our Admissions</Link> 
           </div>
         </div>
         <div className='overview-grid-inner kith-overview-grid-inner2'>
-          <div className='mobile-only'>
-            <p>Explore transparent and accessible information about tuition fees and scholarships available to support your child's education journey at the Kith n Kin School</p>
-            <Link to="/kith/financials" className='kith-link'>Learn more about our Financials</Link> 
-          </div>
+          
         </div>
         <div className='overview-grid-inner kith-overview-grid-inner3'>
-          <div>
-            <p>Explore transparent and accessible information about tuition fees and scholarships available to support your child's education journey at the Kith n Kin School</p>
-            <Link to="/kith/financials" className='kith-link'>Learn more about our Financials</Link> 
+          <div className='kith-explore'>
+            <div>Explore transparent and accessible information about tuition fees and scholarships available to support your child's education journey at the Kith n Kin School</div>
+         <div className='exll'><Link to="/kith/financials" className='kith-explore-link'>Learn more about our Financials
+         </Link> </div>
           </div>
         </div>
         <div className='overview-grid-inner kith-overview-grid-inner4'>
         <p>Exceptionalism can come anywhere from.</p>
         </div>
         <div className='overview-grid-inner kith-overview-grid-inner5'>
-        <div>
-            <p>Access essential information about our school's leadership, employment opportunities, frequently asked questions, and donation options to support our mission.</p>
-            <Link to="/kith/leadership" className='kith-link'>Read more </Link> 
+        <div className='kith-explore'>
+            <div>Access essential information about our school's leadership, employment opportunities, frequently asked questions, and donation options to support our mission.
+</div>
+          <div className='exll' ><Link to="/kith/leadership" className='kith-explore-link'>Read more
+          </Link></div>
           </div>
         </div>
 

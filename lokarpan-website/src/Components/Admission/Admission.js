@@ -10,10 +10,12 @@ const Admission = () => {
       <KithNavbar />
       <KithAdmissionSubNavbar />
       <div className="admissions-upper-section">
-        <h1>
-          We are thrilled to extend a warm welcome to you as part of the
-          Lokarpan family.
-        </h1>
+        
+      </div>
+      <div className="kith-overview-div kith-overview-second-div">
+        <h1 className="kith-life-head"> We are thrilled to extend a warm welcome to you as part of the
+        Lokarpan family.</h1>
+       
       </div>
       <div className="admissions-div">
         <div className="admission-card">
