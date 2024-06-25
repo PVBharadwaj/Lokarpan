@@ -261,6 +261,17 @@
   transition: all 1s ease-in-out;
   cursor: pointer;
 }
+
+.overview-grid-inner-mobile{
+  display: flex;
+  align-items: flex-end;
+  color: white;
+}
+
+.padding-20{
+  padding: 30px;
+}
+
 .kith-overview-grid-inner1 p {
   font-size: 28px;
   color: white;
