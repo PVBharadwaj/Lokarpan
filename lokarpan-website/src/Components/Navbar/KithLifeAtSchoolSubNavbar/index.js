@@ -8,11 +8,11 @@ const KithLifeAtSchoolSubNavbar = () => {
   const timeoutRef = useRef(null);
 
   const toggleNavmenu = () => {
-    if(isNavmenuOpen) {
-      setNavmenuOpen(false)
+    if (isNavmenuOpen) {
+      setNavmenuOpen(false);
     } else {
       clearTimeout(timeoutRef.current);
-      setNavmenuOpen(true)
+      setNavmenuOpen(true);
     }
   };
 
@@ -24,7 +24,7 @@ const KithLifeAtSchoolSubNavbar = () => {
   const closeBrowseMenu = () => {
     timeoutRef.current = setTimeout(() => {
       setNavmenuOpen(false);
-    }, 500); 
+    }, 500);
   };
 
   return (
@@ -42,8 +42,10 @@ const KithLifeAtSchoolSubNavbar = () => {
         >
           <p className="desktop-only">
             <span>Browse All</span>
-            <BsChevronDown 
-              className={`react-icon arrow-down ${isNavmenuOpen ? "arrow-rotate" : ""}`} 
+            <BsChevronDown
+              className={`react-icon arrow-down ${
+                isNavmenuOpen ? "arrow-rotate" : ""
+              }`}
             />
           </p>
           <div
@@ -57,8 +59,8 @@ const KithLifeAtSchoolSubNavbar = () => {
                 <ul className="support-subnav-list">
                   <h1 className="sub-heading">Explore Life At School</h1>
                   <li>
-                      <Link to="/kith/life-at-school">Explore</Link>
-                    </li>
+                    <Link to="/kith/life-at-school">Explore</Link>
+                  </li>
                   <li>
                     <Link to="/kith/campus-and-culture">Campus & Culture</Link>
                   </li>
@@ -70,18 +72,23 @@ const KithLifeAtSchoolSubNavbar = () => {
                       Safety & WellBeing
                     </Link>
                   </li>
+                  <li>
+                    <Link to="/kith/academics">Academics</Link>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </li>
-      <div className="mobile-view-dropdown" onClick={toggleNavmenu}>
-        <p>
-        <BsChevronDown 
-              className={`react-icon arrow-down ${isNavmenuOpen ? "arrow-rotate" : ""}`} 
+        <div className="mobile-view-dropdown" onClick={toggleNavmenu}>
+          <p>
+            <BsChevronDown
+              className={`react-icon arrow-down ${
+                isNavmenuOpen ? "arrow-rotate" : ""
+              }`}
             />
-        </p>
-      </div>
+          </p>
+        </div>
         <li className="navbar-item apply-btn orange">
           <Link to="/donate" className="apply-btn-text-white navbar-btn">
             Donate
