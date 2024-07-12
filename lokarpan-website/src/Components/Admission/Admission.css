@@ -93,8 +93,9 @@
 }
 
 .admission-card-text p {
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 19px;
+  line-height: 1.5;
+  font-weight: 600;
 }
 
 .admissions-grid {
@@ -115,7 +116,7 @@
 .admission-grid-inner1 {
   grid-row: span 4;
   grid-column: span 5;
-  padding: 0px 20px;
+  padding: 0px 40px;
   background-color: #f5f5f5;
   color: black;
 }
@@ -133,6 +134,8 @@
 
 .admissions-grid-inner > p {
   font-size: 24px;
+  line-height: 1.5;
+  font-weight: 600;
 }
 
 .admission-grid-inner1 > p {
@@ -228,7 +231,9 @@
   }
 
   .admissions-div2 {
-    padding: 100px 50px;
+    padding: 100px 0px;
+    width: 90%;
+    margin: 0px auto;
     /* gap: 16px; */
     padding-top: 0;
   }
@@ -277,6 +282,8 @@
 
   .admission-card-text p {
     font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
   }
 
   .admission-card-text div {
@@ -295,12 +302,14 @@
   }
   .mobile-admissions-faculty-content h1 {
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .mobile-admissions-faculty-content p {
     font-size: 16px;
     width: calc(100% - 100px);
     margin: 0 auto;
+    line-height: 1.5;
+    font-weight: 600;
   }
 
   .admission-grid-inner2 p {
@@ -323,6 +332,8 @@
 
   .admissions-grid-inner > p {
     font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
   }
 
   .admission-grid-inner2 {
@@ -364,10 +375,11 @@
     width: calc(100% - 32px);
   }
   .admissions-div {
-    padding: 50px 20px;
+    padding: 0px 20px;
+    margin-top: 0;
   }
   .mobile-admissions-faculty-content p {
-    width: calc(100% - 40px);
+    width: calc(100% - 30px);
   }
 }
 

@@ -105,7 +105,7 @@ node_modules/
 
 # Distribution / packaging
 .Python
-build/
+# build/
 develop-eggs/
 dist/
 downloads/

@@ -131,55 +131,40 @@ const Kith = () => {
         
       </div>
       <div className='new-kith-display-mobile'>
-        <div className='new-kith-display1'>
-
-<div className='new-kith-display-head'>
-We prioritise accessibility and excellence in education. Join our vibrant learning community today. 
-
-</div>
-<div className='new-kith-display-link'>
-<Link to="/kith/admission" >Learn more about our Admissions</Link> 
-</div>
+        <div className='overview-grid-inner-mobile new-kith-display1'>
+        <div className='padding-20'>
+            <p>We prioritise accessibility and excellence in education. Join our vibrant learning community today. </p>
+            <Link to="/kith/admission" className='kith-link'>Learn more about our Admissions</Link> 
+          </div>
         </div>
-        <div className='new-kith-display2'>
-        <div className='new-kith-display-head'>
-        Explore transparent and accessible information about tuition fees and scholarships available to support your child's education journey at the Kith n Kin School
-
-</div>
-<div className='new-kith-display-link'>
-<Link to="/kith/financials" >Learn more about our Financials
-         </Link> 
-
-</div>
-
+        <div className='overview-grid-inner-mobile new-kith-display2'>
+        <div className='padding-20'>
+            <p>Explore transparent and accessible information about tuition fees and scholarships available to support your child's education journey at the Kith n Kin School</p>
+            <Link to="/kith/financials" className='kith-link'>Learn more about our Financials</Link> 
+          </div>
         </div>
-        <div className='new-kith-display3'>
-
-        <div className='new-kith-display-head1'>
-        Exceptionalism can come anywhere from.
-
-</div>
-
+        <div style={{height: 'fit-content'}} className='overview-grid-inner-mobile new-kith-display3'>
+        <div className='padding-20'>
+            <p>Explore transparent and accessible information about tuition fees and scholarships available to support your child's education journey at the Kith n Kin School</p>
+            <Link to="/kith/financials" style={{color: 'black'}} className='kith-link'>Learn more about our Financials</Link> 
+          </div>
         </div>
-        
-        <div className='new-kith-display5'>
-
-<div className='new-kith-display-head'>Access essential information about our school's leadership, employment opportunities, frequently asked questions, and donation options to support our mission.
-</div><div className='new-kith-display-link'>
-  <Link to="/kith/leadership" >Read more
-</Link> </div>
+        <div className='overview-grid-inner-mobile new-kith-display4'>
+          <div className='padding-20'>
+          <p>Exceptionalism can come anywhere from.</p>
+          </div>
         </div>
-        <div className='new-kith-display4'>
-        <div className='new-kith-display-head'>
-        Immerse yourself in our dynamic campus environment, cultural activities and a curriculum tailored to meet the diverse learning needs of students, empowering them to achieve academic excellence and personal growth.
-
-</div>
-
+        <div className='overview-grid-inner-mobile new-kith-display5'>
+        <div className='padding-20'>
+            <p>Access essential information about our school's leadership, employment opportunities, frequently asked questions, and donation options to support our mission.</p>
+            <Link to="/kith/leadership" className='kith-link'>Read more </Link> 
+          </div>
         </div>
-        <div className='new-kith-display6'>
-        <div className='new-kith-display-link1'>
-          <Link to="/kith/life-at-school" className='kith-link1'>Read more about Life at School <FaArrowRightLong/></Link> </div>
-
+        <div style={{height: 'fit-content'}} className='overview-grid-inner-mobile new-kith-display6'>
+        <div className='padding-20'>
+            <p>Immerse yourself in our dynamic campus environment, cultural activities and a curriculum tailored to meet the diverse learning needs of students, empowering them to achieve academic excellence and personal growth.</p>
+            <div className='no-hover-effect'><Link to="/kith/life-at-school" style={{color: 'black'}} className='kith-link'>Read more about Life at School <FaArrowRightLong/></Link> </div>
+          </div>
         </div>
         </div>
       <div className='kith-overview-div overview-img-div'>

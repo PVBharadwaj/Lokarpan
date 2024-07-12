@@ -283,9 +283,20 @@
   background-size: 140%;
   transition: all .5s ease-in-out;
 }
+.kith-overview-grid-inner3:hover {
+  background-size: 120%;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
 
-.kith-overview-grid-inner1 .kith-link{
-  color: #fff;
+.overview-grid-inner-mobile{
+  display: flex;
+  align-items: flex-end;
+  color: white;
+}
+
+.padding-20{
+  padding: 30px;
 }
 
 .kith-overview-grid-inner1 p {

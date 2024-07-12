@@ -128,6 +128,7 @@
 } */
 .clubs-div div {
   margin-bottom: 30px;
+  padding: 0px !important;
 }
 .kith-life-head {
   font-size: 96px !important;
