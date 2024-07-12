@@ -20,7 +20,7 @@
   cursor: pointer;
   display: flex;
   bottom: -50px;
-  left: 40%;
+  left: 50%;
   transform: translateX(-50%);
   z-index: 1;
   flex-direction: column-reverse;
