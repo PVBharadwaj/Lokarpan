@@ -367,9 +367,17 @@ const Navbar = () => {
             >
               <div className="dropdown-content-inner">
                 <div className="dropdown-container">
+                  <h1 className="nav-heading">Explore Admission</h1>
                   <ul className="list-item-container">
-                  <li>
-                      <Link to="/kith/admission">Explore</Link>
+                    <li className="mobile-explore">
+                      <Link
+                        to="/kith/admission"
+                        onClick={(e) => {
+                          toggleMenu(e);
+                        }}
+                      >
+                        Explore Admission
+                      </Link>
                     </li>
                     <li>
                       <Link to="/kith/admission">Admission</Link>
@@ -407,14 +415,20 @@ const Navbar = () => {
             >
               <div className="dropdown-content-inner">
                 <div className="dropdown-container">
+                  <h1 className="nav-heading">Explore Life At School</h1>
                   <ul className="list-item-container">
-                  <li>
-                      <Link to="/kith/life-at-school">Explore</Link>
+                    <li className="mobile-explore">
+                      <Link
+                        to="/kith/life-at-school"
+                        onClick={(e) => {
+                          toggleMenu(e);
+                        }}
+                      >
+                        Explore Life At School
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/kith/life-at-school">
-                        Life At School
-                      </Link>
+                      <Link to="/kith/life-at-school">Life At School</Link>
                     </li>
                     <li>
                       <Link to="/kith/campus-and-culture">
@@ -459,13 +473,19 @@ const Navbar = () => {
             >
               <div className="dropdown-content-inner">
                 <div className="dropdown-container">
+                  <h1 className="nav-heading">Explore Information</h1>
                   <ul className="list-item-container">
-                  <li>
-                      <Link to="/kith/information">Explore</Link>
+                    <li className="mobile-explore">
+                      <Link
+                        to="/kith/information"
+                        onClick={(e) => {
+                          toggleMenu(e);
+                        }}
+                      >
+                        Explore Information
+                      </Link>
                     </li>
-                    <li>
-                      <Link to="/kith/information">Information</Link>
-                    </li>
+
                     <li>
                       <Link to="/kith/leadership">Leadership</Link>
                     </li>

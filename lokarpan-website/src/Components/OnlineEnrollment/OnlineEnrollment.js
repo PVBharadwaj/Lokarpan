@@ -18,11 +18,6 @@ const OnlineEnrollment = () => {
           A Registration of Interest allows you to submit general and contact
           information for a parent or guardian as well as the potential
           candidate’s general information.{" "}
-          <span>
-            <a href="/" className="enrollment-upper-section-a">
-              Read more
-            </a>
-          </span>
         </p>
         <Link to="/donate" className="kith-apply-btn white">
           Apply

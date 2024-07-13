@@ -109,13 +109,13 @@ const HowTo = () => {
     <>
       <Navbar />
       <KithAdmissionSubNavbar />
-      <div className="how-to-upper-section">
-     
-      </div>
+      <div className="how-to-upper-section"></div>
       <div className="kith-overview-div kith-overview-second-div">
-        <h1 className="kith-life-head"> We are thrilled to extend a warm welcome to you as part of the
-        Lokarpan family.</h1>
-       
+        <h1 className="kith-life-head">
+          {" "}
+          We are thrilled to extend a warm welcome to you as part of the Kith n
+          Kin family
+        </h1>
       </div>
       <div className="howto-page">
         <div className="howto-card">

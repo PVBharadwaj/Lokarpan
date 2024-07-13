@@ -51,59 +51,86 @@ const SegmentButton = () => {
           {active === "deadline" && (
             <div className="segment-button-text">
               <div>
-                <h3>Applicants to HBS must have the following:</h3>
+                <h3>Applicants to Kith must have the following:</h3>
+                <h2 className="how-to-head2">
+                  An existing student in a school
+                </h2>
                 <ul>
-                  <li>+A four-year undergraduate degree or its equivalent</li>
-                  <li>+GMAT or GRE test results</li>
+                  <li>Ensure you have a valid Aadhar card.</li>
                   <li>
-                    +English language test results if you attended a non-English
-                    undergraduate program
+                    Provide your Student PEN (Permanent Education Number) code.
+                  </li>
+                  <li>
+                    Provide your prior school name and address,, and/orInclude
+                    your UDISE+ (Unified District Information System for
+                    Education Plus) portal number.
+                  </li>
+                  <li>
+                    Submit transcripts from your previous educational
+                    institutions.
                   </li>
                 </ul>
               </div>
               <div>
-                <h3>Written application</h3>
-                <p>
-                  To apply to Harvard Business School, we ask you to assemble
-                  and prepare a variety of materials that will help us assess
-                  your qualifications. Remember, all materials must be submitted
-                  to HBS online by the application deadlines. The following
-                  serves as a preview of what you need to prepare.
-                </p>
+                <h2 className="how-to-head2">
+                  Entering the school system(out of school students, preprimary
+                  or primary student who is entering the educational system for
+                  the first time)
+                </h2>
+                <ul>
+                  <li>
+                    Parent and guardian details includes phone, address, aadhar
+                  </li>
+                  <li>
+                    Proof of ageBirth certificate or aadhar application for
+                    minors.
+                  </li>
+                  <li>
+                    Caveat: Post admission, students who have yet to apply for
+                    an aadhar can undergo their registration process for an
+                    adhaar at the institution.
+                  </li>
+                </ul>
               </div>
               <div>
-                <h3>
-                  We will accept the new, shorter GRE beginning September 2023.
-                  We will accept the GMAT Focus beginning with the 2+2 round in
-                  April 2024.
-                </h3>
+                <h3>Application Form</h3>
                 <p>
-                  When submitting your application, you may report the
-                  unofficial GMAT or GRE score given on the day of the test, or
-                  your official score if you have received it. Every applicant
-                  must request that the testing agency sends an official score
-                  report directly to HBS. We accept online versions of the GMAT
-                  or GRE.
+                  Please complete the application forms and submit the
+                  non-refundable application fee of Rs 50. This fee can also be
+                  paid online. The link to the payment portal is{" "}
+                  <a href="#">here</a>. you may also submit your application on
+                  site after seeking an appointment at the institute.
+                </p>
+                <p>
+                  If you have a child currently enrolled at Kith or one who has
+                  recently graduated from Kith, please do not create a separate
+                  profile for the new prospective student. Instead, we encourage
+                  you to log in with your existing account details. If you don't
+                  remember your login information, please reach out to us at
+                  Admissions@kithnkinschool.org for assistance
+                </p>
+                <p>
+                  Once we review the completed application materials, you will
+                  receive an email informing you whether or not the applicant
+                  will be invited for the interview and testing.
                 </p>
               </div>
               <div>
                 <h3>Interview</h3>
                 <p>
-                  After your written application has been submitted and
-                  reviewed, you may be invited to interview. Interviews are 30
-                  minutes and are conducted by an MBA Admissions Board member
-                  who has reviewed your application. Your interview will be
-                  tailored to you and is designed for us to learn more about you
-                  in the context of a conversation.
+                  If the student is not invited for an interview, this will
+                  bring the admissions process to an end. If the student is
+                  invited to the school for an interview and testing, we would
+                  normally arrange a time and date for a visit, during which
+                  time a tour of the school would also be given.
                 </p>
               </div>
               <div>
-                <h3>Post-interview Reflection</h3>
+                <h3>Financial Aid</h3>
                 <p>
-                  Within 24 hours of the interview, candidates are required to
-                  submit a written reflection through our online application
-                  system. Detailed instructions will be provided to those
-                  applicants who are invited to interview.
+                  If you require “Financial Aid,” kindly specify this in your
+                  application. Once indicated, the grant application form will
+                  be made available in the checklist.
                 </p>
               </div>
             </div>
@@ -111,48 +138,25 @@ const SegmentButton = () => {
           {active === "process" && (
             <div className="segment-button-text">
               <div>
-                <h3>Written application</h3>
+                <h3>Your application deadline</h3>
                 <p>
-                  To apply to Harvard Business School, we ask you to assemble
-                  and prepare a variety of materials that will help us assess
-                  your qualifications. Remember, all materials must be submitted
-                  to HBS online by the application deadlines. The following
-                  serves as a preview of what you need to prepare.
+                  At the Kith and Kin School in Malhausi, we operate two
+                  application cycles annually: one running from March to May,
+                  and the other from June to August. As of now, applications for
+                  the 2023-2024 academic year have concluded.
+                </p>
+                <p>
+                  However, we are currently accepting applications for the
+                  2024-2025 academic year. Prospective students are encouraged
+                  to apply before the final application deadline on August 31,
+                  2024, to secure their enrollment at our institution.
                 </p>
               </div>
               <div>
-                <h3>
-                  We will accept the new, shorter GRE beginning September 2023.
-                  We will accept the GMAT Focus beginning with the 2+2 round in
-                  April 2024.
-                </h3>
+                <h3>Apply now or register for more information</h3>
                 <p>
-                  When submitting your application, you may report the
-                  unofficial GMAT or GRE score given on the day of the test, or
-                  your official score if you have received it. Every applicant
-                  must request that the testing agency sends an official score
-                  report directly to HBS. We accept online versions of the GMAT
-                  or GRE.
-                </p>
-              </div>
-              <div>
-                <h3>Interview</h3>
-                <p>
-                  After your written application has been submitted and
-                  reviewed, you may be invited to interview. Interviews are 30
-                  minutes and are conducted by an MBA Admissions Board member
-                  who has reviewed your application. Your interview will be
-                  tailored to you and is designed for us to learn more about you
-                  in the context of a conversation.
-                </p>
-              </div>
-              <div>
-                <h3>Post-interview Reflection</h3>
-                <p>
-                  Within 24 hours of the interview, candidates are required to
-                  submit a written reflection through our online application
-                  system. Detailed instructions will be provided to those
-                  applicants who are invited to interview.
+                  To inquire or apply for the 2024-2025 school year please
+                  follow this <a href="#">link</a>.
                 </p>
               </div>
             </div>
@@ -160,38 +164,24 @@ const SegmentButton = () => {
           {active === "scholarships" && (
             <div className="segment-button-text">
               <div>
-                <h3>
-                  We will accept the new, shorter GRE beginning September 2023.
-                  We will accept the GMAT Focus beginning with the 2+2 round in
-                  April 2024.
-                </h3>
                 <p>
-                  When submitting your application, you may report the
-                  unofficial GMAT or GRE score given on the day of the test, or
-                  your official score if you have received it. Every applicant
-                  must request that the testing agency sends an official score
-                  report directly to HBS. We accept online versions of the GMAT
-                  or GRE.
+                  At Kith n Kin School, accessibility to quality education is
+                  paramount, which is why we're committed to providing
+                  scholarships to deserving students. Our scholarship program is
+                  designed to assist both based on merit and financial need,
+                  ensuring that no qualified student is hindered by financial
+                  constraints.
                 </p>
-              </div>
-              <div>
-                <h3>Interview</h3>
                 <p>
-                  After your written application has been submitted and
-                  reviewed, you may be invited to interview. Interviews are 30
-                  minutes and are conducted by an MBA Admissions Board member
-                  who has reviewed your application. Your interview will be
-                  tailored to you and is designed for us to learn more about you
-                  in the context of a conversation.
+                  Our scholarship application process begins each year in March.
+                  Families interested in applying will receive comprehensive
+                  instructions on how to navigate our resources effectively.
                 </p>
-              </div>
-              <div>
-                <h3>Post-interview Reflection</h3>
                 <p>
-                  Within 24 hours of the interview, candidates are required to
-                  submit a written reflection through our online application
-                  system. Detailed instructions will be provided to those
-                  applicants who are invited to interview.
+                  Once you've submitted your formal application to our
+                  institution, we'll guide you through the scholarship process
+                  tailored to your specific requirements. For more details on
+                  eligibility criteria, please visit our FAQ section.
                 </p>
               </div>
             </div>

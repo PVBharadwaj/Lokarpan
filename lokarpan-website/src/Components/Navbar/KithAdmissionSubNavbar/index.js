@@ -1,5 +1,5 @@
 import { BsChevronDown } from "react-icons/bs";
-import React, { useState,useRef } from "react";
+import React, { useState, useRef } from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
 
@@ -8,11 +8,11 @@ const KithAdmissionSubNavbar = () => {
   const timeoutRef = useRef(null);
 
   const toggleNavmenu = () => {
-    if(isNavmenuOpen) {
-      setNavmenuOpen(false)
+    if (isNavmenuOpen) {
+      setNavmenuOpen(false);
     } else {
       clearTimeout(timeoutRef.current);
-      setNavmenuOpen(true)
+      setNavmenuOpen(true);
     }
   };
 
@@ -24,7 +24,7 @@ const KithAdmissionSubNavbar = () => {
   const closeBrowseMenu = () => {
     timeoutRef.current = setTimeout(() => {
       setNavmenuOpen(false);
-    }, 500); 
+    }, 500);
   };
 
   return (
@@ -42,8 +42,10 @@ const KithAdmissionSubNavbar = () => {
         >
           <p className="desktop-only">
             <span>Browse All</span>
-            <BsChevronDown 
-              className={`react-icon arrow-down ${isNavmenuOpen ? "arrow-rotate" : ""}`} 
+            <BsChevronDown
+              className={`react-icon arrow-down ${
+                isNavmenuOpen ? "arrow-rotate" : ""
+              }`}
             />
           </p>
           <div
@@ -56,14 +58,14 @@ const KithAdmissionSubNavbar = () => {
               <div className="dropdown-container">
                 <ul className="support-subnav-list">
                   <h1 className="sub-heading">Explore Admission</h1>
-                  <li>
+                  {/* <li>
                       <Link to="/kith/admission">Explore</Link>
-                    </li>
+                    </li> */}
                   <li>
                     <Link to="/kith/how-to">How to?</Link>
                   </li>
                   <li>
-                    <Link to="/kith/enrollment">OnlineEnrollment</Link>
+                    <Link to="/kith/enrollment">Online Enrollment</Link>
                   </li>
                   <li>
                     <Link to="/kith/academics">Academics</Link>
@@ -75,9 +77,11 @@ const KithAdmissionSubNavbar = () => {
         </li>
         <div className="mobile-view-dropdown" onClick={toggleNavmenu}>
           <p>
-          <BsChevronDown 
-                className={`react-icon arrow-down ${isNavmenuOpen ? "arrow-rotate" : ""}`} 
-              />
+            <BsChevronDown
+              className={`react-icon arrow-down ${
+                isNavmenuOpen ? "arrow-rotate" : ""
+              }`}
+            />
           </p>
         </div>
         <li className="navbar-item apply-btn orange">

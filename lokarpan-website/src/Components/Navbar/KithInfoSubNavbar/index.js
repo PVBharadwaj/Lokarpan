@@ -8,11 +8,11 @@ const KithInfoSubNavbar = () => {
   const timeoutRef = useRef(null);
 
   const toggleNavmenu = () => {
-    if(isNavmenuOpen) {
-      setNavmenuOpen(false)
+    if (isNavmenuOpen) {
+      setNavmenuOpen(false);
     } else {
       clearTimeout(timeoutRef.current);
-      setNavmenuOpen(true)
+      setNavmenuOpen(true);
     }
   };
 
@@ -24,7 +24,7 @@ const KithInfoSubNavbar = () => {
   const closeBrowseMenu = () => {
     timeoutRef.current = setTimeout(() => {
       setNavmenuOpen(false);
-    }, 500); 
+    }, 500);
   };
 
   return (
@@ -42,8 +42,10 @@ const KithInfoSubNavbar = () => {
         >
           <p className="desktop-only">
             <span>Browse All</span>
-            <BsChevronDown 
-              className={`react-icon arrow-down ${isNavmenuOpen ? "arrow-rotate" : ""}`} 
+            <BsChevronDown
+              className={`react-icon arrow-down ${
+                isNavmenuOpen ? "arrow-rotate" : ""
+              }`}
             />
           </p>
           <div
@@ -56,12 +58,9 @@ const KithInfoSubNavbar = () => {
               <div className="dropdown-container">
                 <ul className="support-subnav-list">
                   <h1 className="sub-heading">Explore Information</h1>
-                  <li>
-                      <Link to="/kith/information">Explore</Link>
-                    </li>
-                    <li>
-                      <Link to="/kith/information">Explore</Link>
-                    </li>
+                  {/* <li>
+                    <Link to="/kith/information">Explore</Link>
+                  </li> */}
                   <li>
                     <Link to="/kith/leadership">Leadership</Link>
                   </li>
@@ -81,9 +80,11 @@ const KithInfoSubNavbar = () => {
         </li>
         <div className="mobile-view-dropdown" onClick={toggleNavmenu}>
           <p>
-          <BsChevronDown 
-                className={`react-icon arrow-down ${isNavmenuOpen ? "arrow-rotate" : ""}`} 
-              />
+            <BsChevronDown
+              className={`react-icon arrow-down ${
+                isNavmenuOpen ? "arrow-rotate" : ""
+              }`}
+            />
           </p>
         </div>
         <li className="navbar-item apply-btn orange">

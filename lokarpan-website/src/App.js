@@ -61,6 +61,7 @@ import ScrollToTop from "./Components/ScrollToTop";
 import WriteToUs from "./Components/WriteToUs";
 import Employment from "./Components/Employment";
 import KithCareer from "./Components/KithCareer";
+import KithFinancials from "./Components/KithFinancials";
 
 function App() {
   return (
@@ -140,6 +141,7 @@ function App() {
           <Route path="/kith/alumni" element={<Alumni />}></Route>
           <Route path="/kith/leadership" element={<KithLeadership />}></Route>
           <Route path="/kith/employment" element={<Employment />}></Route>
+          <Route path="/kith/financials" element={<KithFinancials />}></Route>
           {/* <Route path="/kith/career" element={<KithCareer />}></Route> */}
         </Routes>
 

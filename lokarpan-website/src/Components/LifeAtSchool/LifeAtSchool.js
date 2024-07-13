@@ -4,18 +4,13 @@ import "./LifeAtSchool.css";
 import KithNavbar from "../Navbar/KithNavbar/index";
 import KithLifeAtSchoolSubNavbar from "../Navbar/KithLifeAtSchoolSubNavbar";
 import KithFooter from "../KithFooter";
-import Footer from "../KithFooter";
 
 const LifeAtSchool = () => {
   return (
     <>
       <KithNavbar />
       <KithLifeAtSchoolSubNavbar />
-      <div className="life-at-school-upper-section">
-        {/* <p>
-        Step into a place where every student's potential is nurtured and celebrated, and where our collective vision drives us towards excellence. At Kith n Kin School, our culture is built on inclusivity, collaboration, and a strong dedication to making a positive impact.
-        </p> */}
-      </div>
+      <div className="life-at-school-upper-section"></div>
       <div className="kith-overview-div kith-overview-second-div">
         <h1 className="kith-life-head">Welcome to Kith</h1>
         <p className="kith-life-para">
@@ -23,6 +18,10 @@ const LifeAtSchool = () => {
           celebrated, and where our collective vision drives us towards
           excellence. At Kith n Kin School, our culture is built on inclusivity,
           collaboration, and a strong dedication to making a positive impact.
+          Kith has always been about more than a narrow educational experience.
+          From the school’s very origins, arts have been part of a students
+          experience, and sit alongside the more traditional roster of school
+          activities.
         </p>
       </div>
       <div className="life-at-school-div">
