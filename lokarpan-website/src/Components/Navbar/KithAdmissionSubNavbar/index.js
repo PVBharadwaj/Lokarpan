@@ -70,6 +70,9 @@ const KithAdmissionSubNavbar = () => {
                   <li>
                     <Link to="/kith/academics">Academics</Link>
                   </li>
+                  <li>
+                    <Link to="/kith/financials">Financials</Link>
+                  </li>
                 </ul>
               </div>
             </div>
