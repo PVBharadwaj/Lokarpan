@@ -400,17 +400,34 @@ const Navbar = () => {
                             }}
                             className="x"
                           />
-                          <div className="popup-text">
+                          <div className="popup-text"
+                          
+          style={{alignItems:"center", display: "flex", flexDirection:"column"}}>
                             <p>
                               Join our vibrant community of engaged readers as
                               we deliver the latest updates, success stories,
                               and transformative initiatives aimed at empowering
                               rural education.
                             </p>
-                            <form action="">
+                            {/* <form action="">
                               <input type="text" placeholder="Email address" />
                               <button type="submit">Subscribe</button>
-                            </form>
+                            </form> */}
+
+
+<iframe 
+            src="https://embeds.beehiiv.com/111ea47e-dc16-433e-9855-2339e60d6f51?slim=true" 
+            data-test-id="beehiiv-embed" 
+            height="52" 
+            frameborder="0" 
+            scrolling="no" 
+            style={{
+              margin: "0", 
+              borderRadius: "10px !important", 
+              backgroundColor: "transparent",
+              width: "70%"
+            }}
+            ></iframe>
                           </div>
                         </div>
                       </div>
