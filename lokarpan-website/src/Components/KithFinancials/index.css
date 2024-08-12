@@ -198,6 +198,21 @@ input:checked + .slider:before {
   border-color: #2196f3;
   border-width: 2px; /* Change to the desired focus color */
 }
+.disabledColor {
+  color: #ccc;
+}
+.financials-calc-btn {
+  height: 40px;
+  width: 200px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 50px;
+}
+
 @media screen and (max-width: 1200px) {
   .kith-financials-container {
     width: 92%;

@@ -190,6 +190,9 @@
 }
 
 @media screen and (max-width: 748px) {
+  .admission-card {
+    height: auto;
+  }
   .admissions-upper-section {
     height: 600px;
     background-position: center;

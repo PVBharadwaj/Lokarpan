@@ -378,12 +378,18 @@ class KithFinancials extends Component {
                 </label>
               </div>
               <div className="kith-est-left-multi-cont">
-                <label className="kith-est-label">Village</label>
+                <label
+                  className={`kith-est-label ${isLocal ? "disabledColor" : ""}`}
+                >
+                  Village
+                </label>
                 <select
                   value={selectedVillage}
                   onChange={this.handleVillageChange}
-                  className="kith-select-list"
-                  // disabled={isLocal}
+                  className={`kith-select-list ${
+                    isLocal ? "disabledColor" : ""
+                  }`}
+                  disabled={isLocal}
                 >
                   {Object.keys(villageFees).map((village) => (
                     <option key={village} value={village}>
@@ -393,7 +399,9 @@ class KithFinancials extends Component {
                 </select>
               </div>
               <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">
+                <label
+                  className={`kith-est-label ${isLocal ? "disabledColor" : ""}`}
+                >
                   Do you want to avail bus facilites.
                 </label>
                 <label className="switch">
@@ -401,7 +409,7 @@ class KithFinancials extends Component {
                     type="checkbox"
                     checked={busFacility}
                     onChange={this.handleBusChange}
-                    // disabled={isLocal}
+                    disabled={isLocal}
                   />
                   <span className="slider round"></span>
                 </label>
@@ -463,7 +471,12 @@ class KithFinancials extends Component {
                 </div>
               )}
 
-              <button onClick={this.calculateFee}>Calculate the Fee</button>
+              <button
+                onClick={this.calculateFee}
+                className="financials-calc-btn"
+              >
+                Calculate the Fee
+              </button>
             </div>
 
             <div className="kith-est-right-cont">
