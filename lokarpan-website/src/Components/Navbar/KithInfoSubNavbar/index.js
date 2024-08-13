@@ -58,9 +58,9 @@ const KithInfoSubNavbar = () => {
               <div className="dropdown-container">
                 <ul className="support-subnav-list">
                   <h1 className="sub-heading">Explore Information</h1>
-                  {/* <li>
-                    <Link to="/kith/information">Explore</Link>
-                  </li> */}
+                  <li>
+                    <Link to="/kith/information">Information</Link>
+                  </li>
                   <li>
                     <Link to="/kith/leadership">Leadership</Link>
                   </li>

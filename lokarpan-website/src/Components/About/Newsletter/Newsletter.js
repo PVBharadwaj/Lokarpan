@@ -288,12 +288,46 @@ const Newslettert = () => {
           }
         >
           {(close) => (
-            // <div className="modal">
-            //   <button className="btn-close" onClick={close}>
-            //     <IoMdClose style={{ fontSize: "24px" }} />
-            //   </button>
-            //   <div className="n-header"> Email Address </div>
-            //   <div className="n-content">
+            <div className="modal" style={{margin: "20px auto 50px", padding: "0"}}>
+              <button className="btn-close" onClick={close}>
+                <IoMdClose style={{ fontSize: "24px" }} />
+              </button>
+              <div className="n-header"> Email Address </div>
+              <div className="n-content">
+               <iframe 
+            src="https://embeds.beehiiv.com/111ea47e-dc16-433e-9855-2339e60d6f51?slim=true" 
+            data-test-id="beehiiv-embed" 
+            height="52" 
+            frameborder="0" 
+            scrolling="no" 
+            style={{
+              margin: "0", 
+              borderRadius: "10px !important", 
+              backgroundColor: "transparent",
+              width: "100%"
+            }}
+            ></iframe>
+
+
+            
+                <p className="n-para">
+                  By signing up, you agree to our User Agreement and Privacy
+                  Policy & Cookie Statement. This site is protected by reCAPTCHA
+                  and the Google Privacy Policy and Terms of Service apply.
+                </p>
+              </div>
+            </div>
+            
+
+// {/* <iframe
+//               src="https://swathipyla.substack.com/embed"
+//               width="480"
+//               height="320"
+//               style={{ border: "1px solid #EEE", background: "white" }}
+//               sandbox="allow-scripts allow-same-origin"
+//               // scrolling="no"
+//             /> */}
+
             //     <input
             //       type="text"
             //       className="n-input"
@@ -305,21 +339,9 @@ const Newslettert = () => {
             //       <span className="span-c">{counter}</span>
             //       <p>complete sign-up</p>
             //     </button>
-            //     <p className="n-para">
-            //       By signing up, you agree to our User Agreement and Privacy
-            //       Policy & Cookie Statement. This site is protected by reCAPTCHA
-            //       and the Google Privacy Policy and Terms of Service apply.
-            //     </p>
-            //   </div>
-            // </div>
-            <iframe
-              src="https://swathipyla.substack.com/embed"
-              width="480"
-              height="320"
-              style={{ border: "1px solid #EEE", background: "white" }}
-              sandbox="allow-scripts allow-same-origin"
-              // scrolling="no"
-            />
+
+
+            
           )}
         </Popup>
       )}
