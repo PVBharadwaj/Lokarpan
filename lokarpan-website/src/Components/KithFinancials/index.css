@@ -47,6 +47,7 @@
   font-weight: 500;
   padding: 2px 0px;
   list-style-type: disc;
+  margin-left: 20px;
 }
 
 .kith-estimator-container {
@@ -74,6 +75,15 @@
   align-items: center;
   position: relative;
   height: 50px;
+}
+.kith-est-left-each-cont-ch {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  height: 100px;
 }
 .kith-est-right-each-cont {
   width: 100%;
@@ -183,7 +193,7 @@ input:checked + .slider:before {
 }
 .kith-select-list {
   height: 40px;
-  width: 300px;
+  width: 100%;
   border-radius: 2px;
   margin: 6px 0px;
   outline: none;
@@ -213,6 +223,16 @@ input:checked + .slider:before {
   margin-top: 50px;
 }
 
+.kith-est-label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.total {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
 @media screen and (max-width: 1200px) {
   .kith-financials-container {
     width: 92%;
@@ -224,6 +244,19 @@ input:checked + .slider:before {
     font-size: 24px;
   }
   .kith-financials-para {
+    font-size: 16px;
+  }
+  .kith-estimator-container {
+    flex-direction: column;
+  }
+  .kith-est-left-cont {
+    width: 90%;
+  }
+  .kith-est-right-cont {
+    width: 40%;
+    margin-left: 0;
+  }
+  .kith-cost-at-para {
     font-size: 16px;
   }
 }

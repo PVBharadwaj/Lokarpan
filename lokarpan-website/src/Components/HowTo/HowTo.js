@@ -111,23 +111,121 @@ const HowTo = () => {
       <KithAdmissionSubNavbar />
       <div className="how-to-upper-section"></div>
       <div className="kith-overview-div kith-overview-second-div">
-        <h1 className="kith-life-head">
+        <h3 className="kith-life-head-ch">
           {" "}
-          We are thrilled to extend a warm welcome to you as part of the Kith n
-          Kin family
-        </h1>
+          The mission of the Kith n Kin School is to educate leaders to make a
+          difference in the world. In each class, we create a dynamic
+          environment that mirrors the breadth and depth of our world. Our
+          promise to our faculty, researchers and to every Kith student is to
+          create a class of exceptional students who bring as many different
+          experiences and perspectives as possible.
+        </h3>
       </div>
       <div className="howto-page">
         <div className="howto-card">
           <div className="howto-card-img"></div>
           <div className="howto-card-text">
-            <h3>How to?</h3>
+            <h3>How To Apply</h3>
             <p>
-              As you embark on this journey with us, your commitment and
-              enthusiasm are integral to our success. Lokarpan is built on the
-              principles of transparency, inclusivity, and empowerment.
+              We have a three step admission process. The first step is to
+              submit an application. After your application has been submitted
+              and reviewed, you may be invited to an interview. Your interview
+              will be tailored to your child’s personality and cognitive level
+              and is designed to learn more about your child in the context of a
+              conversation. Older students are required to undertake a common
+              entrance test. Finally, we ask that you assemble and prepare a
+              variety of materials like your school report cards, birth
+              certificate and Aadhar.
             </p>
           </div>
+        </div>
+        <div className="howto-start-app-cont">
+          <h2 className="howto-start-head1">1. Starting An Application</h2>
+          <p className="howto-start-head2">
+            For all first year and transfer applicants, your first step will be
+            to fill out and submit an application.
+          </p>
+          <h2 className="howto-start-head1">Application Requirements</h2>
+          <p className="howto-start-head2">
+            All applicants - first year and transfer students - must complete
+            the following application components.
+          </p>
+          <ul className="howto-start-list">
+            <li>Application form </li>
+            <li>INR 50 fee </li>
+            <li>Common entrance test </li>
+            <li>Birth certificate</li>
+            <li>
+              Aadhar card (Students who have yet to apply for an Aadhar card can
+              undergo their registration process for an Aadhar card at the
+              institution itself)
+            </li>
+            <li>
+              Parent/guardian details, including phone number, home address and
+              Aadhar Card
+            </li>
+            <li>Passport sized photograph of the prospective student.</li>
+          </ul>
+          <p className="howto-start-head2">For transfer students:</p>
+          <ul className="howto-start-list">
+            <li>Student PEN (Permanent Education Number) code </li>
+            <li>
+              Prior school name and address, and/or include your UDISE+ (Unified
+              District Information System for Education Plus) portal number
+            </li>
+            <li>
+              Parent/guardian details, including phone number, home address and
+              Aadhar Card
+            </li>
+            <li>
+              Proof of Age: Birth Certificate or Aadhar card application for
+              minors
+            </li>
+            <li>Passport sized photograph of the prospective student</li>
+            <li>Transcripts from your previous school (if applicable)</li>
+            <li>
+              Transfer certificate (please inform admissions team if you haven't
+              received a TC)
+            </li>
+          </ul>
+          <p className="howto-start-head2">
+            <b>Important:</b> For Playgroup, a child should be 3 years of age as
+            on December 31 of the academic year in which the parents are
+            applying. Our admissions team is happy to help with any questions
+            that you may have.{" "}
+          </p>
+          <h2 className="howto-start-head1">
+            2. Interview and Common Entrance Test
+          </h2>
+          <p className="howto-start-head3">
+            Once online application forms and required documents have been
+            received, candidates are invited to our campus to get to know the
+            school and to take a common entrance test in mathematics, english
+            and hindi. They are interviewed by academic heads and they have the
+            chance to ask questions.
+          </p>
+          <p className="howto-start-head3">
+            If the student is not invited for an interview, this will bring the
+            admissions process to an end. If the student is invited to the
+            school for an interview and testing, we would normally arrange a
+            time and date for a visit, during which time a tour of the school
+            would also be given. No entrance test will be conducted for students
+            from playgroup to grade three, however, they may undergo an
+            interview to assess their personality and cognitive level.
+          </p>
+          <p className="howto-start-head3">
+            <b>Disclaimer: </b>Children develop fairly quickly over the course
+            of a year and all candidates who are refused an admission or a place
+            can always reapply for the following year. To increase their chances
+            of admission, applicants are encouraged to apply as early as
+            possible after the month of February.
+          </p>
+          <p className="howto-start-head3">
+            For further assistance, please reach out to us at{" "}
+            <a href="mailto:support@lokarpan.com" className="howto-mail-link">
+              support@lokarpan.com
+            </a>
+          </p>
         </div>
         <SegmentButton />
       </div>

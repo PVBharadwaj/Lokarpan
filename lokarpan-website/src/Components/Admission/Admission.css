@@ -148,7 +148,7 @@
 }
 
 .admission-grid-inner2 p {
-  transform-origin: 252px 240px;
+  transform-origin: 232px 200px;
   position: absolute;
   transform: rotate(-90deg);
 }
@@ -275,6 +275,7 @@
     padding: 0px;
     justify-content: flex-start;
     width: 100%;
+    order: 2;
   }
 
   .admission-card-text h3 {

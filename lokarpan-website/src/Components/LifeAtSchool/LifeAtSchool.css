@@ -62,6 +62,7 @@
   font-size: 64px;
   font-weight: 700;
   font-family: "Noto Serif Display", serif;
+  margin-bottom: 30px;
 }
 
 .life-at-school-div > p {
@@ -79,6 +80,7 @@
   background-color: #e2e4e5;
   color: black;
   /* padding: 100px 123px; */
+  padding: 50px 10%;
 }
 
 .life-at-school {
@@ -138,6 +140,17 @@
   font-family: "Noto Serif Display", serif;
   margin-bottom: 30px !important;
   text-align: center !important;
+}
+.life-at-school-para-ch {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 20px 0px;
+  text-align: start;
+}
+.life-at-school-content-sec {
+  width: 80%;
+  margin: 30px auto;
 }
 @media screen and (max-width: 748px) {
   .kith-life-head {
@@ -213,5 +226,8 @@
     /* padding-left: 40px;
     padding-right: 18px; */
     padding: 20px 50px;
+  }
+  .life-at-school-para-ch {
+    font-size: 16px;
   }
 }

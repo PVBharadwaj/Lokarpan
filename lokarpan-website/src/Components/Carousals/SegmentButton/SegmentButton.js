@@ -17,16 +17,6 @@ const SegmentButton = () => {
           <div className="items-seg">
             <div
               className={
-                active === "deadline"
-                  ? "element-seg btn-active-seg"
-                  : "element-seg"
-              }
-              onClick={() => handleSegmentClick("deadline")}
-            >
-              Deadline
-            </div>
-            <div
-              className={
                 active === "process"
                   ? "element-seg btn-active-seg"
                   : "element-seg"
@@ -35,6 +25,17 @@ const SegmentButton = () => {
             >
               Process
             </div>
+            <div
+              className={
+                active === "deadline"
+                  ? "element-seg btn-active-seg"
+                  : "element-seg"
+              }
+              onClick={() => handleSegmentClick("deadline")}
+            >
+              Deadline
+            </div>
+
             <div
               className={
                 active === "scholarships"
@@ -51,86 +52,26 @@ const SegmentButton = () => {
           {active === "deadline" && (
             <div className="segment-button-text">
               <div>
-                <h3>Applicants to Kith must have the following:</h3>
                 <h2 className="how-to-head2">
-                  An existing student in a school
+                  At the Kith and Kin School in Malhausi, we operate two
+                  application cycles annually: one running from March to May,
+                  and the other from June to September. As of now, applications
+                  for the 2023-2024 academic year have concluded.
                 </h2>
-                <ul>
-                  <li>Ensure you have a valid Aadhar card.</li>
-                  <li>
-                    Provide your Student PEN (Permanent Education Number) code.
-                  </li>
-                  <li>
-                    Provide your prior school name and address,, and/orInclude
-                    your UDISE+ (Unified District Information System for
-                    Education Plus) portal number.
-                  </li>
-                  <li>
-                    Submit transcripts from your previous educational
-                    institutions.
-                  </li>
-                </ul>
-              </div>
-              <div>
                 <h2 className="how-to-head2">
-                  Entering the school system(out of school students, preprimary
-                  or primary student who is entering the educational system for
-                  the first time)
+                  However, we are currently accepting applications for the
+                  2024-2025 academic year. Prospective students are encouraged
+                  to apply before the final application deadline on 15th
+                  September, 2024, to secure their enrollment at our
+                  institution.
                 </h2>
-                <ul>
-                  <li>
-                    Parent and guardian details includes phone, address, aadhar
-                  </li>
-                  <li>
-                    Proof of ageBirth certificate or aadhar application for
-                    minors.
-                  </li>
-                  <li>
-                    Caveat: Post admission, students who have yet to apply for
-                    an aadhar can undergo their registration process for an
-                    adhaar at the institution.
-                  </li>
-                </ul>
               </div>
+
               <div>
-                <h3>Application Form</h3>
+                <h3>Apply now or register for more information</h3>
                 <p>
-                  Please complete the application forms and submit the
-                  non-refundable application fee of Rs 50. This fee can also be
-                  paid online. The link to the payment portal is{" "}
-                  <a href="#">here</a>. you may also submit your application on
-                  site after seeking an appointment at the institute.
-                </p>
-                <p>
-                  If you have a child currently enrolled at Kith or one who has
-                  recently graduated from Kith, please do not create a separate
-                  profile for the new prospective student. Instead, we encourage
-                  you to log in with your existing account details. If you don't
-                  remember your login information, please reach out to us at
-                  Admissions@kithnkinschool.org for assistance
-                </p>
-                <p>
-                  Once we review the completed application materials, you will
-                  receive an email informing you whether or not the applicant
-                  will be invited for the interview and testing.
-                </p>
-              </div>
-              <div>
-                <h3>Interview</h3>
-                <p>
-                  If the student is not invited for an interview, this will
-                  bring the admissions process to an end. If the student is
-                  invited to the school for an interview and testing, we would
-                  normally arrange a time and date for a visit, during which
-                  time a tour of the school would also be given.
-                </p>
-              </div>
-              <div>
-                <h3>Financial Aid</h3>
-                <p>
-                  If you require “Financial Aid,” kindly specify this in your
-                  application. Once indicated, the grant application form will
-                  be made available in the checklist.
+                  To inquire or apply for the 2024-2025 school year please
+                  follow this <a href="#">link.</a>
                 </p>
               </div>
             </div>
@@ -138,33 +79,81 @@ const SegmentButton = () => {
           {active === "process" && (
             <div className="segment-button-text">
               <div>
-                <h3>Your application deadline</h3>
+                <h3>Application Form</h3>
                 <p>
-                  At the Kith and Kin School in Malhausi, we operate two
-                  application cycles annually: one running from March to May,
-                  and the other from June to August. As of now, applications for
-                  the 2023-2024 academic year have concluded.
+                  Kindly complete the application forms as well as submit the{" "}
+                  <b>non-refundable application fee</b> of Rs.50. This fee can
+                  also be paid online via the provided payment portal link. You
+                  may also submit your application form on-site after scheduling
+                  an appointment with the admissions office at the institute.
                 </p>
                 <p>
-                  However, we are currently accepting applications for the
-                  2024-2025 academic year. Prospective students are encouraged
-                  to apply before the final application deadline on August 31,
-                  2024, to secure their enrollment at our institution.
+                  Once we review the completed application materials,
+                  shortlisted students will receive an email or phone call
+                  informing you whether or not the applicant will be invited for
+                  the interview and testing. Due to a large number of inquiries,
+                  the admission process follows a first in first out queue.
                 </p>
-              </div>
-              <div>
-                <h3>Apply now or register for more information</h3>
+
+                <h3>Application Decision</h3>
                 <p>
-                  To inquire or apply for the 2024-2025 school year please
-                  follow this <a href="#">link</a>.
+                  For applicants, as soon as the form is submitted, the
+                  admissions exam corrected and the application fee paid, our
+                  admissions committee reviews each application and arrives at
+                  one of the following decisions:
+                </p>
+
+                <ul className="segment-list">
+                  <li>Acceptance</li>
+                  <li>Deferral</li>
+                  <li>Waiting List</li>
+                  <li>Denial </li>
+                </ul>
+                <p>
+                  <b>Note:</b> The turnaround time from a completed application
+                  to decision is usually one week.
+                </p>
+
+                <h3>Understanding the decisions </h3>
+                <p>Four decisions are possible:</p>
+                <ul className="segment-list">
+                  <li>Acceptance and an offer is made to the candidate</li>
+                  <li>
+                    In some cases, the admission decision may be deferred
+                    because of competition for the applied class. In such cases,
+                    parents or guardians are informed of when a decision can be
+                    expected and the date when the application will be reviewed.
+                  </li>
+                  <li>
+                    Waiting list means that candidates have the qualities to be
+                    admitted but that there are currently no places left for
+                    technical reasons i.e, the class is full. If the situation
+                    changes, parents are informed and decide whether to accept
+                    the place
+                  </li>
+                  <li>
+                    Denial which means that a candidate cannot come to the Kith
+                    n Kin School in the following September; the application
+                    can, however be carried over into the next academic year
+                  </li>
+                </ul>
+                <p>
+                  <b>Note:</b> There is a limited number of seats at Kith and
+                  even the most brilliant and well qualified students may not be
+                  admitted if there is no room. The Kith n Kin school never
+                  accepts donations. While the school may depend on the parents
+                  and alumni and donors’ generosity, no contributions are
+                  considered as guarantees or substitutes for the application
+                  and assessment process.
                 </p>
               </div>
             </div>
           )}
           {active === "scholarships" && (
             <div className="segment-button-text">
-              <div>
-                <p>
+              <div className="kith-financials-each-sub-container">
+                <h1 className="kith-financials-head">Scholarships</h1>
+                <p className="kith-financials-para">
                   At Kith n Kin School, accessibility to quality education is
                   paramount, which is why we're committed to providing
                   scholarships to deserving students. Our scholarship program is
@@ -172,18 +161,93 @@ const SegmentButton = () => {
                   ensuring that no qualified student is hindered by financial
                   constraints.
                 </p>
-                <p>
+                <p className="kith-financials-para">
                   Our scholarship application process begins each year in March.
                   Families interested in applying will receive comprehensive
-                  instructions on how to navigate our resources effectively.
+                  instructions on how to navigate our resources effectively. The
+                  School welcomes those students who will not only reap benefits
+                  from attending the school, but will also learn to be a leader
+                  and make a difference in society and in life at large.
                 </p>
-                <p>
-                  Once you've submitted your formal application to our
-                  institution, we'll guide you through the scholarship process
-                  tailored to your specific requirements. For more details on
-                  eligibility criteria, please visit our FAQ section.
+                <p className="kith-financials-para">
+                  There is an annual allocation of scholarships for this
+                  purpose. The School offers three kinds of scholarships to
+                  enable and encourage meritorious students.
                 </p>
+                <div className="k-f-sub-each-cat">
+                  <h2 className="kith-financials-head2">
+                    CATEGORY A: Merit-cum Means Scholarship for New Admissions
+                  </h2>
+                  <p className="kith-financials-para">
+                    Scholarships are offered to new students based on their
+                    performance in the Aptitude Test and their need for their
+                    financial assistance. The criteria for the Merit-cum-Means
+                    Scholarship are as follows:
+                  </p>
+                  <ul>
+                    <li>Student must enroll for the assessment.</li>
+                    <li>
+                      The student must clear the entrance assessment with 80%
+                      for higher accuracy
+                    </li>
+                  </ul>
+                </div>
+                <div className="k-f-sub-each-cat">
+                  <h2 className="kith-financials-head2">
+                    CATEGORY B: Merit-cum-Means Scholarship for Existing
+                    Students
+                  </h2>
+                  <p className="kith-financials-para">
+                    Scholarships for existing students are awarded based their
+                    performance in academics, sports and co-curricular
+                    activities, as well as their need for financial assistance.
+                    The criteria for this scholarship are as follows:
+                  </p>
+                  <ul>
+                    <li>
+                      The student must be among the top 10% rank holders in
+                      their batch.
+                    </li>
+                    <li>
+                      The student must have a minimum GPA (Grade Point Average)
+                      of 3.5.
+                    </li>
+                    <li>
+                      The student must belong to a minority community or the EWS
+                      (Economically Weaker Section) category.
+                    </li>
+                  </ul>
+                </div>
+                <div className="k-f-sub-each-cat">
+                  <h2 className="kith-financials-head2">
+                    CATEGORY C: Purely Merit-Based Scholarship for New
+                    Admissions
+                  </h2>
+                  <p className="kith-financials-para">
+                    Scholarships are awarded purely on merit to recognize new
+                    students for their execellent performance, regardless of
+                    their financial needs. The criteria for this scholarship are
+                    as follows:
+                  </p>
+                  <ul>
+                    <li>
+                      The student must be among the top 5% rank holders in their
+                      batch
+                    </li>
+                    <li>
+                      The student must have a minimum GPA (Grade Point Average)
+                      of 3.5.
+                    </li>
+                  </ul>
+                </div>
               </div>
+
+              <p className="kith-financials-para">
+                <b>Disclaimer:</b> All rights to scholarships are reserved with
+                the School Management. The scholarship categories include full
+                or partial fee waiver for the full-time course, an arrival
+                allowance, and an allowance for school stationary.
+              </p>
             </div>
           )}
         </div>
