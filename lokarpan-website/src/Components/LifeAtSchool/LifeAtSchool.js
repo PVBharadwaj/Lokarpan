@@ -12,16 +12,15 @@ const LifeAtSchool = () => {
       <KithLifeAtSchoolSubNavbar />
       <div className="life-at-school-upper-section"></div>
       <div className="kith-overview-div kith-overview-second-div">
-        <h1 className="kith-life-head">Welcome to Kith</h1>
+        <h1 className="kith-life-head">Welcome to Kith n Kin School</h1>
         <p className="kith-life-para">
-          Step into a place where every student's potential is nurtured and
-          celebrated, and where our collective vision drives us towards
-          excellence. At Kith n Kin School, our culture is built on inclusivity,
-          collaboration, and a strong dedication to making a positive impact.
-          Kith has always been about more than a narrow educational experience.
-          From the school’s very origins, arts have been part of a students
-          experience, and sit alongside the more traditional roster of school
-          activities.
+          At Kith n Kin School we believe that leadership and values are
+          inseparable. The teaching of ethics here is explicit, not implicit,
+          and our community values of mutual respect, honesty and integrity, and
+          personal accountability support the Kith learning environment and are
+          at the heart of a School-wide aspiration: to make Kith a model of the
+          highest standards essential to responsible leadership in the modern
+          world.
         </p>
       </div>
       <div className="life-at-school-div">
@@ -29,89 +28,60 @@ const LifeAtSchool = () => {
         <p className="kith-life-para">
           While Kith n Kin School boasts a traditional physical campus, our
           virtual presence is equally vibrant. Engage with fellow students
-          through our online learning platforms, join virtual events, and
-          collaborate on projects that ignite your interests. Our campus extends
-          beyond physical boundaries, allowing you to connect with peers from
-          diverse backgrounds and locations.
+          through our online learning platforms, participate in virtual events,
+          and collaborate on projects that ignite your interests. Our campus
+          extends beyond physical boundaries, allowing you to connect with peers
+          from diverse backgrounds and locations.
         </p>
       </div>
       <div className="life-at-school-third-div life-at-school-div">
         <h3>Committee & Clubs</h3>
-        <div className="clubs-div">
-          <div>
-            <img
-              src="https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446763/Rectangle_1810_qknn4q.png"
-              alt=""
-            />
-            <div className="give-card-text life-at-school">
-              <ul>
-                <li>
-                  <span>Program Development Committee:</span> Shape the
-                  direction of our programs and initiatives.
-                </li>
-                <li>
-                  <span>Community Outreach Committee:</span> Connect with
-                  external partners and extend Lokarpan's reach.
-                </li>
-                <li>
-                  <span>Innovation and Technology Committee:</span> Explore
-                  cutting-edge solutions to drive positive change.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <img
-              src="https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446763/Rectangle_1811_k1elbd.png"
-              alt=""
-            />
-            <div className="give-card-text life-at-school">
-              <ul>
-                <li>
-                  <span>Program Development Committee:</span> Shape the
-                  direction of our programs and initiatives.
-                </li>
-                <li>
-                  <span>Community Outreach Committee:</span> Connect with
-                  external partners and extend Lokarpan's reach.
-                </li>
-                <li>
-                  <span>Innovation and Technology Committee:</span> Explore
-                  cutting-edge solutions to drive positive change.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+
+        <h2 className="life-at-school-para-ch">
+          The Kith n Kin School offers a diverse and enriching campus life,
+          reflected in the growing popularity of societies that celebrate and
+          champion diversity in its many forms. Students can join and explore a
+          range of cultural and community-based interests, including the Debate
+          Club, Literacy Club, and Languages Club, which fosters learning
+          European languages such as Spanish and French. A dedicated student
+          committee, working with teachers and staff, organises social and
+          leisure activities, ensuring an inclusive and vibrant learning
+          environment throughout the academic process. This committee also plays
+          a pivotal role in integrating new students and promoting a community
+          free from bullying
+        </h2>
+        <h2 className="life-at-school-para-ch">
+          Additionally, the school hosts annual functions, Business Day events,
+          parades, and CDEMO days, all of which complement our arts and sports
+          offerings. These activities provide each student with a well-rounded
+          learning experience.
+        </h2>
       </div>
       <div className="life-at-school-div life-at-school-div-last">
         <h3>Safeguarding</h3>
         <img src="https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446763/Rectangle_1804_jmnf5c.png" />
-        <ul>
-          <li>
+        <div className="life-at-school-content-sec">
+          <h2 className="life-at-school-para-ch">
+            At Kith n Kin School, the welfare and safety of our students are our
+            top priorities. We pride ourselves on offering individual care of
+            the highest quality, ensuring that every student thrives in a secure
+            environment.
+          </h2>
+          <h2 className="life-at-school-para-ch">
             Your privacy and personal information are of utmost importance to
-            us. We have stringent measures in place to safeguard your data.
-          </li>
-          <li>
-            Our online platforms are secure, and we regularly update our systems
-            to ensure a safe digital environment for our students.
-          </li>
-          <li>
-            Whether in-person or virtual, we prioritise the health and safety of
-            our students. We strictly adhere to guidelines to maintain a secure
-            and healthy campus environment.
-          </li>
-          <li>
-            Whether in-person or virtual, we prioritise the health and safety of
-            our students. We strictly adhere to guidelines to maintain a secure
-            and healthy campus environment.
-          </li>
-          <li>
-            At Kith n Kin School, we believe in nurturing not only academic
-            excellence but also holistic growth and well-being. Join us on a
-            journey where every student thrives and shines bright.
-          </li>
-        </ul>
+            us. We have robust measures in place to safeguard your data, with
+            secure online platforms and regular system updates to ensure a safe
+            digital environment for our students.
+          </h2>
+          <h2 className="life-at-school-para-ch">
+            Whether in-person or online, we are committed to the health and
+            safety of our students, strictly adhering to guidelines to maintain
+            a secure and healthy campus. At Kith n Kin School, we believe in
+            nurturing not only academic excellence but also the holistic growth
+            and well-being of each student. Join us on a journey where every
+            student thrives and shines bright every single day.
+          </h2>
+        </div>
       </div>
       <KithFooter />
     </>

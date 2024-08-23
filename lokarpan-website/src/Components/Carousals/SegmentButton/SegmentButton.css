@@ -51,6 +51,7 @@
   -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none; /* For IE and Edge */
+  margin-top: 100px;
 }
 
 .items-seg {
@@ -91,16 +92,23 @@
   color: black;
 }
 .how-to-head2 {
-  font-size: 25px;
+  font-size: 18px;
   margin: 20px 0px;
   font-weight: 500;
-  text-decoration: underline;
   line-height: 1.5;
+}
+.segment-list li {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-left: 40px;
 }
 
 @media screen and (max-width: 748px) {
   .segments {
     margin-top: 30px;
+  }
+  .how-to-head2 {
+    font-size: 16px;
   }
 
   .segment-button {
