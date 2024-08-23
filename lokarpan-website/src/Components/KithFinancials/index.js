@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
 import KithNavbar from "../Navbar/KithNavbar/index";
 import KithAdmissionSubNavbar from "../Navbar/KithAdmissionSubNavbar";
 import KithFooter from "../KithFooter";
 
+const KithFinancials = () => {
 const schoolFee = {
   kg: 7200,
   nursery: 7200,
@@ -141,106 +142,45 @@ const classMapping = {
   10: "tenth",
 };
 
-class KithFinancials extends Component {
-  state = {
-    isNewToInstitute: true,
-    isLocal: true,
-    selectedClass: "Nursery",
-    busFacility: false,
-    stationary: true,
-    selectedVillage: "Aneson",
+  const [isNewToInstitute, setIsNewToInstitute] = useState(true);
+  const [isLocal, setIsLocal] = useState(true);
+  const [selectedClass, setSelectedClass] = useState("Nursery");
+  const [busFacility, setBusFacility] = useState(false);
+  const [stationary, setStationary] = useState(true);
+  const [selectedVillage, setSelectedVillage] = useState("Aneson");
+  const [mealPlan, setMealPlan] = useState(true);
+  const [scholarShip, setScholarShip] = useState(false);
+  const [scholarShipName, setScholarShipName] = useState("");
+  const [scholarshipDeduction, setScholarShipDeduction] = useState("");
+  const [costs, setCosts] = useState({
     admissionCost: 1000,
     tuitionCost: 7200,
     examCost: 600,
     busFee: 0,
-    totalCost: 1000 + 7200 + 600 + 1000,
     stationaryCost: 1000,
-    mealPlan: true,
     mealCost: 1000,
-    scholorShip: false,
-    scholorShipName: "",
-    scholarshipDeduction: 1000,
-  };
+    totalCostwithoutscholar: 9800,
+    totalCost: 9800,
+  });
 
-  handleNewToInstituteToggle = () => {
-    this.setState(
-      (prevState) => ({
-        isNewToInstitute: !prevState.isNewToInstitute,
-      }),
-      this.calculateFee
-    );
-  };
 
-  handleLocalToggle = () => {
-    this.setState(
-      (prevState) => ({
-        isLocal: !prevState.isLocal,
-      }),
-      this.calculateFee
-    );
-  };
 
-  handleScholorChange = () => {
-    this.setState(
-      (prevState) => ({ scholorShip: !prevState.scholorShip }),
-      this.calculateFee
-    );
-  };
+  useEffect(() => {
+    calculateFee();
+  }, [
+    isNewToInstitute,
+    selectedClass,
+    busFacility,
+    selectedVillage,
+    stationary,
+    mealPlan,
+    scholarShip,
+    scholarShipName,
+    scholarshipDeduction,
+  ]);
 
-  handleClassChange = (event) => {
-    this.setState({ selectedClass: event.target.value }, this.calculateFee);
-  };
 
-  handleBusChange = () => {
-    this.setState(
-      (prevState) => ({ busFacility: !prevState.busFacility }),
-      this.calculateFee
-    );
-  };
-
-  handleStationoryChange = () => {
-    this.setState(
-      (prevState) => ({ stationary: !prevState.stationary }),
-      this.calculateFee
-    );
-  };
-
-  handleMealPlanChange = () => {
-    this.setState(
-      (prevState) => ({ mealPlan: !prevState.mealPlan }),
-      this.calculateFee
-    );
-  };
-
-  handleVillageChange = (event) => {
-    this.setState({ selectedVillage: event.target.value }, this.calculateFee);
-  };
-
-  handleScholorShipChange = (event) => {
-    const selectedScholarship = event.target.value;
-    const scholarshipDeduction = scholarshipRed[selectedScholarship] || 0;
-
-    this.setState(
-      {
-        scholorShipName: selectedScholarship,
-        scholarshipDeduction: scholarshipDeduction,
-      },
-      this.calculateFee
-    ); // Ensure you call calculateCosts to update the total cost
-  };
-
-  calculateFee = () => {
-    const {
-      isNewToInstitute,
-      busFacility,
-      selectedClass,
-      selectedVillage,
-      stationary,
-      mealPlan,
-      scholorShip,
-      scholorShipName,
-    } = this.state;
-
+  const calculateFee = () => {
     const admissionCost = isNewToInstitute ? 1000 : 200;
     const selectedClassKey = classMapping[selectedClass];
     const tuitionCost = schoolFee[selectedClassKey];
@@ -248,6 +188,16 @@ class KithFinancials extends Component {
     const busFee = busFacility ? villageFees[selectedVillage] : 0;
     const stationaryCost = stationary ? stationaryFee : 0;
     const mealCost = mealPlan ? mealFee : 0;
+
+
+    let totalCostwithoutscholar =
+    admissionCost +
+    tuitionCost +
+    examCost +
+    busFee +
+    stationaryCost +
+    mealCost;
+
 
     let totalCost =
       admissionCost +
@@ -257,59 +207,298 @@ class KithFinancials extends Component {
       stationaryCost +
       mealCost;
 
-    if (scholorShip) {
-      totalCost -= scholarshipRed[scholorShipName] || 0;
+    if (scholarShip) {
+      totalCost -= scholarshipRed[scholarShipName] || 0;
     }
 
-    this.setState({
+    setCosts({
       admissionCost,
       tuitionCost,
       examCost,
       busFee,
-      totalCost,
       stationaryCost,
       mealCost,
+      totalCostwithoutscholar,
+      totalCost,
     });
   };
 
-  render() {
-    const {
-      isNewToInstitute,
-      isLocal,
-      busFacility,
-      stationary,
-      selectedClass,
-      selectedVillage,
-      admissionCost,
-      tuitionCost,
-      examCost,
-      busFee,
-      totalCost,
-      stationaryCost,
-      mealPlan,
-      mealCost,
-      scholorShip,
-      scholorShipName,
-      scholarshipDeduction,
-    } = this.state;
+
+  const handleNewToInstituteToggle = (value) => {
+    setIsNewToInstitute(value)
+  };
+
+  const handleLocalToggle = (value) => {
+    setIsLocal(value)
+  };
+
+  const handlescholarChange = (value) => {
+    setScholarShip(value)
+  };
+
+  const handleClassChange = (event) => {
+    setSelectedClass(event.target.value)
+  };
+
+  const handleBusChange = (value) => {
+    setBusFacility(value)
+  };
+
+  const handleStationoryChange = (value) => {
+    setStationary(value)
+  };
+
+  const handleMealPlanChange = (value) => {
+    setMealPlan(value)
+  };
+
+  const handleVillageChange = (event) => { 
+    setSelectedVillage(event.target.value)
+  };
+
+
+  const handlescholarShipChange = (event) => {
+    const selectedScholarship = event.target.value;
+    const scholarshipDeduction = scholarshipRed[selectedScholarship] || 0;
+  
+    setScholarShipName(selectedScholarship);
+    setScholarShipDeduction(scholarshipDeduction);
+  };
+
 
     return (
       <>
         <KithNavbar />
         <KithAdmissionSubNavbar />
         <div className="kith-financials-container">
-          <div className="kith-cost-est-div">
-            <h1 className="kith-cost-at-head">Cost of attendance</h1>
-            <p className="kith-cost-at-para">
-              The standard cost of attendance tool below gives you the average
+
+
+          <div className="kith-overview-div kith-overview-second-div">
+        <h1 className="kith-life-head">Cost of attendance</h1>
+        <p className="kith-life-para">
+        The standard cost of attendance tool below gives you the average
               amount students can expect to pay for tuition and fees, housing
               and food, books, course materials, supplies, and equipment,
               transportation, and personal expenses. These are averages and vary
               depending on factors like personal expenses, but they can help you
               estimate your costs for the year.
-            </p>
-          </div>
-          <div className="kith-cost-est-div">
+        </p>
+      </div>
+          <div style={{height: "60px"}}></div>
+          <h1 className="kith-est-head">Tuition Estimator</h1>
+    
+          <div className="kith-estimator-container">
+            <div className="kith-est-left-cont">
+
+
+              
+<div>
+            <label className="kith-est-label">Are you new to this institute?</label>
+           <div className="kith-est-label-sec">
+           <div 
+                className={`kith-est-left-each-cont switch-box ${isNewToInstitute === true ? 'active' : ''}`} 
+                onClick={() => handleNewToInstituteToggle(true)}
+            >
+              <label className="kith-est-label">Yes</label>
+            </div>
+            <div 
+                className={`kith-est-left-each-cont switch-box ${isNewToInstitute === false ? 'active' : ''}`} 
+                onClick={() => handleNewToInstituteToggle(false)}
+            >
+              <label className="kith-est-label">No</label>
+            </div> 
+           </div>
+            
+        </div>
+
+
+              <div className="kith-est-left-multi-cont">
+                <label className="kith-est-label">Class</label>
+                <select value={selectedClass} onChange={handleClassChange} className="kith-select-list">
+                  <option>Nursery</option>
+                  <option>KG</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                </select>
+              </div>
+          
+
+              <div>
+            <label className="kith-est-label">Are you local?</label>
+           <div className="kith-est-label-sec">
+           <div 
+                className={`kith-est-left-each-cont switch-box ${isLocal === true ? 'active' : ''}`} 
+                onClick={() => handleLocalToggle(true)}
+            >
+              <label className="kith-est-label">Yes</label>
+            </div>
+            <div 
+                className={`kith-est-left-each-cont switch-box ${isLocal === false ? 'active' : ''}`} 
+                onClick={() => handleLocalToggle(false)}
+            >
+              <label className="kith-est-label">No</label>
+            </div>
+           </div>
+              
+        </div>
+              <div className="kith-est-left-multi-cont">
+                <label className={`kith-est-label ${isLocal ? 'disabledColor' : ''}`}>Village</label>
+                <select value={selectedVillage} onChange={handleVillageChange} className={`kith-select-list ${isLocal ? 'disabledColor' : ''}`} disabled={isLocal}>
+                  {Object.keys(villageFees).map((village) => (
+                    <option key={village} value={village}>
+                      {village}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+<div>
+            <label className="kith-est-label">Do you want to avail bus facilities?</label>
+           <div className="kith-est-label-sec">
+           <div 
+                className={`kith-est-left-each-cont switch-box ${busFacility === true ? 'active' : ''}`} 
+                onClick={() => handleBusChange(true)}
+            >
+              <label className="kith-est-label">Yes</label>
+            </div>
+            <div 
+                className={`kith-est-left-each-cont switch-box ${busFacility === false ? 'active' : ''}`} 
+                onClick={() => handleBusChange(false)}
+            >
+              <label className="kith-est-label">No</label>
+            </div>
+           </div>
+             
+        </div>
+              
+<div>
+            <label className="kith-est-label">Do you want to avail stationary?</label>
+           <div className="kith-est-label-sec">
+           <div 
+                className={`kith-est-left-each-cont switch-box ${stationary === true ? 'active' : ''}`} 
+                onClick={() => handleStationoryChange(true)}
+            >
+              <label className="kith-est-label">Yes</label>
+            </div>
+            <div 
+                className={`kith-est-left-each-cont switch-box ${stationary === false ? 'active' : ''}`} 
+                onClick={() => handleStationoryChange(false)}
+            >
+              <label className="kith-est-label">No</label>
+            </div> 
+            </div> 
+ 
+        </div>
+
+                            
+<div>
+            <label className="kith-est-label">Do you want to avail meal plan?</label>
+           <div className="kith-est-label-sec">
+           <div 
+                className={`kith-est-left-each-cont switch-box ${mealPlan === true ? 'active' : ''}`} 
+                onClick={() => handleMealPlanChange(true)}
+            >
+              <label className="kith-est-label">Yes</label>
+            </div>
+            <div 
+                className={`kith-est-left-each-cont switch-box ${mealPlan === false ? 'active' : ''}`} 
+                onClick={() => handleMealPlanChange(false)}
+            >
+              <label className="kith-est-label">No</label>
+            </div> 
+           </div>
+            
+        </div>
+
+                            
+<div>
+            <label className="kith-est-label">Do you have any Scholarship?</label>
+           <div className="kith-est-label-sec">
+           <div 
+                className={`kith-est-left-each-cont switch-box ${scholarShip === true ? 'active' : ''}`} 
+                onClick={() => handlescholarChange(true)}
+            >
+              <label className="kith-est-label">Yes</label>
+            </div>
+            <div 
+                className={`kith-est-left-each-cont switch-box ${scholarShip === false ? 'active' : ''}`} 
+                onClick={() => handlescholarChange(false)}
+            >
+              <label className="kith-est-label">No</label>
+            </div>
+           </div>
+              
+        </div>
+
+
+              {scholarShip && (
+                <div className="kith-est-left-multi-cont">
+                  <label className="kith-est-label">Scholarship</label>
+                  <select value={scholarShipName} onChange={handlescholarShipChange} className="kith-select-list">
+                    {Object.keys(scholarshipRed).map((scholarship) => (
+                      <option key={scholarship} value={scholarship}>
+                        {scholarship}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              )}
+              <button onClick={calculateFee} className="financials-calc-btn">Calculate the Fee</button>
+            </div>
+            <div className="kith-est-right-cont">
+              <h1 style={{textAlign: "center"}}>Your calculated fee</h1>
+              <div className="kith-est-left-each-cont">
+                <label>Admission Fee: </label>
+                <p>{costs.admissionCost}</p>
+              </div>
+              <div className="kith-est-left-each-cont">
+                <label>Exam Fee : </label>
+                <p>{costs.examCost}</p>
+              </div>
+              <div className="kith-est-left-each-cont">
+                <label>Tuition : </label>
+                <p>{costs.tuitionCost}</p>
+              </div>
+              <div className="kith-est-left-each-cont">
+                <label>Bus Fee : </label>
+                <p>{costs.busFee}</p>
+              </div>
+              <div className="kith-est-left-each-cont">
+                <label>Stationary Fee : </label>
+                <p>{costs.stationaryCost}</p>
+              </div>
+              <div className="kith-est-left-each-cont">
+                <label>Meal Fee : </label>
+                <p>{costs.mealCost}</p>
+              </div>
+
+              <div className="kith-est-left-each-cont" style={{fontSize:"22px", fontWeight:"500"}}>
+                <label>Estimated total Fee : </label>
+                <p>{costs.totalCostwithoutscholar}</p>
+              </div>
+              <hr/>
+              {scholarShip && (
+                  <div className="kith-est-left-each-cont">
+                    <label>Scholarship Deduction : </label>
+                    <p>-{scholarshipDeduction}</p>
+                  </div>
+              )}
+              <div className="kith-est-left-each-cont" style={{fontSize:"24px", fontWeight:"600"}}>
+                <label>Estimated final Fee : </label>
+                <p>{costs.totalCost}</p>
+              </div>
+            </div>
+          </div> 
+
+          {/* <div className="kith-cost-est-div">
             <h1 className="kith-cost-at-head">Disclaimer</h1>
             <p className="kith-cost-at-para">
               This is not a bill. This is only an estimate. All amounts shown
@@ -328,194 +517,31 @@ class KithFinancials extends Component {
               <b>Note:</b> Tuition values are based on full-time enrollment for
               the 2024-2025 academic year.
             </p>
-          </div>
-          <h1 className="kith-est-head">Tuition Estimator</h1>
-          <div className="kith-estimator-container">
-            <div className="kith-est-left-cont">
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">
-                  Are you new to this institute?
-                </label>
-                <label className="switch">
-                  <input
-                    type="checkbox"
-                    checked={isNewToInstitute}
-                    onChange={this.handleNewToInstituteToggle}
-                  />
-                  <span className="slider round"></span>
-                </label>
-              </div>
-              <div className="kith-est-left-multi-cont">
-                <label className="kith-est-label">Class</label>
-                <select
-                  value={this.state.selectedClass}
-                  onChange={this.handleClassChange}
-                  className="kith-select-list"
-                >
-                  <option>Nursery</option>
-                  <option>KG</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                  <option>6</option>
-                  <option>7</option>
-                  <option>8</option>
-                  <option>9</option>
-                  <option>10</option>
-                </select>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">Are you local?</label>
-                <label className="switch">
-                  <input
-                    type="checkbox"
-                    checked={isLocal}
-                    onChange={this.handleLocalToggle}
-                  />
-                  <span className="slider round"></span>
-                </label>
-              </div>
-              <div className="kith-est-left-multi-cont">
-                <label
-                  className={`kith-est-label ${isLocal ? "disabledColor" : ""}`}
-                >
-                  Village
-                </label>
-                <select
-                  value={selectedVillage}
-                  onChange={this.handleVillageChange}
-                  className={`kith-select-list ${
-                    isLocal ? "disabledColor" : ""
-                  }`}
-                  disabled={isLocal}
-                >
-                  {Object.keys(villageFees).map((village) => (
-                    <option key={village} value={village}>
-                      {village}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label
-                  className={`kith-est-label ${isLocal ? "disabledColor" : ""}`}
-                >
-                  Do you want to avail bus facilites.
-                </label>
-                <label className="switch">
-                  <input
-                    type="checkbox"
-                    checked={busFacility}
-                    onChange={this.handleBusChange}
-                    disabled={isLocal}
-                  />
-                  <span className="slider round"></span>
-                </label>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">
-                  Do you want to avail stationary.
-                </label>
-                <label className="switch">
-                  <input
-                    type="checkbox"
-                    checked={stationary}
-                    onChange={this.handleStationoryChange}
-                  />
-                  <span className="slider round"></span>
-                </label>
-              </div>
+          </div> */}
 
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">
-                  Do you want to avail meal plan.
-                </label>
-                <label className="switch">
-                  <input
-                    type="checkbox"
-                    checked={mealPlan}
-                    onChange={this.handleMealPlanChange}
-                  />
-                  <span className="slider round"></span>
-                </label>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">
-                  Do you have any Scholorship.
-                </label>
-                <label className="switch">
-                  <input
-                    type="checkbox"
-                    checked={scholorShip}
-                    onChange={this.handleScholorChange}
-                  />
-                  <span className="slider round"></span>
-                </label>
-              </div>
-              {scholorShip && (
-                <div className="kith-est-left-multi-cont">
-                  <label className="kith-est-label">Scholarship</label>
-                  <select
-                    value={scholorShipName}
-                    onChange={this.handleScholorShipChange}
-                    className="kith-select-list"
-                  >
-                    {Object.keys(scholarshipRed).map((scholarship) => (
-                      <option key={scholarship} value={scholarship}>
-                        {scholarship}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              )}
 
-              <button
-                onClick={this.calculateFee}
-                className="financials-calc-btn"
-              >
-                Calculate the Fee
-              </button>
-            </div>
 
-            <div className="kith-est-right-cont">
-              <div className="kith-est-left-each-cont">
-                <label>Admission Fee: </label>
-                <p>{admissionCost}</p>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label>Exam Fee : </label>
-                <p>{examCost}</p>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label>Tuition : </label>
-                <p>{tuitionCost}</p>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label>Bus Fee : </label>
-                <p>{busFee}</p>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label>Stationary Fee : </label>
-                <p>{stationaryCost}</p>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label>Meal Fee : </label>
-                <p>{mealCost}</p>
-              </div>
-              {scholorShip && (
-                <div className="kith-est-left-each-cont">
-                  <label>Scholarship Deduction : </label>
-                  <p>-{scholarshipDeduction}</p>
-                </div>
-              )}
-              <div className="kith-est-left-each-cont">
-                <label>Total Fee : </label>
-                <p>{totalCost}</p>
-              </div>
-            </div>
-          </div>
+          <div style={{paddingTop: "20px"}} className="kith-overview-div kith-overview-second-div">
+        <h1 className="kith-life-head" style={{fontSize: "40px !important"}}>Disclaimer</h1>
+        <p className="kith-life-para">
+        This is not a bill. This is only an estimate. All amounts shown
+              here or in other publications or webpages represent tuition and
+              fees as currently approved. However, the Kith n Kin School
+              reserves right to increase or modify tuition and fees without
+              prior notice, upon approval by management or as otherwise
+              consistent with Board policy, and to make such modifications
+              applicable to students enrolled at Kith at that time as well as to
+              incoming students. In addition, all tuition amounts and fees are
+              subject to change at any time for correction of errors. Finally,
+              please note that fee amounts billed for any period may be adjusted
+              at a future date.
+        </p>
+        <p className="kith-life-para">
+              <b>Note:</b> Tuition values are based on full-time enrollment for
+              the 2024-2025 academic year.
+            </p>
+      </div>
+
           <div className="kith-financials-each-sub-container">
             <h1 className="kith-financials-head">Scholarships and Bursaries</h1>
             <p className="kith-financials-para">
@@ -593,7 +619,7 @@ class KithFinancials extends Component {
         <KithFooter />
       </>
     );
-  }
-}
+  // }
+};
 
 export default KithFinancials;
