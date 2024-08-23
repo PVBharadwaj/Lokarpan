@@ -282,7 +282,6 @@ const classMapping = {
               transportation, and personal expenses. These are averages and vary
               depending on factors like personal expenses, but they can help you
               estimate your costs for the year.
-<<<<<<< HEAD
         </p>
       </div>
           <div style={{height: "60px"}}></div>
@@ -316,140 +315,6 @@ const classMapping = {
               <div className="kith-est-left-multi-cont">
                 <label className="kith-est-label">Class</label>
                 <select value={selectedClass} onChange={handleClassChange} className="kith-select-list">
-=======
-            </p>
-          </div>
-
-          <h1 className="kith-est-head">Tuition Estimator</h1>
-          <div className="kith-estimator-container">
-            <div className="kith-est-left-cont">
-              {/* <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">
-                  Are you new to this institute?
-                </label>
-                <label className="switch">
-                  <input
-                    type="checkbox"
-                    checked={isNewToInstitute}
-                    onChange={this.handleNewToInstituteToggle}
-                  />
-                  <span className="slider round"></span>
-                </label>
-              </div> */}
-              <div className="kith-est-left-each-cont-ch">
-                <label className="kith-est-label">
-                  Are you new to this institute?
-                </label>
-                <select
-                  value={isNewToInstitute ? "Yes" : "No"}
-                  onChange={this.handleNewToInstituteToggle}
-                  className="kith-select-list"
-                >
-                  <option value="Yes">Yes</option>
-                  <option value="No">No</option>
-                </select>
-              </div>
-              <div className="kith-est-left-each-cont-ch">
-                <label className="kith-est-label">
-                  Will you need transportation services?
-                </label>
-                <select
-                  value={busFacility ? "Yes" : "No"}
-                  onChange={this.handleBusChange}
-                  className="kith-select-list"
-                >
-                  <option value="Yes">Yes</option>
-                  <option value="No">No</option>
-                </select>
-              </div>
-
-              <div className="kith-est-left-multi-cont">
-                <label
-                  className={`kith-est-label ${
-                    busFacility ? "" : "disabledColor"
-                  }`}
-                >
-                  Village
-                </label>
-                <select
-                  value={selectedVillage}
-                  onChange={this.handleVillageChange}
-                  className={`kith-select-list ${
-                    busFacility ? "" : "disabledColor"
-                  }`}
-                  disabled={!busFacility}
-                >
-                  {Object.keys(villageFees).map((village) => (
-                    <option key={village} value={village}>
-                      {village}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div className="kith-est-left-each-cont-ch">
-                <label className="kith-est-label">
-                  Will you need stationery supplies?
-                </label>
-                <select
-                  value={stationary ? "Yes" : "No"}
-                  onChange={this.handleStationoryChange}
-                  className="kith-select-list"
-                >
-                  <option value="Yes">Yes</option>
-                  <option value="No">No</option>
-                </select>
-              </div>
-              <div className="kith-est-left-each-cont-ch">
-                <label className="kith-est-label">
-                  Will you need a meal plan?
-                </label>
-                <select
-                  value={mealPlan ? "Yes" : "No"}
-                  onChange={this.handleMealPlanChange}
-                  className="kith-select-list"
-                >
-                  <option value="Yes">Yes</option>
-                  <option value="No">No</option>
-                </select>
-              </div>
-              <div className="kith-est-left-each-cont-ch">
-                <label className="kith-est-label">
-                  Are you seeking a scholarship?
-                </label>
-                <select
-                  value={scholorShip ? "Yes" : "No"}
-                  onChange={this.handleScholorChange}
-                  className="kith-select-list"
-                >
-                  <option value="Yes">Yes</option>
-                  <option value="No">No</option>
-                </select>
-              </div>
-
-              {scholorShip && (
-                <div className="kith-est-left-multi-cont">
-                  <label className="kith-est-label">Scholarship</label>
-                  <select
-                    value={scholorShipName}
-                    onChange={this.handleScholorShipChange}
-                    className="kith-select-list"
-                  >
-                    {Object.keys(scholarshipRed).map((scholarship) => (
-                      <option key={scholarship} value={scholarship}>
-                        {scholarship}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              )}
-              <div className="kith-est-left-multi-cont">
-                <label className="kith-est-label">Class</label>
-                <select
-                  value={this.state.selectedClass}
-                  onChange={this.handleClassChange}
-                  className="kith-select-list"
-                >
->>>>>>> 4e87ac06864f5b540749c7248738e7076f29f0f2
                   <option>Nursery</option>
                   <option>KG</option>
                   <option>1</option>
@@ -464,7 +329,6 @@ const classMapping = {
                   <option>10</option>
                 </select>
               </div>
-<<<<<<< HEAD
           
 
               <div>
@@ -634,29 +498,6 @@ const classMapping = {
             </div>
           </div> 
 
-          {/* <div className="kith-cost-est-div">
-            <h1 className="kith-cost-at-head">Disclaimer</h1>
-            <p className="kith-cost-at-para">
-              This is not a bill. This is only an estimate. All amounts shown
-              here or in other publications or webpages represent tuition and
-              fees as currently approved. However, the Kith n Kin School
-              reserves the right to increase or modify tuition and fees without
-              prior notice, upon approval by management or as otherwise
-              consistent with Board policy, and to make such modifications
-              applicable to students enrolled at Kith at that time as well as to
-              incoming students. In addition, all tuition amounts and fees are
-              subject to change at any time for correction of errors. Finally,
-              please note that fee amounts billed for any period may be adjusted
-              at a future date.
-            </p>
-            <p className="kith-cost-at-para">
-              <b>Note:</b> Tuition values are based on full-time enrollment for
-              the 2024-2025 academic year.
-            </p>
-          </div> */}
-
-
-
           <div style={{paddingTop: "20px"}} className="kith-overview-div kith-overview-second-div">
         <h1 className="kith-life-head" style={{fontSize: "40px !important"}}>Disclaimer</h1>
         <p className="kith-life-para">
@@ -664,63 +505,6 @@ const classMapping = {
               here or in other publications or webpages represent tuition and
               fees as currently approved. However, the Kith n Kin School
               reserves right to increase or modify tuition and fees without
-=======
-
-              {/* <button
-                onClick={this.calculateFee}
-                className="financials-calc-btn"
-              >
-                Calculate the Fee
-              </button> */}
-            </div>
-
-            <div className="kith-est-right-cont">
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">Admission Fee: </label>
-                <p className="kith-est-label">{admissionCost}</p>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">Exam Fee : </label>
-                <p className="kith-est-label">{examCost}</p>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">Tuition : </label>
-                <p className="kith-est-label">{tuitionCost}</p>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">Bus Fee : </label>
-                <p className="kith-est-label">{busFee}</p>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">Stationary Fee : </label>
-                <p className="kith-est-label">{stationaryCost}</p>
-              </div>
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label">Meal Fee : </label>
-                <p className="kith-est-label">{mealCost}</p>
-              </div>
-              {scholorShip && (
-                <div className="kith-est-left-each-cont">
-                  <label className="kith-est-label">
-                    Scholarship Deduction :{" "}
-                  </label>
-                  <p className="kith-est-label">-{scholarshipDeduction}</p>
-                </div>
-              )}
-              <div className="kith-est-left-each-cont">
-                <label className="kith-est-label total">Total Fee : </label>
-                <p className="kith-est-label total">{totalCost}</p>
-              </div>
-            </div>
-          </div>
-          <div className="kith-cost-est-div">
-            <h1 className="kith-cost-at-head">Disclaimer</h1>
-            <p className="kith-cost-at-para">
-              This is not a bill. This is only an estimate. All amounts shown
-              here or in other publications or webpages represent tuition and
-              fees as currently approved. However, the Kith n Kin School
-              reserves the right to increase or modify tuition and fees without
->>>>>>> 4e87ac06864f5b540749c7248738e7076f29f0f2
               prior notice, upon approval by management or as otherwise
               consistent with Board policy, and to make such modifications
               applicable to students enrolled at Kith at that time as well as to
@@ -728,7 +512,6 @@ const classMapping = {
               subject to change at any time for correction of errors. Finally,
               please note that fee amounts billed for any period may be adjusted
               at a future date.
-<<<<<<< HEAD
         </p>
         <p className="kith-life-para">
               <b>Note:</b> Tuition values are based on full-time enrollment for
@@ -744,14 +527,71 @@ const classMapping = {
               and ambitious students. Hence, regardless of your financial
               circumstances, if you have the drive to study and excel, you are
               welcome to apply.
-=======
->>>>>>> 4e87ac06864f5b540749c7248738e7076f29f0f2
             </p>
-            <p className="kith-cost-at-para">
-              <b>Note:</b> Tuition values are based on full-time enrollment for
-              the 2024-2025 academic year.
+            <p className="kith-financials-para">
+              The School welcomes those students who will not only reap benefits
+              from attending the school, but will also learn to be a leader and
+              make a difference in society and in life at large.
             </p>
+            <p className="kith-financials-para">
+              There is an annual allocation of scholarships for this purpose.
+              The School offers three kinds of scholarships to enable and
+              encourage meritorious students.
+            </p>
+            <div className="k-f-sub-each-cat">
+              <h2 className="kith-financials-head2">CATEGORY – A</h2>
+              <p className="kith-financials-para">
+                Merit-cum-Means Scholarship for new admissions in a given
+                academic year based on grades achieved in the Aptitude
+                Assessment and need for financial assistance. The Scholarships
+                offered to the students at the time of admission on a merit cum
+                means basis are as per the following criteria:
+              </p>
+              <ul>
+                <li>Student must enroll for the assessment.</li>
+                <li>
+                  Clearing the entrance assessment with 80% or higher accuracy
+                </li>
+              </ul>
+            </div>
+            <div className="k-f-sub-each-cat">
+              <h2 className="kith-financials-head2">CATEGORY – B</h2>
+              <p className="kith-financials-para">
+                Merit-cum-Means Scholarship for existing students in a given
+                academic year based on student’s performance scores in
+                Academics, Sports and Co-curricular activities and need for
+                financial assistance.
+              </p>
+              <ul>
+                <li>Top 10% rankholder in their batch</li>
+                <li>Minimum GPA of 3.5</li>
+                <li>
+                  Student belongs to a minority community or the EWS
+                  category(Economically weaker section)
+                </li>
+              </ul>
+            </div>
+            <div className="k-f-sub-each-cat">
+              <h2 className="kith-financials-head2">CATEGORY – C</h2>
+              <p className="kith-financials-para">
+                Purely Merit Based Scholarship for new admissions in a given
+                academic year to recognise the meritorious students for their
+                excellent performance irrespective of their financial needs.
+              </p>
+              <ul>
+                <li>Top 5% rankholder in their batch</li>
+                <li>Minimum GPA of 3.5</li>
+              </ul>
+            </div>
           </div>
+          <p className="kith-financials-para">
+            All rights to scholarships are reserved with the School Management.
+          </p>
+          <p className="kith-financials-para">
+            The scholarship categories include full or partial fee waiver for
+            the full-time course, an arrival allowance, and allowance for school
+            stationary.
+          </p>
         </div>
         <KithFooter />
       </>
