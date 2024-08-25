@@ -122,6 +122,7 @@ const villageFees = {
 };
 
 const scholarshipRed = {
+  "Select one": 0,
   "Common Aptitude Analysis1": 1000,
   "Common Aptitude Analysis2": 500,
   "Common Aptitude Analysis3": 250,
@@ -151,7 +152,7 @@ const classMapping = {
   const [mealPlan, setMealPlan] = useState(true);
   const [scholarShip, setScholarShip] = useState(false);
   const [scholarShipName, setScholarShipName] = useState("");
-  const [scholarshipDeduction, setScholarShipDeduction] = useState("");
+  const [scholarshipDeduction, setScholarShipDeduction] = useState("0");
   const [costs, setCosts] = useState({
     admissionCost: 1000,
     tuitionCost: 7200,
@@ -331,7 +332,7 @@ const classMapping = {
               </div>
           
 
-              <div>
+              {/* <div>
             <label className="kith-est-label">Are you local?</label>
            <div className="kith-est-label-sec">
            <div 
@@ -348,19 +349,10 @@ const classMapping = {
             </div>
            </div>
               
-        </div>
-              <div className="kith-est-left-multi-cont">
-                <label className={`kith-est-label ${isLocal ? 'disabledColor' : ''}`}>Village</label>
-                <select value={selectedVillage} onChange={handleVillageChange} className={`kith-select-list ${isLocal ? 'disabledColor' : ''}`} disabled={isLocal}>
-                  {Object.keys(villageFees).map((village) => (
-                    <option key={village} value={village}>
-                      {village}
-                    </option>
-                  ))}
-                </select>
-              </div>
+        </div> */}
 
-<div>
+
+          <div>
             <label className="kith-est-label">Do you want to avail bus facilities?</label>
            <div className="kith-est-label-sec">
            <div 
@@ -378,6 +370,18 @@ const classMapping = {
            </div>
              
         </div>
+
+
+        <div className="kith-est-left-multi-cont">
+                <label className={`kith-est-label ${!busFacility ? 'disabledColor' : ''}`}>Village</label>
+                <select value={selectedVillage} onChange={handleVillageChange} className={`kith-select-list ${!busFacility ? 'disabledColor' : ''}`} disabled={!busFacility}>
+                  {Object.keys(villageFees).map((village) => (
+                    <option key={village} value={village}>
+                      {village}
+                    </option>
+                  ))}
+                </select>
+              </div>
               
 <div>
             <label className="kith-est-label">Do you want to avail stationary?</label>
@@ -451,7 +455,7 @@ const classMapping = {
                   </select>
                 </div>
               )}
-              <button onClick={calculateFee} className="financials-calc-btn">Calculate the Fee</button>
+              {/* <button onClick={calculateFee} className="financials-calc-btn">Calculate the Fee</button> */}
             </div>
             <div className="kith-est-right-cont">
               <h1 style={{textAlign: "center"}}>Your calculated fee</h1>
@@ -519,7 +523,7 @@ const classMapping = {
             </p>
       </div>
 
-          <div className="kith-financials-each-sub-container">
+          {/* <div className="kith-financials-each-sub-container">
             <h1 className="kith-financials-head">Scholarships and Bursaries</h1>
             <p className="kith-financials-para">
               The School believes that investment in education is of the utmost
@@ -591,7 +595,7 @@ const classMapping = {
             The scholarship categories include full or partial fee waiver for
             the full-time course, an arrival allowance, and allowance for school
             stationary.
-          </p>
+          </p> */}
         </div>
         <KithFooter />
       </>
