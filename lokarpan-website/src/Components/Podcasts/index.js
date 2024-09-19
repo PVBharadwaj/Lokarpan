@@ -10,6 +10,8 @@ import "./index.css";
 
 const PodCasts = () => {
   const [popupVisibility, setPopupVisibility] = useState([false, false]);
+  const [showTooltip1, setShowTooltip1] = useState(false);
+  const [showTooltip2, setShowTooltip2] = useState(false);
   const headingRefs = useRef(Array.from({ length: 3 }, () => null));
   let intersectionObserver = null;
 
@@ -17,6 +19,22 @@ const PodCasts = () => {
     const updatedVisibility = [...popupVisibility];
     updatedVisibility[index] = true;
     setPopupVisibility(updatedVisibility);
+  };
+
+
+  const handleImgMouseOver1 = () => {
+    setShowTooltip1(true);
+  };
+
+  const handleImgMouseOut1 = () => {
+    setShowTooltip1(false);
+  };
+  const handleImgMouseOver2 = () => {
+    setShowTooltip2(true);
+  };
+
+  const handleImgMouseOut2 = () => {
+    setShowTooltip2(false);
   };
 
   const closepopup = (index) => {
@@ -131,9 +149,30 @@ const PodCasts = () => {
             <div className="like-right-cont">
               {/* <p className="font24-podcasts space-blw">Speaker profiles</p> */}
               <div className="like-right-img-cont">
-                <div className="like-img like-img1" onClick={() => openpopup(0)}></div>
-                <div className="like-img like-img2" onClick={() => openpopup(1)}></div>
-               
+                <div className="like-img like-img1"                             
+                onMouseOver={handleImgMouseOver1}
+                onMouseOut={handleImgMouseOut1}
+                onClick={() => openpopup(0)}>
+                  {showTooltip1 && 
+                    <div className="tooltip">
+                      <button type="button" className="pod-know-more-btn">
+                        Know-more
+                      </button>
+                    </div>
+                  }
+                </div>
+                {/* <div className="like-img like-img2" onClick={() => openpopup(1)}></div> */}
+                <div className="like-img like-img2"                             
+                onMouseOver={handleImgMouseOver2}
+                onMouseOut={handleImgMouseOut2}
+                onClick={() => openpopup(1)}>
+                  {showTooltip2 && 
+                    <div className="tooltip">
+                      <button type="button" className="pod-know-more-btn">
+                      Know-more
+                      </button>
+                    </div>}
+                </div>
                 {/* <img
                   src="https://res.cloudinary.com/dtfzxqpoy/image/upload/v1713273901/Screenshot_2024-04-16_185311_gwamnh.png"
                   className="like-img"

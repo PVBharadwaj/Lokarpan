@@ -396,94 +396,96 @@ const Approach = () => {
             alt="health-img"
           />
         </div> */}
+        <h2>Our achievements</h2>
         <div className="approach-modal-container">
+          
           <div className="approach-modal-each-cont">
-            <h2>Model S</h2>
+            {/* <h2>Model S</h2>
             <p>
               Dual Motor All-Wheel Drive unlocks more range than any other
               vehicle in our current lineup, with insane power and maximum
               control.
-            </p>
+            </p> */}
             <div className="approach-modal-col">
               <div className="app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+              <h3>1139</h3>
+              <p>Kith students</p>
               </div>
               <div className="app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+              <h3>101</h3>
+                <p>Early childhood development centres</p>
               </div>
               <div className="app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+              <h3>80</h3>
+                <p>non formal education centres</p>
               </div>
             </div>
           </div>
           <div className="approach-modal-each-cont">
-            <h2>Model S</h2>
+            {/* <h2>Model S</h2>
             <p>
               Maintain 1,000+ horsepower all the way to 200 mph with Tri-Motor
               All-Wheel Drive, featuring torque vectoring and three independent
               carbon-sleeved rotors.
-            </p>
+            </p> */}
             <div className="approach-modal-col">
               <div className="app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+              <h3>8621</h3>
+              <p>cluster school students</p>
               </div>
               <div className="app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+              <h3>100+</h3>
+                <p>residential bridge centre students</p>
               </div>
               <div className="app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+              <h3>1774</h3>
+                <p>enrolled NFE students</p>
               </div>
             </div>
           </div>
         </div>
         <div className="mobile-approach-modal-container">
           <div className="mobile-approach-modal-each-cont">
-            <h2>Model S</h2>
+            {/* <h2>Model S</h2>
             <p>
               Dual Motor All-Wheel Drive unlocks more range than any other
               vehicle in our current lineup, with insane power and maximum
               control.
-            </p>
+            </p> */}
             <div className="mobile-approach-modal-col">
               <div className="mobile-app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+                <h3>1139</h3>
+                <p>Kith students</p>
               </div>
               <div className="mobile-app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+                <h3>101</h3>
+                <p>Early childhood development centres</p>
               </div>
               <div className="mobile-app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+                <h3>80</h3>
+                <p>non formal education centres</p>
               </div>
             </div>
           </div>
           <div className="mobile-approach-modal-each-cont">
-            <h2>Model S</h2>
+            {/* <h2>Model S</h2>
             <p>
               Dual Motor All-Wheel Drive unlocks more range than any other
               vehicle in our current lineup, with insane power and maximum
               control.
-            </p>
+            </p> */}
             <div className="mobile-approach-modal-col">
               <div className="mobile-app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+                <h3>8621</h3>
+                <p>cluster school students</p>
               </div>
               <div className="mobile-app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+                <h3>100+</h3>
+                <p>residential bridge centre students</p>
               </div>
               <div className="mobile-app-modal-each-col">
-                <h3>3.1s</h3>
-                <p>0-60mph</p>
+                <h3>1774</h3>
+                <p>enrolled NFE students</p>
               </div>
             </div>
           </div>

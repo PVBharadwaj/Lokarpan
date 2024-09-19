@@ -29,7 +29,7 @@ class Career extends Component {
             </div>
           </div>
           <div className="mobile-career-top-container">
-            <img src="https://res.cloudinary.com/digbzwlfx/image/upload/v1708687751/image_319_hvmynw.png" />
+            <img src="https://images.unsplash.com/photo-1681164315393-8d2850f570fa?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
             <h1 className="mobile-head2">Join Us!</h1>
             <h3 className="mobile-head1">You’ve come to the right place</h3>
             <p className="mobile-career-para1">

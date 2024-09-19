@@ -28,7 +28,7 @@ const Impact = () => {
           <div className="sub-div">
             <img
               className="fellow-img"
-              src="https://res.cloudinary.com/dtfzxqpoy/image/upload/v1708621836/Rectangle_1933_jveg4a.png"
+              src="https://images.unsplash.com/photo-1603485170238-d0eaf004f3ca?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="img2"
             />
             <h3 className="impact-title">We ask communities what they need.</h3>

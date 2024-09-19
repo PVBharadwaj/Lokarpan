@@ -102,7 +102,7 @@ class DigitalTool extends Component {
                     className="dig-icon-img"
                   />
                 </div>
-                <h4>Adobe</h4>
+                <h4>Data Visualization</h4>
                 <p>
                   Transform health and education data into insightful visuals with
                   our informatics web app for dynamic data visualisation.
@@ -142,7 +142,7 @@ class DigitalTool extends Component {
                     className="dig-icon-img"
                   />
                 </div>
-                <h4>Exams & Quizzes</h4>
+                <h4>Test-taking</h4>
                 <p>
                   Create and conduct engaging exams and quizzes for learners of
                   all ages using our Horizon app, designed for effective
