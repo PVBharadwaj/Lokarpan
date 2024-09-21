@@ -42,7 +42,9 @@ export default class d_home extends Component {
                   Browse our design initiatives tailored for rural school
                   infrastructure.
                 </p>
-                <button className="new-btn-design">Read More</button>
+                <Link to="/designlist">
+                  <button className="new-btn-design">Read More</button>
+                </Link>
               </div>
               <div className="new-our-projects-each-right-cont"></div>
             </div>

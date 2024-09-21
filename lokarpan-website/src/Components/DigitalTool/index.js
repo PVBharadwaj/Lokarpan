@@ -25,6 +25,7 @@ class DigitalTool extends Component {
               A suite of digital services that help our learners build
               knowledge, fuel curiosity, and prepare for what’s next.
             </h1>
+            <p className="digital-para">Our Digital Solutions</p>
             <div className="img-cont">
               <img
                 src="https://res.cloudinary.com/digbzwlfx/image/upload/v1708784180/Group_1756_wixb2m.png"
@@ -102,10 +103,10 @@ class DigitalTool extends Component {
                     className="dig-icon-img"
                   />
                 </div>
-                <h4>Adobe</h4>
+                <h4>Data Visualization</h4>
                 <p>
-                  Transform health and education data into insightful visuals with
-                  our informatics web app for dynamic data visualisation.
+                  Transform health and education data into insightful visuals
+                  with our informatics web app for dynamic data visualisation.
                 </p>
               </div>
               <div className="temp-each-cont">
@@ -142,7 +143,7 @@ class DigitalTool extends Component {
                     className="dig-icon-img"
                   />
                 </div>
-                <h4>Exams & Quizzes</h4>
+                <h4>Test-taking</h4>
                 <p>
                   Create and conduct engaging exams and quizzes for learners of
                   all ages using our Horizon app, designed for effective
@@ -150,7 +151,6 @@ class DigitalTool extends Component {
                 </p>
               </div>
             </div>
-
           </div>
           <div className="digital-tool-last-sec">
             <h3>Be a Catalyst for Change</h3>
@@ -160,7 +160,14 @@ class DigitalTool extends Component {
               fuels innovation and transformative impact.
             </p>
             <div className="digital-tool-btn-cont">
-              <button className="digital-tool-btn">Volunteer</button>
+              <a
+                href="https://forms.gle/6NyxSuSxpWX3CG116"
+                target="_blank"
+                className="anchor-no-line"
+              >
+                <button className="digital-tool-btn">Volunteer</button>
+              </a>
+
               <Link to="/donate" style={{ textDecoration: "none" }}>
                 <button className="digital-tool-btn donate-orange">
                   Donate

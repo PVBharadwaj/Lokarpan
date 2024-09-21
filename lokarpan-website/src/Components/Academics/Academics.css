@@ -2,7 +2,7 @@
 
 .academics-upper-section {
   height: 700px;
-  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1709281455/Rectangle_1812_2_x0edne.png");
+  background-image: url("https://cdn.pixabay.com/photo/2017/12/22/08/01/book-3033196_1280.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,15 +107,35 @@
 }
 
 .academics-card-img-1 {
-  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1709277369/Rectangle_1922_ygjslo.png");
+  background-image: url("https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg");
 }
 
 .academics-card-img-2 {
-  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1709277385/Rectangle_1924_qhodkb.png");
+  background-image: url("https://plus.unsplash.com/premium_photo-1691873264289-4b5436484762?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 .academics-card-img-3 {
-  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1709281412/Rectangle_1925_ue0lq3.png");
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/08/09/20/policy-3591642_1280.jpg");
+}
+
+.academics-card-img-4 {
+  background-image: url("https://cdn.pixabay.com/photo/2022/10/20/02/30/young-boy-7533954_1280.jpg");
+}
+
+.academics-card-img-5 {
+  background-image: url("https://images.unsplash.com/photo-1551731409-43eb3e517a1a?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.academics-card-img-6 {
+  background-image: url("https://images.unsplash.com/photo-1497486751825-1233686d5d80?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.academics-card-img-7 {
+  background-image: url("https://images.unsplash.com/photo-1608764590078-d3c930bcacb4?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.academics-card-img-8 {
+  background-image: url("https://images.unsplash.com/photo-1698993082050-19ca94c62fb8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 .academics-card-text {
@@ -179,7 +199,7 @@
   .academics-upper-section-text {
     height: auto;
   }
-  .academics-upper-section-text h1{
+  .academics-upper-section-text h1 {
     font-size: 48px;
   }
   .academics-upper-section p {

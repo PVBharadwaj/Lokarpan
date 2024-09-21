@@ -119,10 +119,16 @@ class ContactUs extends Component {
               <div className="maps-below-right-sec">
                 <h3 className="contact-font24-left">Address</h3>
                 <p className="contact-font16">Lokarpan HQ</p>
-                <p className="contact-font16-normal contact-600">V&P Malhausi</p>
-                <p className="contact-font16-normal contact-600">Auariya, UP 206255</p>
+                <p className="contact-font16-normal contact-600">
+                  V&P Malhausi
+                </p>
+                <p className="contact-font16-normal contact-600">
+                  Auariya, UP 206255
+                </p>
                 <p className="contact-font16-normal contact-600">India</p>
-                <p className="contact-font16-normal contact-600">Tele : XXX-XXX-XXXX</p>
+                <p className="contact-font16-normal contact-600">
+                  Tele : XXX-XXX-XXXX
+                </p>
                 <a href="#" className="contact-anchor contact-600">
                   Directions
                 </a>
@@ -144,42 +150,66 @@ class ContactUs extends Component {
             <p className="contact-font48-left">Resources</p>
             <ul className="list">
               <li className="each-item">
-                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/donate"}>Donate</Link> </p>
+                <p className="contact-font28">
+                  <Link className="contact-font28 no-deco" to={"/donate"}>
+                    Donate
+                  </Link>{" "}
+                </p>
                 <p className="each-item-p">
                   Explore our Support Page to learn how you can make a
                   difference through your generosity.
                 </p>
               </li>
               <li className="each-item">
-                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/"}>Leadership</Link></p>
+                <p className="contact-font28">
+                  <Link className="contact-font28 no-deco" to={"/"}>
+                    Leadership
+                  </Link>
+                </p>
                 <p className="each-item-p">
                   Visit our Leadership Page to meet the team driving Lokarpan's
                   mission forward.
                 </p>
               </li>
               <li className="each-item">
-                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/"}>Alumni</Link></p>
+                <p className="contact-font28">
+                  <Link className="contact-font28 no-deco" to={"/kith/alumni"}>
+                    Alumni
+                  </Link>
+                </p>
                 <p className="each-item-p">
                   Connect with fellow Lokarpan alumni and discover how you can
                   stay engaged with our community on our Alumni Page.
                 </p>
               </li>
               <li className="each-item">
-                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/"}>Careers</Link></p>
+                <p className="contact-font28">
+                  <Link className="contact-font28 no-deco" to={"/"}>
+                    Careers
+                  </Link>
+                </p>
                 <p className="each-item-p">
                   Unlock exciting opportunities to join Lokarpan's dedicated
                   team by visiting our Careers Page.
                 </p>
               </li>
               <li className="each-item">
-                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/financial"}>Financial Info</Link></p>
+                <p className="contact-font28">
+                  <Link className="contact-font28 no-deco" to={"/financial"}>
+                    Financial Info
+                  </Link>
+                </p>
                 <p className="each-item-p">
                   Gain insights into Lokarpan's financial transparency and
                   stewardship by exploring our Financial Info Page.
                 </p>
               </li>
               <li className="each-item">
-                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/newsletter"}>Newsletters</Link></p>
+                <p className="contact-font28">
+                  <Link className="contact-font28 no-deco" to={"/newsletter"}>
+                    Newsletters
+                  </Link>
+                </p>
                 <p className="each-item-p">
                   Stay updated on Lokarpan's latest news, initiatives, and
                   events by subscribing to our newsletters.

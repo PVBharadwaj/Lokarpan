@@ -56,51 +56,7 @@ class SafetyAndWellBeing extends Component {
               listen and assist.
             </li>
           </ul> */}
-          <div className="safety-last-section">
-            <h1 className="safety-font48">Committee & Clubs</h1>
-            <div className="safety-last-section-content">
-              <div className="safety-last-section-content-left">
-                <img
-                  src="https://res.cloudinary.com/digbzwlfx/image/upload/v1707807265/Rectangle_1810_lkylax.png"
-                  className="safety-last-img"
-                />
-                <ul className="safety-last-section-content-list">
-                  <li>
-                    <b>Program Development Committee:</b> Shape the direction of
-                    our programs and initiatives.
-                  </li>
-                  <li>
-                    <b>Community Outreach Committee:</b> Connect with external
-                    partners and extend Lokarpan's reach.
-                  </li>
-                  <li>
-                    <b>Innovation and Technology Committee:</b> Explore
-                    cutting-edge solutions to drive positive change.
-                  </li>
-                </ul>
-              </div>
-              <div className="safety-last-section-content-right">
-                <img
-                  src="https://res.cloudinary.com/digbzwlfx/image/upload/v1707807257/Rectangle_1811_sqkv2u.png"
-                  className="safety-last-img"
-                />
-                <ul className="safety-last-section-content-list">
-                  <li>
-                    <b>Program Development Committee:</b> Shape the direction of
-                    our programs and initiatives.
-                  </li>
-                  <li>
-                    <b>Community Outreach Committee:</b> Connect with external
-                    partners and extend Lokarpan's reach.
-                  </li>
-                  <li>
-                    <b>Innovation and Technology Committee:</b> Explore
-                    cutting-edge solutions to drive positive change.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+         
         </div>
         <KithFooter />
       </>

@@ -148,7 +148,7 @@ class OurRole extends Component {
                 <div className="cards-left-container">
                   <div className="card">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://cdn.pixabay.com/photo/2016/09/26/00/10/apprentice-1694970_1280.jpg"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -266,7 +266,7 @@ class OurRole extends Component {
                 <div className="cards-right-container">
                   <div className="card space">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://cdn.pixabay.com/photo/2024/04/15/01/49/certificate-8696601_1280.jpg"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -367,7 +367,7 @@ class OurRole extends Component {
                   </div>
                   <div className="card">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -463,7 +463,7 @@ class OurRole extends Component {
               <div className="mobile-education-cards-container">
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://cdn.pixabay.com/photo/2016/09/26/00/10/apprentice-1694970_1280.jpg"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -577,7 +577,7 @@ class OurRole extends Component {
 
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://cdn.pixabay.com/photo/2024/04/15/01/49/certificate-8696601_1280.jpg"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -678,7 +678,7 @@ class OurRole extends Component {
 
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -778,7 +778,7 @@ class OurRole extends Component {
                 <div className="cards-right-container">
                   <div className="card space">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -883,7 +883,7 @@ class OurRole extends Component {
                   </div>
                   <div className="card">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://images.pexels.com/photos/5214995/pexels-photo-5214995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -976,7 +976,7 @@ class OurRole extends Component {
                 <div className="cards-left-container space-left">
                   <div className="card">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://cdn.pixabay.com/photo/2017/01/29/21/16/nurse-2019420_1280.jpg"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -1074,7 +1074,7 @@ class OurRole extends Component {
               <div className="mobile-education-cards-container">
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -1179,7 +1179,7 @@ class OurRole extends Component {
 
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://images.pexels.com/photos/5214995/pexels-photo-5214995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -1271,7 +1271,7 @@ class OurRole extends Component {
 
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://cdn.pixabay.com/photo/2017/01/29/21/16/nurse-2019420_1280.jpg"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -1396,7 +1396,7 @@ class OurRole extends Component {
                 <div className="cards-left-container liv-space-above">
                   <div className="card">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://cdn.pixabay.com/photo/2018/05/19/07/26/ecommerce-3412872_1280.jpg"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -1494,107 +1494,9 @@ class OurRole extends Component {
                   </div>
                 </div>
                 <div className="cards-right-container">
-                  {/* <div className="card space">
-                    <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
-                      className="edu-img"
-                      alt="Card 1"
-                    />
-                    <div className="card-content">
-                     
-                      <h3>
-                        Empowering individuals and communities through financial
-                        inclusion.
-                      </h3>
-
-                      <Popup
-                        trigger={
-                          <div className="expand-sec">
-                            <p>EXPAND TO LEARN MORE</p>
-                            <IoMdExpand />
-                          </div>
-                        }
-                        modal
-                        onOpen={this.updatePopUpOpen}
-                        onClose={this.updatePopUpOpen}
-                        onKeyDown={(event, close) => {
-                          this.onKeyDown(event, close);
-                        }}
-                      >
-                        {(close) => (
-                          <>
-                            <div className="popup-container">
-                              <button className="close-btn">
-                                <IoMdClose
-                                  style={{
-                                    fontSize: "30px",
-                                  }}
-                                  onClick={() => close()}
-                                />
-                              </button>
-                              <div className="popup-section">
-                                <div className="popup-left-container">
-                                  <h3 className="popup-font40">
-                                    MICROFINANCE INITIATIVES
-                                  </h3>
-                                  <p className="popup-font20">
-                                    In Uttar Pradesh, Lokarpan has helped
-                                    reshape communities by fostering financial
-                                    autonomy among women entrepreneurs
-                                  </p>
-                                </div>
-                                <div className="popup-right-container">
-                                  <img
-                                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1709805492/IMG_3308_1_cz5yw3.png"
-                                    alt="popup-img"
-                                    className="popup-img"
-                                  />
-                                  <div className="popup-content">
-                                    <h3 className="popup-font18">SPOTLIGHT</h3>
-                                    <p className="popup-font16">
-                                      Lokarpan initiated the establishment of
-                                      Self-Help Groups (SHGs) in 2003,
-                                      recognising the compelling need for
-                                      economic empowerment among the women
-                                      engaged in our health and education
-                                      initiatives. This pivotal step introduced
-                                      a structured microcredit and savings
-                                      program, strategically designed to
-                                      facilitate their access to vital funds for
-                                      livelihood enhancement.
-                                    </p>
-                                    <p className="popup-font16">
-                                      Out of the formed groups, a commendable 41
-                                      SHGs successfully inaugurated bank
-                                      accounts with HDFC, enabling them to
-                                      proficiently manage bank loans and
-                                      internal lending. With a total membership
-                                      tallying 3133 individuals spread across
-                                      169 villages, Lokarpan maintained a
-                                      steadfast engagement with these groups.
-                                      The program facilitated the mobilisation
-                                      of savings, inspiring members to
-                                      strategically deploy funds towards
-                                      pressing economic exigencies. Loans were
-                                      utilised by women to venture into
-                                      livestock acquisition, launch small-scale
-                                      enterprises, establish tailoring
-                                      boutiques, store agricultural produce, and
-                                      engage in profitable sales.
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="popup-overlay"></div>
-                          </>
-                        )}
-                      </Popup>
-                    </div>
-                  </div> */}
                   <div className="card">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://cdn.pixabay.com/photo/2023/03/07/22/21/old-7836510_1280.jpg"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -1792,7 +1694,7 @@ class OurRole extends Component {
 
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://cdn.pixabay.com/photo/2018/05/19/07/26/ecommerce-3412872_1280.jpg"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -1889,7 +1791,7 @@ class OurRole extends Component {
 
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://cdn.pixabay.com/photo/2023/03/07/22/21/old-7836510_1280.jpg"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -1996,7 +1898,7 @@ class OurRole extends Component {
                 <div className="cards-right-container">
                   <div className="card space">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://cdn.pixabay.com/photo/2022/11/21/15/31/woman-7607345_1280.jpg"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -2104,7 +2006,7 @@ class OurRole extends Component {
                   </div>
                   <div className="card">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://images.pexels.com/photos/381843/pexels-photo-381843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -2210,7 +2112,7 @@ class OurRole extends Component {
                 <div className="cards-left-container space-left">
                   <div className="card">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://images.unsplash.com/photo-1719558462099-c3463d684fc4?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -2317,7 +2219,7 @@ class OurRole extends Component {
               <div className="mobile-education-cards-container">
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://cdn.pixabay.com/photo/2022/11/21/15/31/woman-7607345_1280.jpg"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -2425,7 +2327,7 @@ class OurRole extends Component {
 
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://images.pexels.com/photos/381843/pexels-photo-381843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -2529,7 +2431,7 @@ class OurRole extends Component {
 
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://images.unsplash.com/photo-1719558462099-c3463d684fc4?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -2662,7 +2564,7 @@ class OurRole extends Component {
                 <div className="cards-left-container">
                   <div className="card">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://cdn.pixabay.com/photo/2016/11/08/05/31/boys-1807545_1280.jpg"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -2769,7 +2671,7 @@ class OurRole extends Component {
                 <div className="cards-right-container">
                   <div className="card space">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://cdn.pixabay.com/photo/2016/10/04/23/52/cow-1715829_1280.jpg"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -2865,7 +2767,7 @@ class OurRole extends Component {
                   </div>
                   <div className="card">
                     <img
-                      src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                      src="https://images.pexels.com/photos/2382899/pexels-photo-2382899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       className="edu-img"
                       alt="Card 1"
                     />
@@ -2970,7 +2872,7 @@ class OurRole extends Component {
               <div className="mobile-education-cards-container">
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://cdn.pixabay.com/photo/2016/11/08/05/31/boys-1807545_1280.jpg"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -3074,7 +2976,7 @@ class OurRole extends Component {
 
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://cdn.pixabay.com/photo/2016/10/04/23/52/cow-1715829_1280.jpg"
                     className="edu-img"
                     alt="Card 1"
                   />
@@ -3169,7 +3071,7 @@ class OurRole extends Component {
 
                 <div className="card">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704824773/image_183_nayqzx.png"
+                    src="https://images.pexels.com/photos/2382899/pexels-photo-2382899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     className="edu-img"
                     alt="Card 1"
                   />

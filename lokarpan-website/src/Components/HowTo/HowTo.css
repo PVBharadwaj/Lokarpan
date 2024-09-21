@@ -8,7 +8,7 @@
 .how-to-upper-section {
   height: 712px;
   width: 100%;
-  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1709034629/image_279_1_scwiyv.png");
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/03/09/46/indian-1119236_1280.jpg");
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -65,7 +65,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRXf_v9HN0mLlUntyj1dgMwC7buO0yVfOxnml4yhTKr3lut_kUO");
+  background-image: url("https://cdn.pixabay.com/photo/2024/08/31/06/40/college-9010619_1280.jpg");
 }
 
 /* .howto-card img {

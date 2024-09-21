@@ -10,7 +10,7 @@
 
 .career-top-container {
   width: 100%;
-  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1708687751/image_319_hvmynw.png");
+  background-image: url("https://images.unsplash.com/photo-1681164315393-8d2850f570fa?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
   height: auto;
@@ -31,7 +31,9 @@
   font-size: 14px;
   text-align: center;
 }
-
+.anchor-no-line {
+  text-decoration: none;
+}
 .head2 {
   font-size: 64px;
   font-weight: bold;
@@ -172,7 +174,7 @@ a {
   width: 50%;
   background-size: cover;
   background-position: center;
-  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1710771181/Rectangle_1763_2_jukbok.png");
+  background-image: url("https://images.pexels.com/photos/6348129/pexels-photo-6348129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 .career-cont-img-div2 {
   height: 100%;
@@ -186,7 +188,7 @@ a {
   width: 50%;
   background-size: cover;
   background-position: center;
-  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1710771208/image_189_1_q8vzgr.png");
+  background-image: url("https://cdn.pixabay.com/photo/2020/05/06/06/21/mask-5136259_1280.jpg");
 }
 .career-cont-img-div4 {
   height: 100%;

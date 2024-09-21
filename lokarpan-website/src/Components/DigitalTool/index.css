@@ -180,6 +180,13 @@
   text-align: center;
   font-weight: 600;
 }
+.digital-para {
+  margin: 20px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
+}
+
 .digital-tool-btn {
   height: 40px;
   width: 150px;
@@ -311,6 +318,9 @@
   }
   .digital-tool-last-sec {
     margin: 100px auto;
+  }
+  .digital-para {
+    font-size: 24px;
   }
 }
 

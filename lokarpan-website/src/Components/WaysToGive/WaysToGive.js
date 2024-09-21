@@ -3,8 +3,8 @@ import SupportSubNav from "../Navbar/SupportSubNav/SupportSubNav";
 import "./WaysToGive.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import React, { useState, useEffect } from "react";
 import { RxCross2 } from "react-icons/rx";
 const WaysToGive = () => {
@@ -46,9 +46,7 @@ const WaysToGive = () => {
     <>
       <Navbar />
       <SupportSubNav />
-      <div className="ways-top">
-        <h1>Ways to give</h1>
-      </div>
+      <div className="ways-top">{/* <h1>Ways to give</h1> */}</div>
       {/* used in kith/employment */}
       <div className="ways-page">
         <div className="give-card padding40">
@@ -66,20 +64,29 @@ const WaysToGive = () => {
               planning and various funds to secure our ability to continue
               making a meaningful difference.
             </p>
-            <Link className="give-card-link ways-space-up" to="/donate" style={{ color: '#06c' }}>
-  Donate now<span className="arrow-icon">
-        <ArrowForwardIosIcon style={{ verticalAlign: 'middle', fontSize: '15px' }} />
-      </span></Link>
+            <Link
+              className="give-card-link ways-space-up"
+              to="/donate"
+              style={{ color: "#06c" }}
+            >
+              Donate now
+              <span className="arrow-icon">
+                <ArrowForwardIosIcon
+                  style={{ verticalAlign: "middle", fontSize: "15px" }}
+                />
+              </span>
+            </Link>
 
-<button
-  onClick={() => openpopup(0)}
-  className="give-pop-up-button"
-  style={{ cursor: "pointer" }}
->
-  Explore a Gift<AddCircleOutlineIcon style={{ verticalAlign: 'middle', marginLeft: '10px' 
-}} />
-  
-</button>
+            <button
+              onClick={() => openpopup(0)}
+              className="give-pop-up-button"
+              style={{ cursor: "pointer" }}
+            >
+              Explore a Gift
+              <AddCircleOutlineIcon
+                style={{ verticalAlign: "middle", marginLeft: "10px" }}
+              />
+            </button>
             {popupVisibility[0] && (
               <div className="misson-popup">
                 <div className="misson-popup-content">
@@ -100,11 +107,12 @@ const WaysToGive = () => {
                     sustainability, both environmentally and socially, by
                     implementing practices that promote long-term well-being and
                     resilience.
-                   <br></br> <span  className="mission-para1"> Thank you for your generous support.
-                </span>
+                    <br></br>{" "}
+                    <span className="mission-para1">
+                      {" "}
+                      Thank you for your generous support.
+                    </span>
                   </p>
-                  
-                   
                 </div>
               </div>
             )}
@@ -124,9 +132,12 @@ const WaysToGive = () => {
               support@lokarpan.com for more information.
             </p>
             <Link className="give-card-link ways-space-up" to="/newsletter">
-              Register<span className="arrow-icon">
-        <ArrowForwardIosIcon style={{ verticalAlign: 'middle', fontSize: '15px' }} />
-      </span>
+              Register
+              <span className="arrow-icon">
+                <ArrowForwardIosIcon
+                  style={{ verticalAlign: "middle", fontSize: "15px" }}
+                />
+              </span>
             </Link>
             {/* <Link className="give-card-link" to="/">Free Membership</Link> */}
           </div>
@@ -147,15 +158,20 @@ const WaysToGive = () => {
               colleagues and partners.
             </p>
             <Link className="give-card-link" to="/being-a-volunteer">
-              Volunteer Opportunities<span className="arrow-icon">
-        <ArrowForwardIosIcon style={{ verticalAlign: 'middle', fontSize: '15px' }} />
-      </span>
+              Volunteer Opportunities
+              <span className="arrow-icon">
+                <ArrowForwardIosIcon
+                  style={{ verticalAlign: "middle", fontSize: "15px" }}
+                />
+              </span>
             </Link>
             <Link className="give-card-link" to="/fellowship">
-              Fellowship<span className="arrow-icon">
-        <ArrowForwardIosIcon style={{ verticalAlign: 'middle', fontSize: '15px' }} />
-      </span>
-
+              Fellowship
+              <span className="arrow-icon">
+                <ArrowForwardIosIcon
+                  style={{ verticalAlign: "middle", fontSize: "15px" }}
+                />
+              </span>
             </Link>
           </div>
         </div>

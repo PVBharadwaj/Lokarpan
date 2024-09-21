@@ -98,7 +98,7 @@ class Home extends Component {
             </div>
             <div className="row-element">
               <img
-                src="https://res.cloudinary.com/digbzwlfx/image/upload/v1708661156/image_308_eg055b.png"
+                src="https://cdn.pixabay.com/photo/2014/03/26/13/21/school-298681_1280.jpg"
                 className="design-img"
               />
               <div className="under-cont">
@@ -125,12 +125,12 @@ class Home extends Component {
 
             <div className="images-container">
               <img
-                src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704820084/image_177_gagtm0.png"
+                src="https://images.pexels.com/photos/7475690/pexels-photo-7475690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="lokarpan-image2"
                 className="img2"
               />
               <img
-                src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704820096/image_178_wjbsby.png"
+                src="https://images.pexels.com/photos/4580147/pexels-photo-4580147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="lokarpan-image3"
                 className="img3"
               />
@@ -188,7 +188,7 @@ class Home extends Component {
               <div className="each-carousal1">
                 <div className="carousal1">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1709612862/image_310_xda1ln.png"
+                    src="https://images.pexels.com/photos/1230157/pexels-photo-1230157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     alt="Slide 1"
                     className="carousal-img1"
                   />

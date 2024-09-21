@@ -119,8 +119,8 @@
 
 .fellow-img {
   width: 100%;
-  height: auto;
-  /* max-height: 360px; */
+  object-fit: cover;
+  height: 360px;
 }
 
 .fellowship-top > .impact-title {

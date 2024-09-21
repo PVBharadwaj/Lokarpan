@@ -197,14 +197,14 @@ const HowTo = () => {
           <h2 className="howto-start-head1">
             2. Interview and Common Entrance Test
           </h2>
-          <p className="howto-start-head3">
+          <p className="howto-start-head2">
             Once online application forms and required documents have been
             received, candidates are invited to our campus to get to know the
             school and to take a common entrance test in mathematics, english
             and hindi. They are interviewed by academic heads and they have the
             chance to ask questions.
           </p>
-          <p className="howto-start-head3">
+          <p className="howto-start-head2">
             If the student is not invited for an interview, this will bring the
             admissions process to an end. If the student is invited to the
             school for an interview and testing, we would normally arrange a
@@ -213,14 +213,14 @@ const HowTo = () => {
             from playgroup to grade three, however, they may undergo an
             interview to assess their personality and cognitive level.
           </p>
-          <p className="howto-start-head3">
+          <p className="howto-start-head2">
             <b>Disclaimer: </b>Children develop fairly quickly over the course
             of a year and all candidates who are refused an admission or a place
             can always reapply for the following year. To increase their chances
             of admission, applicants are encouraged to apply as early as
             possible after the month of February.
           </p>
-          <p className="howto-start-head3">
+          <p className="howto-start-head2">
             For further assistance, please reach out to us at{" "}
             <a href="mailto:support@lokarpan.com" className="howto-mail-link">
               support@lokarpan.com

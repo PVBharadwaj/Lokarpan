@@ -87,6 +87,18 @@ class CampusAndCulture extends Component {
             <div className="campus-faq-section-right"></div>
           </div>
 
+          <div className="life-at-school-div">
+            <h3 className="kith-life-head">Our Campus</h3>
+            <p className="kith-life-para">
+              While Kith n Kin School boasts a traditional physical campus, our
+              virtual presence is equally vibrant. Engage with fellow students
+              through our online learning platforms, participate in virtual
+              events, and collaborate on projects that ignite your interests.
+              Our campus extends beyond physical boundaries, allowing you to
+              connect with peers from diverse backgrounds and locations.
+            </p>
+          </div>
+
           <div className="kith-overview-card mob-pad-bot">
             <div className="kith-overview-card-img kith-overview-card-img-1"></div>
             <div className="kith-overview-card-text">

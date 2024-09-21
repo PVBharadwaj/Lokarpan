@@ -3,6 +3,16 @@
     "development"
   ],
   "hints": {
-    "apple-touch-icons": "off"
+    "apple-touch-icons": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "width: fit-content",
+          "-webkit-overflow-scrolling",
+          "scrollbar-width"
+        ]
+      }
+    ]
   }
 }
