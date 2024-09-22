@@ -59,7 +59,7 @@ const LifeAtSchool = () => {
       </div>
       <div className="life-at-school-div life-at-school-div-last">
         <h3>Safeguarding</h3>
-        <img src="https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446763/Rectangle_1804_jmnf5c.png" />
+        <img src="https://images.unsplash.com/photo-1599493347474-7e864c18489e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
         <div className="life-at-school-content-sec">
           <h2 className="life-at-school-para-ch">
             At Kith n Kin School, the welfare and safety of our students are our

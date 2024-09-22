@@ -141,7 +141,16 @@ class Home extends Component {
             <p className="lokarpan-head4 center">
               Join hands with us, and let's weave stories of change together.
             </p>
-            <button className="get-in-touch-btn1">Apply</button>
+            {/* <Link to="https://forms.gle/8sCFPdReJMsR4KcC7">
+            <button className="get-in-touch-btn1">
+              Apply
+            </button>
+            </Link> */}
+            <a href="https://forms.gle/8sCFPdReJMsR4KcC7" target="_blank" rel="noopener noreferrer">
+              <button className="get-in-touch-btn1">
+                Apply
+              </button>
+            </a>
           </div>
           <div className="lok-home-div">
             <div className="lokarpan-container">

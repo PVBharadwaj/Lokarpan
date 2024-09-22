@@ -113,7 +113,10 @@ class Information extends Component {
                 Centre of Excellence into world-class institutions.
               </p>
             </div>
-            <img src="https://res.cloudinary.com/digbzwlfx/image/upload/v1707978452/Rectangle_1809_ke4omy.png" />
+            <img 
+            src="https://images.unsplash.com/photo-1581093196277-9f608bb3d4b6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            style={{objectFit: "cover", objectPosition: "center"}}
+             />
           </div>
           <div className="mobile-information-upper-section">
             <h1>Leadership</h1>
@@ -138,7 +141,7 @@ class Information extends Component {
           <div className="information-alumni-employment-section">
             <div className="information-employment-container info-space-above">
               <img
-                src="https://res.cloudinary.com/digbzwlfx/image/upload/v1707978527/Rectangle_1809_1_tbt5nd.png"
+                src="https://images.pexels.com/photos/2505026/pexels-photo-2505026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 className="information-img"
               />
               <div className="information-employment-content">
@@ -170,7 +173,7 @@ class Information extends Component {
                 </p>
               </div>
               <img
-                src="https://res.cloudinary.com/digbzwlfx/image/upload/v1707978520/Rectangle_1810_1_kmcxec.png"
+                src="https://images.pexels.com/photos/7944131/pexels-photo-7944131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 className="information-img"
               />
             </div>

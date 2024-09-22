@@ -139,7 +139,7 @@ const Health = () => {
 
         <div className="health-full-img space-below">
           <img
-            src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704818233/image_176_tcqfoh.png"
+            src="https://cdn.pixabay.com/photo/2015/07/10/20/54/stethoscope-840125_1280.jpg"
             alt="health-img"
           />
         </div>
@@ -152,7 +152,7 @@ const Health = () => {
                 src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704820084/image_177_gagtm0.png"
                 className="stories-img"
               /> */}
-              <div className="stories-img"></div>
+              <div className="stories-img stories-img1"></div>
               <div className="health-stories-each-card-content">
                 <h1 className="hlth-popup-font18">Annapurna</h1>
                 <p>Empowering Communities, One Safe Delivery at a Time</p>
@@ -211,7 +211,7 @@ const Health = () => {
               </div>
             )}
             <div className="health-stories-each-card hlth-card2">
-              <div className="stories-img"></div>
+              <div className="stories-img stories-img2"></div>
               <div className="health-stories-each-card-content">
                 <h1 className="hlth-popup-font18">Usha Devi</h1>
                 <p>Guardians of Community Well-being</p>
@@ -265,7 +265,7 @@ const Health = () => {
             )}
 
             <div className="health-stories-each-card hlth-card3">
-              <div className="stories-img"></div>
+              <div className="stories-img stories-img3"></div>
               <div className="health-stories-each-card-content">
                 <h1 className="hlth-popup-font18">Kaunsar Jahan</h1>
                 <p>Baby’s health, Mother’s Freedom</p>

@@ -35,7 +35,7 @@ class KithLeadership extends Component {
 
               </p>
             </div>
-            <img src="https://res.cloudinary.com/digbzwlfx/image/upload/v1707978452/Rectangle_1809_ke4omy.png" />
+            <img src="https://plus.unsplash.com/premium_photo-1683121935695-ff8598e7f0ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
           </div>
           <div className="mobile-kith-leadership-upper-section">
             <h1>Building the Next Big Thing</h1>

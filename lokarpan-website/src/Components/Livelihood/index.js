@@ -51,7 +51,7 @@ class Livelihood extends Component {
           <h1 className="livelihood-full-img-text-head">
             Building sustainable futures for communities living in stress.
           </h1>
-          <div className="livelihood-full-img-text"></div>
+          <div className="livelihood-full-img-text livelihood-only-img"></div>
           <div className="new-liv-grid-sec">
             <h1 className="new-liv-grid-head">Our Approach</h1>
             <div className="env-grid-sec">

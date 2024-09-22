@@ -276,7 +276,7 @@ const Navbar = () => {
       } else if (dropdownId === "eduDropdown") {
         dropdownHeight.style.height = "280px";
       } else if (dropdownId === "designDropdown") {
-        dropdownHeight.style.height = "235px";
+        dropdownHeight.style.height = "265px";
       } else {
         dropdownHeight.style.height = "320px";
       }
@@ -544,6 +544,9 @@ const Navbar = () => {
                       >
                         Explore Design
                       </Link>
+                    </li>
+                    <li>
+                      <Link to="/design">About</Link>
                     </li>
                     <li>
                       <Link to="/designlist">Projects</Link>

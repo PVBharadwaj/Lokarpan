@@ -90,7 +90,7 @@ const Academics = () => {
           art curriculum, offering students boundless opportunities to pursue
           their passions.
         </h3>
-        <Link to="/donate" className="kith-apply-btn white">
+        <Link to="/kith/enrollment" className="kith-apply-btn white">
           Apply
         </Link>
       </div>

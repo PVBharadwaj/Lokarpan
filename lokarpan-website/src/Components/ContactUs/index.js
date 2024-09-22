@@ -151,21 +151,21 @@ class ContactUs extends Component {
                 </p>
               </li>
               <li className="each-item">
-                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/"}>Leadership</Link></p>
+                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/leadership"}>Leadership</Link></p>
                 <p className="each-item-p">
                   Visit our Leadership Page to meet the team driving Lokarpan's
                   mission forward.
                 </p>
               </li>
               <li className="each-item">
-                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/"}>Alumni</Link></p>
+                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/kith/alumni"}>Alumni</Link></p>
                 <p className="each-item-p">
                   Connect with fellow Lokarpan alumni and discover how you can
                   stay engaged with our community on our Alumni Page.
                 </p>
               </li>
               <li className="each-item">
-                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/"}>Careers</Link></p>
+                <p className="contact-font28"><Link className="contact-font28 no-deco" to={"/career"}>Careers</Link></p>
                 <p className="each-item-p">
                   Unlock exciting opportunities to join Lokarpan's dedicated
                   team by visiting our Careers Page.

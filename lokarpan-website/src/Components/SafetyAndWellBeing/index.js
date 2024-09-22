@@ -12,7 +12,7 @@ class SafetyAndWellBeing extends Component {
         <KithLifeAtSchoolSubNavbar />
         <div className="safety-wellbeing-container">
           <div className="safety-wellbeing-upper-section">
-            <h1 className="safety-font80 safety-space-below">
+            <h1 className="safety-font80 safety-space-below" style={{color: "white"}}>
               Safety & WellBeing
             </h1>
           </div>

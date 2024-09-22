@@ -88,7 +88,7 @@ class CampusAndCulture extends Component {
           </div>
 
           <div className="kith-overview-card mob-pad-bot">
-            <div className="kith-overview-card-img kith-overview-card-img-1"></div>
+            <div className="kith-overview-card-img kith-overview-card-img-1 kith-cam-cul"></div>
             <div className="kith-overview-card-text">
               <h3>Our Culture</h3>
               <p>

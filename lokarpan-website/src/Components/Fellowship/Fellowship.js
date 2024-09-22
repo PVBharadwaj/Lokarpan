@@ -354,7 +354,7 @@ const Fellowship = () => {
               to="/donate"
               style={{color: "#3f86f0", paddingTop: "40px", paddingBottom: "30px"}}
               className="donate-hyperlink"
-              href="/d0nate"
+              href="/donate"
             >
               Apply
               <IoIosArrowForward style={{ color: "#3f86f0", fontSize: "15px" }} />

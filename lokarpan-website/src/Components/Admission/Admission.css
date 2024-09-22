@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap");
 
 .admissions-upper-section {
-  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1709032199/image_278_lu8lql.png");
+  background-image: url("https://cdn.pixabay.com/photo/2015/10/21/08/14/students-998989_1280.jpg");
   height: 712px;
   width: 100%;
   /* background-position: center; */
@@ -73,7 +73,19 @@
 }
 
 .admission-card-img-2 {
-  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1709446764/image_277_tw6uhk.png");
+  background-image: url("https://cdn.pixabay.com/photo/2014/04/23/14/47/boy-330582_1280.jpg");
+}
+
+.admission-card-img-3{
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/24/12/53/boys-1158803_1280.jpg");
+}
+
+.admission-card-img-4{
+  background-image: url("https://images.unsplash.com/flagged/photo-1574110878761-bc035e74595d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.admission-card-img-5{
+  background-image: url("https://images.unsplash.com/photo-1602133187081-4874fdbd555c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
 }
 
 .admission-card-text {

@@ -52,7 +52,7 @@ const Admission = () => {
           <div className="admission-card-img admission-card-img-2"></div>
         </div>
         <div className="admission-card">
-          <div className="admission-card-img admission-card-img-1"></div>
+          <div className="admission-card-img admission-card-img-3"></div>
           <div className="admission-card-text">
             <h3>Financial Aid</h3>
             <p>
@@ -78,10 +78,10 @@ const Admission = () => {
               </span>
             </p>
           </div>
-          <div className="admission-card-img admission-card-img-1"></div>
+          <div className="admission-card-img admission-card-img-4"></div>
         </div>
         <div className="admission-card">
-          <div className="admission-card-img admission-card-img-1"></div>
+          <div className="admission-card-img admission-card-img-5"></div>
           <div className="admission-card-text">
             <h3>Our Team</h3>
             <p>

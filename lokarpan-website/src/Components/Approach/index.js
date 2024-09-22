@@ -490,20 +490,20 @@ const Approach = () => {
             </div>
           </div>
         </div>
-        <div className="approach-last-sec-cont">
+        {/* <div className="approach-last-sec-cont">
           <h2>Freedom to Travel</h2>
           <p>
             Enter a destination on your touchscreen and Trip Planner will
             automatically calculate your route with Superchargers along the way.
           </p>
-        </div>
+        </div> */}
         {/* <div className="mobile-health-full-img">
           <img
             src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704818233/image_176_tcqfoh.png"
             alt="health-img"
           />
         </div> */}
-        <div className="approach-last-sec-each-cont">
+        {/* <div className="approach-last-sec-each-cont">
           <div style={{ marginLeft: "0px" }}>
             <p>San Francisco to Los Angeles</p>
             <h3>178 miles</h3>
@@ -520,7 +520,7 @@ const Approach = () => {
             <p>San Francisco to Los Angeles</p>
             <h3>178 miles</h3>
           </div>
-        </div>
+        </div> */}
         <div className="new-platform-sec">
           <h1>Donate Now</h1>
           {/* <h1>An all-new for developers</h1> */}

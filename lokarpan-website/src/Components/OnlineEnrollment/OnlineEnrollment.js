@@ -59,9 +59,14 @@ const OnlineEnrollment = () => {
               admissions application. Click here to submit your Registration of
               Interest.
             </p>
-            <Link to="/" className="kith-apply-btn white">
+            {/* <Link to="/" className="kith-apply-btn white">
               Submit ROI
-            </Link>
+            </Link> */}
+            <a style={{textDecoration: "None"}} href="https://forms.gle/PN3Rv6FNYu5JKiVQ6" target="_blank" rel="noopener noreferrer">
+              <button className="kith-apply-btn white">
+              Submit ROI
+              </button>
+            </a>
           </div>
           <div className="enrollment-card-img enrollment-card-img-2"></div>
         </div>

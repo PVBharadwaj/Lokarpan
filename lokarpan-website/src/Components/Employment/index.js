@@ -292,7 +292,7 @@ class Employment extends Component {
             </p>
 
 
-              <a href="https://www.linkedin.com/company/lokarpan/mycompany/" 
+              <a href="https://www.linkedin.com/company/lokarpan/jobs/" 
                 className="give-pop-up-button"
                 style={{ cursor: "pointer", textDecoration: "none"}}
                 target="_blank">
