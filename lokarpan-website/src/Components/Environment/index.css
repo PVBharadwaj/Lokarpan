@@ -168,6 +168,9 @@
   cursor: pointer;
   position: relative;
 }
+.back-img-1 {
+  background-image: url("https://images.pexels.com/photos/612892/pexels-photo-612892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
 .right-arrow-box {
   height: 30px;
   width: 30px;
@@ -258,9 +261,9 @@
 }
 
 @media screen and (max-width: 1150px) {
-.env-carousal-card {
-  width: unset;
-}
+  .env-carousal-card {
+    width: unset;
+  }
 }
 
 @media screen and (max-width: 748px) {

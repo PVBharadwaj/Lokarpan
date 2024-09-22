@@ -43,8 +43,8 @@ const Impact = () => {
         <div className="third-div">
           <h5 className="impact-head">ACCLERATING IMPACT</h5>
           <h2 className="impact-title">
-            We provide support through a combination of funding, 
-            innovation and technical expertise.
+            We provide support through a combination of funding, innovation and
+            technical expertise.
           </h2>
         </div>
       </div>
@@ -56,26 +56,36 @@ const Impact = () => {
         <div className="fourth-div">
           <h3 className="impact-title">The Google.org Fellowship</h3>
           <p className="fourth-div-data fellow-data">
-            The google.org fellowship is a pro bono program that matched Google
-            employees with non-profits and civic entities for up to six months
-            on full time technical projects. Fellows leave their day jobs at
-            Google to work alongside the organization's staff to build scalable
-            slutions, working as a team to ensure that the work has sustined and
-            lasting impact.
+            Join us as a volunteer or a fellow and become an integral part of
+            our mission to transform rural education. Volunteers dedicate their
+            time and skills to support our programs, making a significant impact
+            in the communities we serve. Our fellowship program offers a
+            longer-term opportunity to devise innovative solutions that drive
+            meaningful change, while receiving exceptional training and
+            mentoring sessions from experienced colleagues and partners.
+            <a
+              href="https://forms.gle/8sCFPdReJMsR4KcC7"
+              target="_blank"
+              className="anchor-no-line fellow-data a-bold"
+            >
+              Join Us
+            </a>
           </p>
         </div>
       </div>
 
-      <div className="opp impact-opp">
+      {/* <div className="opp impact-opp">
         <h3 className="opp-head fellow-data">OPPORTUNITIES</h3>
         <p className="opp-data impact-title">
           Through Google.org Impact challenges, we award nonprofits and social
           enterprises with support to help bring their ideas to life.
         </p>
         <div className="apply-btn white">
-          <Link to="/" className="apply-btn-text-black body-btn">Apply</Link>
+          <Link to="/" className="apply-btn-text-black body-btn">
+            Apply
+          </Link>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   );

@@ -137,7 +137,7 @@ const Kith = () => {
                 donation options to support our mission.
               </div>
               <div className="exll">
-                <Link to="/kith/leadership" className="kith-explore-link">
+                <Link to="/kith/information" className="kith-explore-link">
                   Read more
                 </Link>
               </div>

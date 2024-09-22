@@ -31,7 +31,9 @@
   font-size: 14px;
   text-align: center;
 }
-
+.anchor-no-line {
+  text-decoration: none;
+}
 .head2 {
   font-size: 64px;
   font-weight: bold;

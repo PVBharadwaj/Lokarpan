@@ -4,7 +4,7 @@ import EducationSubNav from "../Navbar/EducationSubNav";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { RxCross2 } from "react-icons/rx";
-import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 
 import "./index.css";
 import "../Health/index.css";
@@ -87,47 +87,17 @@ const Approach = () => {
       <EducationSubNav />
 
       <div className="approach-container">
-        <div className="approach-full-img no-space-above">
-          {/* <img
-            src="https://res.cloudinary.com/digbzwlfx/image/upload/v1710768925/image_314_vscall.png"
-            alt="health-img"
-          /> */}
-          {/* <h1 className="white-head">
-            At Lokarpan, we are committed to reshaping the landscape of
-            education, ensuring that every child has the opportunity to thrive
-            and contribute meaningfully to India's bright future.
-          </h1> */}
-
-
-            {/* <h1 className="white-head">
-              Inspiring every kind of learner.
-            </h1> */}
-            {/* <p className="white-head">
-            At Lokarpan, we are committed to reshaping the landscape of education, ensuring that every child has the opportunity to thrive and contribute meaningfully to India's bright future.
-            </p> */}
-
-        </div>
+        <div className="approach-full-img no-space-above"></div>
         {/* className="app-title title2"  -- taken from application.js */}
         <h1 className="app-title title2 approach-head1">
-              Inspiring every kind of learner.
-            </h1> 
+          Inspiring every kind of learner.
+        </h1>
         {/* className="application-para1"  -- taken from application.js */}
-          <p className="application-para1 approach-para1">
-          At Lokarpan, we are committed to reshaping the landscape of education, ensuring that every child has the opportunity to thrive and contribute meaningfully to India's bright future.
-          </p>
-        {/* <div className="taglines-section">
-          <h1>
-            A delivery system that revolutionises education at the systemic
-            level
-          </h1>
-          <h1>Utilising technology to bring experts into classrooms</h1>
-          <h1>
-            Inspiring Excellence Through interactive, project-Based Learning
-          </h1>
-          <h1>
-            Leveraging data to tailor learning experiences and measure progress
-          </h1>
-        </div> */}
+        <p className="application-para1 approach-para1">
+          At Lokarpan, we are committed to reshaping the landscape of education,
+          ensuring that every child has the opportunity to thrive and contribute
+          meaningfully to India's bright future.
+        </p>
 
         <div className="approach">
           {headingRefs.map((ref, index) => (
@@ -142,222 +112,192 @@ const Approach = () => {
 
         {/* <div className="health-container-section"> */}
         {/* used in careers, why-donate */}
-          <div className="health-each-container approach-each-container">
-            <div className="health-content-section approach-content-section content-left">
-              <h1 className="approach-lokarpan-head3">
-                Discover how we are shaping the learning environment
-              </h1>
-              <p className="approach-card-para">
-                Despite India's vast school network, many children struggle with
-                basic literacy and numeracy skills. Lokarpan recognises the
-                transformative power of education and is committed to bridging
-                learning gaps through innovative curriculums, enhanced teaching
-                tools, and technology. Our investment aims not just at today's
-                students, but at building a brighter future for generations to
-                come.
-              </p>
-              <button
-                onClick={() => approachopenpopup(0)}
-                className="give-pop-up-button"
-                style={{ cursor: "pointer" }}
-              >
-                Read more <AddCircleOutlineIcon style={{ verticalAlign: 'middle', marginLeft: '10px' }} />
-                
-              </button>
-              {/* <div className="hyperlinks mission-popup">
-                <div className="apply-btn white">
-                  <span
-                    onClick={() => approachopenpopup(0)}
-                    className="approach-anchor"
-                  >
-                    Read more
-                  </span>
-                </div>
-              </div> */}
-            </div>
-            {approachPopupVisibility[0] && (
-              <div className="misson-popup">
-                <div className="misson-popup-content">
-                  <RxCross2
-                    onClick={() => approachclosepopup(0)}
-                    className="x"
-                  />
-                  <p className="mission-para">
-                    At Lokarpan, we are dedicated to creating an enriching
-                    learning environment that empowers both educators and
-                    students. In 2017, we embarked on a journey to enhance our
-                    systems, focusing on improved data portability, security,
-                    and analytics for our staff. Our investment in web
-                    applications streamlined processes, reduced costs, and
-                    facilitated easier adoption in rural areas, aligning with
-                    our vision for a dynamic educational ecosystem.
-                  </p>
-                  <p className="mission-para">
-                    Key to our mission is the development of Hybrid, a powerful
-                    web app designed to revolutionise classroom management.
-                    Building on the success of Project Wiki, Hybrid has
-                    empowered teachers to grade tests, track student progress,
-                    and gain valuable insights. This tool seamlessly integrates
-                    into our schools, enhancing the standard curriculum and
-                    supporting innovative teaching methods.
-                  </p>
-                  <p className="mission-para">
-                    Additionally, Lokarpan prioritises the growth and
-                    development of educators through tailored training programs.
-                    Our Orientation and Deployment workshops provide practical
-                    tools, vocational exercises, and classroom engagement
-                    strategies to ensure educators are equipped for success. By
-                    2030, Lokarpan aims to transform all our 75 partner schools
-                    across Uttar Pradesh, creating opportunities for all
-                    students and preparing them for prosperous futures.
-                  </p>
-                </div>
-              </div>
-            )}
-            {/* <img
-              src="https://res.cloudinary.com/digbzwlfx/image/upload/v1710768785/nehal-patel-aho7nVdauuc-unsplash_1_azf35q.png"
-              alt="learn-img"
-              className="health-cont-img"
-            /> */}
-
-            <div className="health-cont-img-div approach-img1"></div>
+        <div className="health-each-container approach-each-container">
+          <div className="health-content-section approach-content-section content-left">
+            <h1 className="approach-lokarpan-head3">
+              Discover how we are shaping the learning environment
+            </h1>
+            <p className="approach-card-para">
+              Despite India's vast school network, many children struggle with
+              basic literacy and numeracy skills. Lokarpan recognises the
+              transformative power of education and is committed to bridging
+              learning gaps through innovative curriculums, enhanced teaching
+              tools, and technology. Our investment aims not just at today's
+              students, but at building a brighter future for generations to
+              come.
+            </p>
+            <button
+              onClick={() => approachopenpopup(0)}
+              className="give-pop-up-button"
+              style={{ cursor: "pointer" }}
+            >
+              Read more{" "}
+              <AddCircleOutlineIcon
+                style={{ verticalAlign: "middle", marginLeft: "10px" }}
+              />
+            </button>
           </div>
-          <div className="health-each-container approach-each-container">
-            {/* <img
-              src="https://res.cloudinary.com/digbzwlfx/image/upload/v1710768741/Rectangle_1764_1_mwljyp.png"
-              alt="learn-img"
-              className="health-cont-img"
-            /> */}
-            <div className="health-cont-img-div approach-img2"></div>
-            <div className="health-content-section approach-content-section content-right">
-              <h1 className="approach-lokarpan-head3">
-                Empowering Education Through Digital Innovation
-              </h1>
-              <p className="approach-card-para">
-                Lokarpan pioneers digital transformation in education, offering
-                tailored content, personalised learning, and advanced analytics.
-                Our digital infrastructure, including interactive apps and
-                virtual training, ensures efficient and effective education
-                delivery, fostering a culture of continuous improvement.
-              </p>
-              {/* <span
-                onClick={() => approachopenpopup(1)}
-                className="approach-anchor give-card-link"
-              >
-                Read more
-              </span> */}
-              <button
-                onClick={() => approachopenpopup(1)}
-                className="give-pop-up-button"
-                style={{ cursor: "pointer" }}
-              >
-                Read more <AddCircleOutlineIcon style={{ verticalAlign: 'middle', marginLeft: '10px' }} />
-                
-              </button>
-            </div>
-            {approachPopupVisibility[1] && (
-              <div className="misson-popup">
-                <div className="misson-popup-content">
-                  <RxCross2
-                    onClick={() => approachclosepopup(1)}
-                    className="x"
-                  />
-                  <p className="mission-para">
-                    Lokarpan is leading the charge in digital innovation within
-                    the education sector, revolutionising the way students learn
-                    and teachers teach. Our comprehensive digital infrastructure
-                    encompasses tailored content creation, personalised learning
-                    experiences, and advanced analytics to ensure optimal
-                    educational outcomes. From developing robust digital
-                    learning frameworks to automating finance, administration,
-                    and operations, we ensure efficiency and effectiveness in
-                    every aspect of education delivery.
-                  </p>
-                  <p className="mission-para">
-                    In addition to our digital learning frameworks and extensive
-                    digital library, Lokarpan is leveraging technology in
-                    various innovative ways to enhance education. We have
-                    developed interactive educational apps and platforms that
-                    cater to diverse learning styles, providing students with
-                    engaging tools to reinforce concepts. Our analytics-driven
-                    approach helps in identifying learning gaps and tailoring
-                    interventions for individual student needs. Furthermore,
-                    Lokarpan has implemented digital assessment systems that
-                    offer real-time feedback to students and teachers, fostering
-                    a culture of continuous improvement. We also provide virtual
-                    training modules for teachers, equipping them with the
-                    latest pedagogical techniques and educational resources.
-                    Through these initiatives, Lokarpan is at the forefront of
-                    digital innovation in education, aiming to create a
-                    transformative learning experience for all.
-                  </p>
-                </div>
+          {approachPopupVisibility[0] && (
+            <div className="misson-popup">
+              <div className="misson-popup-content">
+                <RxCross2 onClick={() => approachclosepopup(0)} className="x" />
+                <p className="mission-para">
+                  At Lokarpan, we are dedicated to creating an enriching
+                  learning environment that empowers both educators and
+                  students. In 2017, we embarked on a journey to enhance our
+                  systems, focusing on improved data portability, security, and
+                  analytics for our staff. Our investment in web applications
+                  streamlined processes, reduced costs, and facilitated easier
+                  adoption in rural areas, aligning with our vision for a
+                  dynamic educational ecosystem.
+                </p>
+                <p className="mission-para">
+                  Key to our mission is the development of Hybrid, a powerful
+                  web app designed to revolutionise classroom management.
+                  Building on the success of Project Wiki, Hybrid has empowered
+                  teachers to grade tests, track student progress, and gain
+                  valuable insights. This tool seamlessly integrates into our
+                  schools, enhancing the standard curriculum and supporting
+                  innovative teaching methods.
+                </p>
+                <p className="mission-para">
+                  Additionally, Lokarpan prioritises the growth and development
+                  of educators through tailored training programs. Our
+                  Orientation and Deployment workshops provide practical tools,
+                  vocational exercises, and classroom engagement strategies to
+                  ensure educators are equipped for success. By 2030, Lokarpan
+                  aims to transform all our 75 partner schools across Uttar
+                  Pradesh, creating opportunities for all students and preparing
+                  them for prosperous futures.
+                </p>
               </div>
-            )}
-          </div>
-          <div className="health-each-container approach-each-container">
-            <div className="health-content-section approach-content-section content-left">
-              <h1 className="approach-lokarpan-head3">Fellowship Programme</h1>
-              <p className="approach-card-para">
-                The road to end educational inequity is long, and Lokarpan
-                recognises the power of collective effort in achieving this
-                vision. We invite passionate individuals who share our
-                commitment to join us in this journey through our Fellowship
-                Program. Whether you have a few hours a week or more to spare,
-                volunteering in our classrooms or contributing to our existing
-                programmes can make a significant impact.
-              </p>
-              <button
-                onClick={() => approachopenpopup(2)}
-                className="give-pop-up-button"
-                style={{ cursor: "pointer" }}
-              >
-                Read more <AddCircleOutlineIcon style={{ verticalAlign: 'middle', marginLeft: '10px' }} />
-                
-              </button>
             </div>
-            {approachPopupVisibility[2] && (
-              <div className="misson-popup">
-                <div className="misson-popup-content">
-                  <RxCross2
-                    onClick={() => approachclosepopup(2)}
-                    className="x"
-                  />
-                  <p className="mission-para">
-                    Our Fellowship Program offers a unique opportunity to engage
-                    directly with our mission of transforming education in rural
-                    India. As a Fellow, you will have the chance to work closely
-                    with educators, students, and community members, gaining
-                    invaluable hands-on experience in the field. Whether you
-                    choose to assist teachers in implementing innovative
-                    teaching methods, collaborate on curriculum development, or
-                    support our digital and design led initiatives, your
-                    contributions will directly contribute to creating positive
-                    change.
-                  </p>
-                  <p className="mission-para">
-                    The Fellowship Program provides a platform for personal
-                    growth and professional development. You will have access to
-                    training sessions, workshops, and mentorship opportunities
-                    to enhance your skills and broaden your perspective. By
-                    becoming a Fellow, you not only become part of Lokarpan's
-                    impactful work but also join a vibrant community of
-                    like-minded individuals dedicated to making a difference in
-                    the lives of children and communities. Join us in our
-                    mission to build a brighter future for all through
-                    education.
-                  </p>
-                </div>
-              </div>
-            )}
+          )}
 
-            {/* <img
+          <div className="health-cont-img-div approach-img1"></div>
+        </div>
+        <div className="health-each-container approach-each-container">
+          <div className="health-cont-img-div approach-img2"></div>
+          <div className="health-content-section approach-content-section content-right">
+            <h1 className="approach-lokarpan-head3">
+              Empowering Education Through Digital Innovation
+            </h1>
+            <p className="approach-card-para">
+              Lokarpan pioneers digital transformation in education, offering
+              tailored content, personalised learning, and advanced analytics.
+              Our digital infrastructure, including interactive apps and virtual
+              training, ensures efficient and effective education delivery,
+              fostering a culture of continuous improvement.
+            </p>
+
+            <button
+              onClick={() => approachopenpopup(1)}
+              className="give-pop-up-button"
+              style={{ cursor: "pointer" }}
+            >
+              Read more{" "}
+              <AddCircleOutlineIcon
+                style={{ verticalAlign: "middle", marginLeft: "10px" }}
+              />
+            </button>
+          </div>
+          {approachPopupVisibility[1] && (
+            <div className="misson-popup">
+              <div className="misson-popup-content">
+                <RxCross2 onClick={() => approachclosepopup(1)} className="x" />
+                <p className="mission-para">
+                  Lokarpan is leading the charge in digital innovation within
+                  the education sector, revolutionising the way students learn
+                  and teachers teach. Our comprehensive digital infrastructure
+                  encompasses tailored content creation, personalised learning
+                  experiences, and advanced analytics to ensure optimal
+                  educational outcomes. From developing robust digital learning
+                  frameworks to automating finance, administration, and
+                  operations, we ensure efficiency and effectiveness in every
+                  aspect of education delivery.
+                </p>
+                <p className="mission-para">
+                  In addition to our digital learning frameworks and extensive
+                  digital library, Lokarpan is leveraging technology in various
+                  innovative ways to enhance education. We have developed
+                  interactive educational apps and platforms that cater to
+                  diverse learning styles, providing students with engaging
+                  tools to reinforce concepts. Our analytics-driven approach
+                  helps in identifying learning gaps and tailoring interventions
+                  for individual student needs. Furthermore, Lokarpan has
+                  implemented digital assessment systems that offer real-time
+                  feedback to students and teachers, fostering a culture of
+                  continuous improvement. We also provide virtual training
+                  modules for teachers, equipping them with the latest
+                  pedagogical techniques and educational resources. Through
+                  these initiatives, Lokarpan is at the forefront of digital
+                  innovation in education, aiming to create a transformative
+                  learning experience for all.
+                </p>
+              </div>
+            </div>
+          )}
+        </div>
+        <div className="health-each-container approach-each-container">
+          <div className="health-content-section approach-content-section content-left">
+            <h1 className="approach-lokarpan-head3">Fellowship Programme</h1>
+            <p className="approach-card-para">
+              The road to end educational inequity is long, and Lokarpan
+              recognises the power of collective effort in achieving this
+              vision. We invite passionate individuals who share our commitment
+              to join us in this journey through our Fellowship Program. Whether
+              you have a few hours a week or more to spare, volunteering in our
+              classrooms or contributing to our existing programmes can make a
+              significant impact.
+            </p>
+            <button
+              onClick={() => approachopenpopup(2)}
+              className="give-pop-up-button"
+              style={{ cursor: "pointer" }}
+            >
+              Read more{" "}
+              <AddCircleOutlineIcon
+                style={{ verticalAlign: "middle", marginLeft: "10px" }}
+              />
+            </button>
+          </div>
+          {approachPopupVisibility[2] && (
+            <div className="misson-popup">
+              <div className="misson-popup-content">
+                <RxCross2 onClick={() => approachclosepopup(2)} className="x" />
+                <p className="mission-para">
+                  Our Fellowship Program offers a unique opportunity to engage
+                  directly with our mission of transforming education in rural
+                  India. As a Fellow, you will have the chance to work closely
+                  with educators, students, and community members, gaining
+                  invaluable hands-on experience in the field. Whether you
+                  choose to assist teachers in implementing innovative teaching
+                  methods, collaborate on curriculum development, or support our
+                  digital and design led initiatives, your contributions will
+                  directly contribute to creating positive change.
+                </p>
+                <p className="mission-para">
+                  The Fellowship Program provides a platform for personal growth
+                  and professional development. You will have access to training
+                  sessions, workshops, and mentorship opportunities to enhance
+                  your skills and broaden your perspective. By becoming a
+                  Fellow, you not only become part of Lokarpan's impactful work
+                  but also join a vibrant community of like-minded individuals
+                  dedicated to making a difference in the lives of children and
+                  communities. Join us in our mission to build a brighter future
+                  for all through education.
+                </p>
+              </div>
+            </div>
+          )}
+
+          {/* <img
               src="https://res.cloudinary.com/digbzwlfx/image/upload/v1710768715/IMG_3648_1_lr2rgu.png"
               alt="learn-img"
               className="health-cont-img"
             /> */}
-            <div className="health-cont-img-div approach-img3"></div>
-          </div>
+          <div className="health-cont-img-div approach-img3"></div>
+        </div>
         {/* </div> */}
 
         <div className="health-full-img">
@@ -398,7 +338,6 @@ const Approach = () => {
         </div> */}
         <h2>Our achievements</h2>
         <div className="approach-modal-container">
-          
           <div className="approach-modal-each-cont">
             {/* <h2>Model S</h2>
             <p>
@@ -408,15 +347,15 @@ const Approach = () => {
             </p> */}
             <div className="approach-modal-col">
               <div className="app-modal-each-col">
-              <h3>1139</h3>
-              <p>Kith students</p>
+                <h3>1139</h3>
+                <p>Kith students</p>
               </div>
               <div className="app-modal-each-col">
-              <h3>101</h3>
+                <h3>101</h3>
                 <p>Early childhood development centres</p>
               </div>
               <div className="app-modal-each-col">
-              <h3>80</h3>
+                <h3>80</h3>
                 <p>non formal education centres</p>
               </div>
             </div>
@@ -430,15 +369,15 @@ const Approach = () => {
             </p> */}
             <div className="approach-modal-col">
               <div className="app-modal-each-col">
-              <h3>8621</h3>
-              <p>cluster school students</p>
+                <h3>8621</h3>
+                <p>cluster school students</p>
               </div>
               <div className="app-modal-each-col">
-              <h3>100+</h3>
+                <h3>100+</h3>
                 <p>residential bridge centre students</p>
               </div>
               <div className="app-modal-each-col">
-              <h3>1774</h3>
+                <h3>1774</h3>
                 <p>enrolled NFE students</p>
               </div>
             </div>

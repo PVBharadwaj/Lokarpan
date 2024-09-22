@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 import Marquee from "react-fast-marquee";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import "./index.css";
 
 const row1 = [
@@ -98,7 +98,7 @@ class Home extends Component {
             </div>
             <div className="row-element">
               <img
-                src="https://res.cloudinary.com/digbzwlfx/image/upload/v1708661156/image_308_eg055b.png"
+                src="https://cdn.pixabay.com/photo/2014/03/26/13/21/school-298681_1280.jpg"
                 className="design-img"
               />
               <div className="under-cont">
@@ -125,12 +125,12 @@ class Home extends Component {
 
             <div className="images-container">
               <img
-                src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704820084/image_177_gagtm0.png"
+                src="https://images.pexels.com/photos/7475690/pexels-photo-7475690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="lokarpan-image2"
                 className="img2"
               />
               <img
-                src="https://res.cloudinary.com/digbzwlfx/image/upload/v1704820096/image_178_wjbsby.png"
+                src="https://images.pexels.com/photos/4580147/pexels-photo-4580147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="lokarpan-image3"
                 className="img3"
               />
@@ -159,9 +159,10 @@ class Home extends Component {
                 Empowering Communities for Positive Change
               </h1>
               <p className="lokarpan-container-para1">
-                Since its inception in 1996, Lokarpan has strived to organise and
-                empower rural communities to promote development as a liberating
-                force aimed at social justice, economic growth and self-reliance.
+                Since its inception in 1996, Lokarpan has strived to organise
+                and empower rural communities to promote development as a
+                liberating force aimed at social justice, economic growth and
+                self-reliance.
               </p>
             </div>
           </div>
@@ -196,7 +197,7 @@ class Home extends Component {
               <div className="each-carousal1">
                 <div className="carousal1">
                   <img
-                    src="https://res.cloudinary.com/digbzwlfx/image/upload/v1709612862/image_310_xda1ln.png"
+                    src="https://images.pexels.com/photos/1230157/pexels-photo-1230157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     alt="Slide 1"
                     className="carousal-img1"
                   />
@@ -339,7 +340,9 @@ class Home extends Component {
             </button>
           </div>
           <div className="next-step-section1">
-            <h1 className="lokarpan-head6">Take Action. <br/> Support Change.</h1>
+            <h1 className="lokarpan-head6">
+              Take Action. <br /> Support Change.
+            </h1>
             <p className="lokarpan-head4 lok center">
               Lokarpan supports transformative programs for children and adults,
               empowering them to lead better and safer lives. Get involved and
@@ -347,7 +350,12 @@ class Home extends Component {
               life.
             </p>
             {/* <a href="#">Learn More</a> */}
-            <Link to="/ways-to-give">Learn More <ArrowForwardIosIcon style={{ verticalAlign: 'middle' ,fontSize: '14px'}} /></Link>
+            <Link to="/ways-to-give">
+              Learn More{" "}
+              <ArrowForwardIosIcon
+                style={{ verticalAlign: "middle", fontSize: "14px" }}
+              />
+            </Link>
             <Link to="/donate">
               <button type="button" className="home-donate-btn1">
                 Donate

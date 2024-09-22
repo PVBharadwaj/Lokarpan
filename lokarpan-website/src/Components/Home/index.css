@@ -386,7 +386,7 @@
   align-items: center;
 }
 .row-container {
-  /* height: 184px; */
+  height: 184px;
   width: 80%;
   margin: auto;
   display: flex;
@@ -437,7 +437,7 @@
   line-height: 20px;
 }
 .home-space-above {
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 .lok-head-cont {
   /* height: 300px; */

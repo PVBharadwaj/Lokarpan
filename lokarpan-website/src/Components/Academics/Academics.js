@@ -65,10 +65,10 @@ const Academics = () => {
               </Link> */}
             </div>
           </div>
-          <div className="academics-card-img academics-card-img-1"></div>
+          <div className="academics-card-img academics-card-img-2"></div>
         </div>
         <div className="academics-card">
-          <div className="academics-card-img academics-card-img-1"></div>
+          <div className="academics-card-img academics-card-img-3"></div>
           <div className="academics-card-text">
             <div>
               <h3>Integration with Lokarpan</h3>
@@ -110,10 +110,10 @@ const Academics = () => {
               </Link> */}
             </div>
           </div>
-          <div className="academics-card-img academics-card-img-2"></div>
+          <div className="academics-card-img academics-card-img-4"></div>
         </div>
         <div className="academics-card">
-          <div className="academics-card-img academics-card-img-2"></div>
+          <div className="academics-card-img academics-card-img-5"></div>
           <div className="academics-card-text">
             <div>
               <h3>Language Learning Opportunities</h3>
@@ -132,7 +132,7 @@ const Academics = () => {
       <div className="academics-div academics-div-last">
         <h1>Academic Standards</h1>
         <div className="academics-card">
-          <div className="academics-card-img academics-card-img-3"></div>
+          <div className="academics-card-img academics-card-img-6"></div>
           <div className="academics-card-text">
             <div>
               <h3>High Academic Standards</h3>
@@ -160,10 +160,10 @@ const Academics = () => {
               </Link> */}
             </div>
           </div>
-          <div className="academics-card-img academics-card-img-3"></div>
+          <div className="academics-card-img academics-card-img-7"></div>
         </div>
         <div className="academics-card">
-          <div className="academics-card-img academics-card-img-3"></div>
+          <div className="academics-card-img academics-card-img-8"></div>
           <div className="academics-card-text">
             <div>
               <h3>Commitment to Excellence</h3>

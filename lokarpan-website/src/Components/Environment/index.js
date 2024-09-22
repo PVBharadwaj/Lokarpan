@@ -78,7 +78,7 @@ const Environment = () => {
       </div>
 
       <div className="health-container">
-        <div className="health-full-img-text"></div>
+        <div className="health-full-img-text back-img-1"></div>
         <div className="env-hero-cont">
           <h1 className="environment-main-head">
             We aim to cultivate a greener, more sustainable future, ensuring the

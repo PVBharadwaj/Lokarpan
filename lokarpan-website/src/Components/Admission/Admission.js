@@ -43,7 +43,7 @@ const Admission = () => {
               entry. Entry for these routes opens in spring, before a student
               starts their academic year via on-site application or an online
               application on the Kith n Kin school website. All applications
-              received will be considered on a rolling basis.
+              received will be considered on a rolling basis.{" "}
               <span>
                 <Link to="/kith/how-to">Read More</Link>
               </span>
@@ -58,10 +58,10 @@ const Admission = () => {
             <p>
               Kith is affordable for all admitted students. Financial aid covers
               all demonstrated need for all students, regardless of their
-              economic status.
+              economic status.{" "}
               <span>
                 <Link to="/kith/financials">
-                  Learn more about financial aid.
+                  Learn more about financial aid
                 </Link>
               </span>
             </p>
@@ -72,9 +72,9 @@ const Admission = () => {
             <h3>Calculate Your Tuition</h3>
             <p>
               How affordable is Kith? See for yourself with our tuition
-              calculator.
+              calculator.{" "}
               <span>
-                <Link to="/kith/financials">Tuition estimator.</Link>
+                <Link to="/kith/financials">Tuition estimator</Link>
               </span>
             </p>
           </div>
@@ -88,7 +88,10 @@ const Admission = () => {
               The School Management Team comprises the principal as the Head of
               institution assisted by the School's Senior Management Team (SMT).
               Our faculty members bring a wealth of experience, expertise, and a
-              shared commitment to our mission.
+              shared commitment to our mission.{" "}
+              <span>
+                <Link to="/kith/leadership">Read more</Link>
+              </span>
             </p>
           </div>
         </div>
