@@ -288,10 +288,19 @@
   font-weight: bold;
 }
 .mission-card-img-1 {
-  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1711614399/DSC03237_1_fljgvn.png");
+  background-image: url("https://images.unsplash.com/photo-1615868167768-6fe2e8eaacd8?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.mission-card-img-3{
+background-image: url("https://images.pexels.com/photos/3665348/pexels-photo-3665348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 .mission-card-img-2 {
-  background-image: url("https://res.cloudinary.com/dtfzxqpoy/image/upload/v1711614679/cannon_013_1_df4fp7.png");
+  background-image: url("https://cdn.pixabay.com/photo/2013/02/16/16/00/children-82272_1280.jpg");
+}
+.mission-card-img-4{
+  background-image: url("https://images.pexels.com/photos/2257905/pexels-photo-2257905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+.mission-card-img-5{
+  background-image: url("https://cdn.pixabay.com/photo/2015/05/06/13/06/woman-755227_1280.jpg");
 }
 .our-vision-subhead {
   padding: 2rem;

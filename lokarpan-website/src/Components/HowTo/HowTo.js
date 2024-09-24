@@ -262,7 +262,11 @@ const HowTo = () => {
       </div>
       <div className="howto-apply">
         <h1>Ready to Apply</h1>
-        <button className="how-to-apply-btn">Apply</button>
+        <a style={{textDecoration: "None"}} href="https://docs.google.com/forms/d/e/1FAIpQLSdSOC6OuqumZ14IayR0pr0AaGqM7KzJD1kRsgsxXC7xnbcxFg/viewform" target="_blank" rel="noopener noreferrer">
+              <button className="how-to-apply-btn">
+              Apply
+              </button>
+            </a>
       </div>
       <Footer />
     </>

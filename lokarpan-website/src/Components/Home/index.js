@@ -72,7 +72,8 @@ class Home extends Component {
           <div className="who-we-are">
             <p
               style={{ padding: "10px 0px 40px 0px" }}
-              className="lokarpan-head4"
+              className="home-head1"
+              // className="lokarpan-head4"
             >
               Our Approach
             </p>

@@ -76,7 +76,7 @@ export default class d_home extends Component {
           aim to empower schools with enduring and adaptable structures.
         </p> */}
 
-        <div className="d_home_section2_image"></div>
+        {/* <div className="d_home_section2_image"></div> */}
 
         <section className="d_home_section2">
           <h1>

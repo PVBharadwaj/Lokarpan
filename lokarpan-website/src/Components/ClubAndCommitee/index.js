@@ -28,7 +28,7 @@ class ClubAndCommitee extends Component {
         <KithLifeAtSchoolSubNavbar />
         <div className="club-commitee-container">
           <div className="club-commitee-upper-section">
-            <p> Discover what it’s like to work here</p>
+            <p> Discover what it's like to study here</p>
             <h1>
               Welcome to a place where passion meets purpose, and where every
               individual is a valued contributor to our shared vision.

@@ -10,7 +10,9 @@
         "ignore": [
           "width: fit-content",
           "-webkit-overflow-scrolling",
-          "scrollbar-width"
+          "scrollbar-width",
+          "user-select",
+          "mask-image"
         ]
       }
     ]

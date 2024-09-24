@@ -202,10 +202,10 @@ const Footer = () => {
                 }`}
               >
                 <li>
-                  <Link to="/">Facebook</Link>
+                  <Link to="https://www.facebook.com/officiallokarpan">Facebook</Link>
                 </li>
                 <li>
-                  <Link to="/">Blog</Link>
+                  <Link to="https://medium.com/lokarpan">Blog</Link>
                 </li>
               </ul>
               <hr className="footer-hor-line" />

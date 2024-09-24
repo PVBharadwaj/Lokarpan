@@ -186,7 +186,7 @@ const Mission = () => {
 
         <section className="our-purpose">
           <div className="give-card mission-card">
-            <div className="give-card-img mission-card-img-1"></div>
+            <div className="give-card-img mission-card-img-3"></div>
             <div className="give-card-text">
               <h1>
                 Community centric collaboration
@@ -220,13 +220,13 @@ const Mission = () => {
                 everyone can thrive and contribute to the common good.
               </p>
             </div>
-            <div className="give-card-img mission-card-img-1"></div>
+            <div className="give-card-img mission-card-img-4"></div>
           </div>
         </section>
 
         <section className="our-purpose">
           <div className="give-card mission-card">
-            <div className="give-card-img mission-card-img-1"></div>
+            <div className="give-card-img mission-card-img-5"></div>
             <div className="give-card-text">
               <h1>Our Culture</h1>
               <p>

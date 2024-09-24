@@ -11,6 +11,9 @@ class faqk extends Component {
                 <KithInfoSubNavbar/>
                 <section className='faq-kith'>                                  
                 <div className='faq-head'>Frequently Ask Question </div>
+                <p className='faqk-p'>
+                Thank you for your interest in supporting Lokarpan/Kith. Should you have any inquiries or need help with your donation, you’re welcome to: 
+                </p>
                 
                     <div className='faqk-qna'>
                         <div className='faq-q'>1. How Do I Apply For Admission To Kith School?</div>

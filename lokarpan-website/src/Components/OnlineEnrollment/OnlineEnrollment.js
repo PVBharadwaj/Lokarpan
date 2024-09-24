@@ -43,9 +43,14 @@ const OnlineEnrollment = () => {
               activities, and any other relevant information. Click here to
               access the Admissions Application Form.
             </p>
-            <Link to="/" className="kith-apply-btn white">
+            <a style={{textDecoration: "None"}} href="https://docs.google.com/forms/d/e/1FAIpQLSd0QOmOeFPuNoddAMzqo9qv_KliHkaMqwoB75tmXP-vmKH_uw/viewform" target="_blank" rel="noopener noreferrer">
+              <button className="kith-apply-btn white">
               Submit Application
-            </Link>
+              </button>
+              </a>
+            {/* <Link to="/" className="kith-apply-btn white">
+              Submit Application
+            </Link> */}
           </div>
         </div>
         <div className="enrollment-card enrollment-card-reverse">
@@ -79,9 +84,14 @@ const OnlineEnrollment = () => {
             information for a parent or guardian as well as the potential
             candidate’s general information. Read more
           </p>
-          <Link to="/" className="kith-apply-btn black left">
+             <a style={{textDecoration: "None"}} href="https://docs.google.com/forms/d/e/1FAIpQLSd0QOmOeFPuNoddAMzqo9qv_KliHkaMqwoB75tmXP-vmKH_uw/viewform" target="_blank" rel="noopener noreferrer">
+              <button className="kith-apply-btn white">
+              Submit Application
+              </button>
+              </a>
+          {/* <Link to="/" className="kith-apply-btn black left">
             Submit Application
-          </Link>
+          </Link> */}
         </div>
         <div className="each-card-2">
           <h3>Registration of Interest</h3>
@@ -90,9 +100,14 @@ const OnlineEnrollment = () => {
             information for a parent or guardian as well as the potential
             candidate’s general information. Read more
           </p>
-          <Link to="/" className="kith-apply-btn white right">
+          {/* <Link to="/" className="kith-apply-btn white right">
             Submit ROI
-          </Link>
+          </Link> */}
+             <a style={{textDecoration: "None"}} href="https://forms.gle/PN3Rv6FNYu5JKiVQ6" target="_blank" rel="noopener noreferrer">
+              <button className="kith-apply-btn white">
+              Submit ROI
+              </button>
+            </a>
         </div>
       </div>
       <div className="enrollment-last-sec">

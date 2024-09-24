@@ -41,7 +41,7 @@ class CampusAndCulture extends Component {
           <div className="campus-culture-upper-section"></div>
           <div className="campus-cul-content-section">
             <h1 className="kith-life-head ">
-              Discover what it’s like to work here
+            Discover what it's like to study here
             </h1>
             <p className="kith-life-para">
               Welcome to a place where passion meets purpose, and where every
