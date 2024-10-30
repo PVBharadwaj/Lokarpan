@@ -177,7 +177,7 @@ class Employment extends Component {
           <div className="give-card-img give-card-img-2"></div>
         </div>
         <div className="give-card padding40">
-          <div className="give-card-img give-card-img-3"></div>
+          <div className="give-card-img kith-employ-card-img-3"></div>
           <div className="give-card-text">
             <h1>Fellows</h1>
             <p>

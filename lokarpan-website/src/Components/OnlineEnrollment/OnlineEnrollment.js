@@ -19,9 +19,16 @@ const OnlineEnrollment = () => {
           information for a parent or guardian as well as the potential
           candidate’s general information.{" "}
         </p>
-        <Link to="/donate" className="kith-apply-btn white">
+        {/* <Link to="/donate" className="kith-apply-btn white">
           Apply
-        </Link>
+        </Link> */}
+
+
+        <a style={{textDecoration: "None"}} href="https://docs.google.com/forms/d/e/1FAIpQLSd0QOmOeFPuNoddAMzqo9qv_KliHkaMqwoB75tmXP-vmKH_uw/viewform" target="_blank" rel="noopener noreferrer">
+          <button className="kith-apply-btn white">
+          Apply
+          </button>
+        </a>
       </div>
 
       <div className="enrollment-div">

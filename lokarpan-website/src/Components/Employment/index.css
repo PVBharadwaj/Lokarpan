@@ -52,6 +52,9 @@
   font-size: 17px;
   font-weight: 500;
 }
+.kith-employ-card-img-3{
+  background-image: url("https://cdn.pixabay.com/photo/2022/08/11/08/08/student-7378906_1280.jpg");
+}
 .emp-active {
   color: black;
 }

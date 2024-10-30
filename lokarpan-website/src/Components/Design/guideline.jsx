@@ -9,6 +9,7 @@ import { FiPlusCircle } from "react-icons/fi";
 import { IoIosCloseCircle } from "react-icons/io";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 export default class d_home3 extends Component {
   constructor(props) {
@@ -109,7 +110,8 @@ export default class d_home3 extends Component {
             optimal learning environments.
           </p>
 
-          <a href="#">View our design manual</a>
+          <Link to="/designlist">View our design manual</Link>
+          {/* <a href="#">View our design manual</a> */}
         </div>
 
         {/* <Home /> */}

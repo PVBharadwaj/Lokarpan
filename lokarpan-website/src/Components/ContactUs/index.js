@@ -132,7 +132,7 @@ class ContactUs extends Component {
                 <a href="#" className="contact-anchor contact-600">
                   Directions
                 </a>
-                <h3 className="contact-font24-left contact-font24-left1">
+                {/* <h3 className="contact-font24-left contact-font24-left1">
                   How to access
                 </h3>
                 <p className="contact-600 contact-font24-le">
@@ -141,7 +141,7 @@ class ContactUs extends Component {
                   Powell St. ; use Stockton exit. Light Rail F line to Market &
                   4th. Powell St cable cars to Post St. Multiple SF MTA bus
                   lines stop in the area.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
